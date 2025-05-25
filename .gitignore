@@ -1,0 +1,44 @@
+# Laravel
+.env
+*.lock
+*-lock.json
+node_modules
+vendor
+
+# IDE
+.idea
+.vscode
+
+# Windows
+[Dd]esktop.ini
+*.lnk
+$RECYCLE.BIN/
+Thumbs.db
+Thumbs.db:encryptable
+
+# macOS
+._*
+.apdisk
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.com.apple.timemachine.donotpresent
+.DocumentRevisions-V100
+.DS_Store
+.fseventsd
+.LSOverride
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+*.icloud
+Icon[\r]
+Network Trash Folder
+Temporary Items
+
+# Linux
+.directory
+.fuse_hidden*
+.nfs*
+.Trash-*
+*~
