@@ -1,7 +1,6 @@
 {
 	"$schema": "https://getcomposer.org/schema.json",
 	"name": "nedka/vietnamese",
-	"version": "1.0.11",
 	"type": "library",
 	"description": "The Vietnamese library for PHP.",
 	"keywords": [
@@ -9,8 +8,22 @@
 		"php"
 	],
 	"license": "MIT",
+	"authors": [
+		{
+			"name": "Khoa Nguyen",
+			"email": "hi@nedka.com"
+		}
+	],
+	"support": {
+		"email": "hi@nedka.com"
+	},
 	"require": {
-		"php": "^8.0"
+		"php": ">=8.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"NEDKA\\Vietnamese\\": "src"
+		}
 	},
 	"config": {
 		"preferred-install": "dist",
