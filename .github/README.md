@@ -1,25 +1,26 @@
 # 🇻🇳 Vietnamese
-The Vietnamese library for PHP.
+The Vietnamese toolkit for PHP.
 
 ## Requirements
 - PHP 8.0+.
 
 ## Installation
-Require this library in your `composer.json`:
+Require this package in your `composer.json`:
 ```
 composer require nedka/vietnamese
+composer install
 ```
 
 ---
-Import the library:
+Import the package:
 ```php
 use NEDKA\Vietnamese\Vietnamese;
 ```
 
 ## Usage
-Format people names:
+Format names:
 ```php
-Vietnamese::formatPeopleName('ViỆt NaM')
+Vietnamese::formatName('ViỆt NaM')
 ```
 Result: `Việt Nam`
 
@@ -73,7 +74,21 @@ Vietnamese::checkChar('w')
 Result: `false`
 
 ---
-Print the way to speak:
+Scan and detect incorrect words in Vietnamese:
+
+```php
+Vietnamese::scanWords('Xứ Wales thắng Nga, đứng nhất bảng B')
+```
+Result: `['Wales']`
+
+Otherwise, get correct words:
+```php
+Vietnamese::scanWords('Xứ Wales thắng Nga, đứng nhất bảng B', false)
+```
+Result: `['Xứ', 'thắng', 'Nga', 'đứng', 'nhất', 'bảng', 'B']`
+
+---
+Print the way to speak a Vietnamese text string:
 ```php
 Vietnamese::speak('Việt Nam')
 ```
