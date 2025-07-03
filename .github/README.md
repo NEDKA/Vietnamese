@@ -1,9 +1,8 @@
 # 🇻🇳 Vietnamese
-The Vietnamese package for Laravel.
+The Vietnamese library for PHP.
 
 ## Requirements
-- PHP 8.4+
-- Laravel 12+
+- PHP 8.0+.
 
 ## License
 Copyright (c) NEDKA LLC. All rights reserved.
