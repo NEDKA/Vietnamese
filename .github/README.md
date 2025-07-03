@@ -1,17 +1,18 @@
 # 🇻🇳 Vietnamese
-The Vietnamese library for PHP.
+The Vietnamese toolkit for PHP.
 
 ## Requirements
 - PHP 8.0+.
 
 ## Installation
-Require this library in your `composer.json`:
+Require this package in your `composer.json`:
 ```
 composer require nedka/vietnamese
+composer install
 ```
 
 ---
-Import the library:
+Import the package:
 ```php
 use NEDKA\Vietnamese\Vietnamese;
 ```
