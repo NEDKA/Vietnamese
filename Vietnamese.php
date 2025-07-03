@@ -39,10 +39,10 @@
  *		Hỏa
  * Scan and detect incorrect words in Vietnamese:
  * > Find incorrect words:
- *		$iVN->scan_words('Xứ Wales thắng Nga, đứng nhất bảng B')
+ *		$iVN->scanWords('Xứ Wales thắng Nga, đứng nhất bảng B')
  *		['Wales']
  * > Otherwise, get correct words:
- *		$iVN->scan_words('Xứ Wales thắng Nga, đứng nhất bảng B', false)
+ *		$iVN->scanWords('Xứ Wales thắng Nga, đứng nhất bảng B', false)
  *		['Xứ', 'thắng', 'Nga', 'đứng', 'nhất', 'bảng', 'B']
  * Print the way to speak:
  *		$iVN->speak('Việt Nam')
@@ -1718,14 +1718,12 @@ class Vietnamese
 	}
 
 	/**
-	 * Detect incorrect words in Vietnamese
+	 * Detect incorrect words in Vietnamese.
 	 *
-	 * @param string $text Input text
-	 * @param bool $get_incorrect_words true: Return incorrect words
-	 *									false: Return correct words
-	 * @return array Found words
+	 * @param bool $get_incorrect_words true: Return incorrect words.
+	 *									false: Return correct words.
 	 */
-	public function scan_words(string $text = '', bool $get_incorrect_words = true): array
+	public function scanWords(string $text = '', bool $get_incorrect_words = true): array
 	{
 		$found_words = [];
 
