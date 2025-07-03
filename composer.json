@@ -18,7 +18,8 @@
 		"email": "hi@nedka.com"
 	},
 	"require": {
-		"php": ">=8.0"
+		"php": ">=8.0",
+		"ext-mbstring": "*"
 	},
 	"autoload": {
 		"psr-4": {
