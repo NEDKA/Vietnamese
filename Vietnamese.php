@@ -26,7 +26,7 @@
  *		$iVN->fixIY('Thi tuổi Kỉ Tị')
  *		Thi tuổi Kỷ Tỵ
  * Sorting words:
- *		$iVN->sort_word(['Ă', 'A', 'Â', 'À', 'Á'])
+ *		$iVN->sortWord(['Ă', 'A', 'Â', 'À', 'Á'])
  *		['A', 'Á', 'À', 'Ă', 'Â']
  * Sorting people names:
  *		$iVN->sort_people_name(['Nguyễn Văn Đảnh', 'Nguyễn VĂN Đàn', 'nguYỄn Văn Đàng', 'NGUYỄN Văn Đang', 'nguyễn anh đang'])
@@ -186,11 +186,10 @@
 
 class Vietnamese
 {
-	/** @var array Vietnamese language data */
-	protected array $data;
+	private array $data;
 
 	/**
-	 * Constructor
+	 * Constructor.
 	 */
 	public function __construct()
 	{
@@ -1812,14 +1811,14 @@ class Vietnamese
 	}
 
 	/**
-	 * Binary safe case-insensitive string comparison
-	 * Internal use for $this->sort_word()
+	 * Binary safe case-insensitive string comparison.
+	 * Internal use for $this->sortWord().
 	 *
-	 * @param string $a	First string
-	 * @param string $b	Second string
-	 * @return int Returns: < 0 if $a < $b; > 0 if $a > $b; 0 if $a == $b
+	 * @param string $a	First string.
+	 * @param string $b	Second string.
+	 * @return int Returns: < 0 if $a < $b; > 0 if $a > $b; 0 if $a == $b.
 	 */
-	protected function cmp(string $a, string $b): int
+	private function cmp(string $a, string $b): int
 	{
 		$a = str_replace(array_keys($this->data['sort_index']), array_values($this->data['sort_index']), $a);
 		$b = str_replace(array_keys($this->data['sort_index']), array_values($this->data['sort_index']), $b);
@@ -1828,15 +1827,13 @@ class Vietnamese
 	}
 
 	/**
-	 * Sorting Vietnamese words
+	 * Sorting Vietnamese words.
 	 *
-	 * @param array $data Input array
-	 * @param bool $sort_keys Sort by array keys (true) or array values (false)
-	 * @return array Result array
+	 * @param bool $sort_keys Sorting by array keys (true) or array values (false).
 	 */
-	public function sort_word(array $data = [], bool $sort_keys = false): array
+	public function sortWord(array $data = [], bool $sort_keys = false): array
 	{
-		if (count($data))
+		if ($data)
 		{
 			if ($sort_keys)
 			{
@@ -1879,11 +1876,11 @@ class Vietnamese
 			}
 
 			// Sorting
-			$names = $this->sort_word($names, true);
+			$names = $this->sortWord($names, true);
 
 			foreach ($names as $firstname => $rows)
 			{
-				$names[$firstname] = $this->sort_word($rows);
+				$names[$firstname] = $this->sortWord($rows);
 			}
 
 			// Return the name list
