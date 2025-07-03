@@ -2,7 +2,7 @@
 	"$schema": "https://getcomposer.org/schema.json",
 	"name": "nedka/vietnamese",
 	"type": "library",
-	"description": "The Vietnamese library for PHP.",
+	"description": "The Vietnamese toolkit for PHP.",
 	"keywords": [
 		"vietnamese",
 		"php"
