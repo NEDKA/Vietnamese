@@ -12,8 +12,8 @@ namespace NEDKA\Vietnamese;
 /**
  * HOW TO USE?
  *
- * Format people names:
- *		Vietnamese::formatPeopleName('ViỆt NaM')
+ * Format names:
+ *		Vietnamese::formatName('ViỆt NaM')
  *		Việt Nam
  * Remove all accents:
  *		Vietnamese::removeAccent('Việt Nam', 'remove')
@@ -1472,7 +1472,7 @@ class Vietnamese
 	 * Upper the first character of each single word, lower remain characters.
 	 * Used for Vietnamese people names, administrative unit names...
 	 */
-	public static function formatPeopleName(string $text = ''): string
+	public static function formatName(string $text = ''): string
 	{
 		if (!empty($text))
 		{
@@ -1659,7 +1659,7 @@ class Vietnamese
 
 			foreach ($data as $name)
 			{
-				$name = static::formatPeopleName($name);
+				$name = static::formatName($name);
 				$name_ary = explode(' ', $name);
 				$firstname = array_pop($name_ary);
 				$lastname = implode(' ', $name_ary);
