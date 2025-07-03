@@ -180,7 +180,6 @@
  *		(2) Syllable + Accents
  *		(3) Consonant + Syllable without Accents
  *		(4) Consonant + (Syllable + Accents)
- *	Use the internal function: $this->generate_words() to export the list of them.
  *	>> Total: ? rhythms (Uhm.... counting :-/)
  */
 
@@ -373,58 +372,15 @@ class Vietnamese
 			'end_consonants_desc' => ['ch', 'ng', 'nh', 'c', 'm', 'n', 'p', 't'],
 
 			/**
-			 * List of all vowels.
-			 */
-			'vowels' => ['a', 'ă', 'â', 'e', 'ê', 'i', 'o', 'ô', 'ơ', 'u', 'ư', 'y'],
-			// English vowels.
-			'en_vowels' => ['a', 'e', 'i', 'o', 'u', 'y'],
-
-			/**
-			 * List of all syllables.
-			 */
-			'syllables'	=> [
-				// 1-char syllables
-				'a', 'ă', 'â', 'e', 'ê', 'i', 'o', 'ô', 'ơ', 'u', 'ư', 'y',
-
-				// 2-char syllables
-				'ac', 'ai', 'am', 'an', 'ao', 'ap', 'at', 'au', 'ay',
-				'ăc', 'ăm', 'ăn', 'ăp', 'ăt',
-				'âc', 'âm', 'ân', 'âp', 'ât', 'âu', 'ây',
-				'ec', 'em', 'en', 'eo', 'ep', 'et',
-				'êm', 'ên', 'êp', 'êt', 'êu',
-				'ia', 'ic', 'im', 'in', 'ip', 'it', 'iu',
-				'oa', 'oc', 'oe', 'oi', 'om', 'on', 'op', 'ot',
-				'ôc', 'ôi', 'ôm', 'ôn', 'ôp', 'ôt',
-				'ơi', 'ơm', 'ơn', 'ơp', 'ơt',
-				'ua', 'uc', 'uê', 'ui', 'um', 'un', 'up', 'uơ', 'ut', 'uy',
-				'ưa', 'ưc', 'ưi', 'ưm', 'ưt', 'ưu',
-				'yt',
-
-				// 3-char syllables
-				'ach', 'ang', 'anh',
-				'ăng',
-				'âng',
-				'eng',
-				'êch', 'ênh',
-				'ich', 'iêc', 'iêm', 'iên', 'iêp', 'iêt', 'iêu', 'inh',
-				'oac', 'oai', 'oan', 'oat', 'oay',
-				'oăc', 'oăn', 'oăt',
-				'oen', 'oeo', 'oet', 'ong',
-				'ông',
-				'uân', 'uât', 'uây', 'ung', 'uôc', 'uôi', 'uôm', 'uôn', 'uôt',
-				'uya', 'uyt', 'uyu',
-				'ưng', 'ươc', 'ươi', 'ươm', 'ươn', 'ươp', 'ươt', 'ươu',
-				'yên', 'yêu',
-
-				// 4-char syllables
-				'iêng',
-				'oang', 'oanh', 'oăng', 'oong',
-				'uâng', 'uêch', 'uênh', 'uông', 'uyên', 'uyêt', 'uynh',
-				'ương'
-			],
-
-			/**
 			 * List of all vowels with accents.
+			 *
+			 * Indexes:
+			 *	[alphabet]
+			 *		1 (grave)		=> [lower_case, UPPER_CASE]
+			 *		2 (hook above)	=> [lower_case, UPPER_CASE]
+			 *		3 (tilde)		=> [lower_case, UPPER_CASE]
+			 *		4 (acute)		=> [lower_case, UPPER_CASE]
+			 *		5 (dot below)	=> [lower_case, UPPER_CASE]
 			 */
 			'accent_to_vowels' => [
 				'a' => [
@@ -512,173 +468,6 @@ class Vietnamese
 					5 => ['ỵ', 'Ỵ']
 				]
 			],
-			// List of syllables which be able assigned to appropriate consonants
-			'syllable_to_consonants' => [
-				// 1-char syllables
-				'a'	 => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'p', 'ph', 'qu', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'ă'	 => [],
-				'â'	 => [],
-				'e'	 => ['b', 'ch', 'd', 'đ', 'gh', 'gi', 'h', 'k', 'kh', 'l', 'm', 'n', 'ngh', 'nh', 'ph', 'qu', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'ê'	 => ['b', 'ch', 'd', 'đ', 'gh', 'h', 'k', 'kh', 'l', 'm', 'n', 'ngh', 'nh', 'ph', 'qu', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'i'	 => ['b', 'ch', 'd', 'đ', 'g', 'gh', 'h', 'k', 'kh', 'l', 'm', 'n', 'ngh', 'nh', 'ph', 'qu', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'o'	 => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'ph', 'qu', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'ô'	 => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'ph', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'ơ'	 => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'ph', 'qu', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'u'	 => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'ph', 'qu', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'ư'	 => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'n', 'ng', 'nh', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'y'	 => ['h', 'k', 'l', 'm', 'ngh', 'qu', 's', 't', 'th', 'v'],
-
-				// 2-char syllables
-				'ac' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'ph', 'qu', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'ai' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'ph', 'qu', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'am' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'n', 'ng', 'nh', 'ph', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'an' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'ph', 'qu', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'ao' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'ph', 'qu', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'ap' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'ph', 'qu', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'at' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'ph', 'qu', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'au' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'qu', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'ay' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'ph', 'qu', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'ăc' => ['b', 'c', 'ch', 'd', 'đ', 'gi', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'ph', 'qu', 'r', 's', 't', 'th', 'tr', 'v'],
-				'ăm' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'qu', 'r', 's', 't', 'th', 'tr', 'x'],
-				'ăn' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'ph', 'qu', 'r', 's', 't', 'th', 'tr', 'v'],
-				'ăp' => ['b', 'c', 'ch', 'đ', 'g', 'kh', 'l', 'n', 'ph', 'qu', 'r', 's', 't', 'th'],
-				'ăt' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'm', 'ng', 'nh', 'r', 's', 't', 'th', 'v', 'x'],
-				'âc' => ['b', 'g', 'gi', 'kh', 'n', 'nh', 't', 'x'],
-				'âm' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'ph', 'r', 's', 't', 'th', 'tr', 'x'],
-				'ân' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'l', 'm', 'ng', 'nh', 'ph', 'qu', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'âp' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'ph', 'r', 's', 't', 'th', 'v', 'x'],
-				'ât' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'm', 'ng', 'nh', 'ph', 'qu', 'r', 's', 't', 'th', 'tr', 'v'],
-				'âu' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'ph', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'ây' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'ph', 'qu', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'ec' => ['kh', 'l', 'm', 'r', 's'],
-				'em' => ['ch', 'đ', 'gh', 'gi', 'h', 'k', 'l', 'n', 'nh', 'r', 't', 'th', 'x'],
-				'en' => ['b', 'ch', 'đ', 'gh', 'gi', 'h', 'k', 'kh', 'l', 'm', 'n', 'ngh', 'nh', 'ph', 'qu', 'r', 's', 't', 'th', 'v', 'x'],
-				'eo' => ['b', 'ch', 'd', 'đ', 'gh', 'gi', 'h', 'k', 'kh', 'l', 'm', 'n', 'ngh', 'nh', 'ph', 'qu', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'ep' => ['b', 'ch', 'd', 'đ', 'gh', 'h', 'k', 'kh', 'l', 'm', 'n', 'nh', 'ph', 't', 'th', 'x'],
-				'et' => ['b', 'ch', 'd', 'đ', 'gh', 'h', 'k', 'kh', 'l', 'm', 'n', 'ngh', 'nh', 'ph', 'qu', 'r', 's', 't', 'tr', 'v', 'x'],
-				'êm' => ['ch', 'đ', 'k', 'n', 'th', 'x'],
-				'ên' => ['b', 'đ', 'h', 'k', 'l', 'm', 'n', 'nh', 'ph', 'qu', 'r', 's', 't', 'tr', 'v'],
-				'êp' => ['b', 'n', 'r', 's', 'th', 'x'],
-				'êt' => ['b', 'ch', 'd', 'h', 'k', 'l', 'm', 'n', 'qu', 'r', 's', 't', 'v', 'x'],
-				'êu' => ['b', 'đ', 'k', 'l', 'm', 'n', 'ngh', 'r', 's', 't', 'th', 'tr'],
-				'ia' => ['b', 'ch', 'd', 'đ', 'k', 'kh', 'l', 'm', 'n', 'ngh', 'p', 'ph', 'r', 't', 'th', 'v', 'x'],
-				'ic' => ['h', 't'],
-				'im' => ['b', 'ch', 'd', 'gh', 'h', 'k', 'l', 'm', 'nh', 'ph', 's', 't', 'th'],
-				'in' => ['b', 'ch', 'k', 'm', 'n', 'nh', 'ph', 't', 'th', 'v', 'x'],
-				'ip' => ['b', 'ch', 'd', 'k', 'm', 'nh', 's'],
-				'it' => ['b', 'ch', 'đ', 'h', 'k', 'kh', 'm', 'n', 'ngh', 'r', 's', 't', 'th', 'v', 'x'],
-				'iu' => ['b', 'ch', 'd', 'h', 'l', 'n', 'r', 't', 'th', 'x'],
-				'oa' => ['d', 'đ', 'g', 'h', 'kh', 'l', 'ng', 't', 'th', 'x'],
-				'oc' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'ph', 'r', 's', 't', 'th', 'tr', 'v'],
-				'oe' => ['h', 'kh', 'l', 'ng', 'nh', 't', 'x'],
-				'oi' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'om' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'h', 'kh', 'l', 'n', 'ng', 'nh', 'ph', 'r', 's', 't', 'v', 'x'],
-				'on' => ['b', 'c', 'ch', 'đ', 'g', 'gi', 'h', 'l', 'm', 'n', 'ng', 'nh', 'r', 's', 't', 'th', 'tr', 'v'],
-				'op' => ['b', 'c', 'ch', 'g', 'h', 'm', 'ng', 'nh', 'th'],
-				'ot' => ['b', 'c', 'ch', 'đ', 'gi', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'ôc' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'm', 'n', 'ng', 'ph', 'qu', 'r', 's', 't', 'th', 'x'],
-				'ôi' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'ph', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'ôm' => ['c', 'ch', 'đ', 'g', 'h', 'n', 'nh', 't', 'tr', 'x'],
-				'ôn' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'r', 't', 'th', 'tr', 'v', 'x'],
-				'ôp' => ['b', 'c', 'ch', 'đ', 'g', 'l', 'n', 'ng', 'r', 's', 't', 'th', 'x'],
-				'ôt' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'h', 'l', 'm', 'n', 'ng', 'nh', 'ph', 'r', 's', 't', 'th', 'x'],
-				'ơi' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'm', 'n', 'ng', 'ph', 'qu', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'ơm' => ['b', 'c', 'ch', 'đ', 'n', 'r', 's', 'th'],
-				'ơn' => ['b', 'c', 'ch', 'đ', 'g', 'gi', 'h', 'l', 'm', 'nh', 'r', 's', 't', 'tr'],
-				'ơp' => ['b', 'ch', 'd', 'đ', 'h', 'kh', 'l', 'n', 'ng', 'r'],
-				'ơt' => ['b', 'c', 'ch', 'd', 'đ', 'h', 'l', 'ng', 'nh', 'ph', 'qu', 'r', 's', 'th', 'v'],
-				'ua' => ['b', 'c', 'ch', 'd', 'đ', 'h', 'kh', 'l', 'm', 'n', 'nh', 'r', 's', 't', 'th', 'v', 'x'],
-				'uc' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'ph', 'r', 's', 't', 'th', 'tr', 'x'],
-				'uê' => ['d', 'h', 'kh', 's', 't', 'th', 'v', 'x'],
-				'ui' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'h', 'kh', 'l', 'm', 'n', 'nh', 'ph', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'um' => ['b', 'c', 'ch', 'd', 'đ', 'gi', 'kh', 'l', 'm', 'n', 'ng', 'nh', 's', 't', 'tr', 'x'],
-				'un' => ['b', 'c', 'ch', 'đ', 'gi', 'h', 'l', 'm', 'ng', 'nh', 'ph', 'r', 's', 't', 'th', 'v'],
-				'up' => ['b', 'c', 'ch', 'gi', 'h', 'l', 'm', 'n', 'ng', 'r', 's', 't', 'th'],
-				'uơ' => ['th'],
-				'ut' => ['b', 'c', 'ch', 'h', 'l', 'm', 'n', 'ng', 'ph', 'r', 's', 't', 'th', 'tr', 'v'],
-				'uy' => ['d', 'h', 'kh', 'l', 'ng', 'nh', 'ph', 's', 't', 'th', 'tr', 'x'],
-				'ưa' => ['b', 'c', 'ch', 'd', 'đ', 'gi', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'ưc' => ['b', 'c', 'ch', 'đ', 'h', 'l', 'm', 'n', 'ng', 'nh', 'ph', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'ưi' => ['c', 'ch', 'g', 'ng'],
-				'ưm' => ['h', 'ng'],
-				'ưt' => ['b', 'c', 'd', 'đ', 'gi', 'm', 'n', 'nh', 's', 'v', 'x'],
-				'ưu' => ['b', 'c', 'h', 'kh', 'l', 'm', 'ng', 's', 't', 'tr'],
-				'yt' => ['qu'],
-
-				// 3-char syllables
-				'ach' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'h', 'kh', 'l', 'm', 'n', 'ng', 'ph', 'qu', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'ang' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'ph', 'qu', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'anh' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'ph', 'qu', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'ăng' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'ph', 'qu', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'âng' => ['b', 'd', 'l', 'n', 't', 'v'],
-				'eng' => ['b', 'k', 'l', 'x'],
-				'êch' => ['ch', 'k', 'l', 'ng', 'nh', 'ph', 'th', 'x'],
-				'ênh' => ['b', 'ch', 'd', 'đ', 'gh', 'h', 'k', 'l', 'm', 'ngh', 't', 'th', 'v'],
-				'ich' => ['b', 'ch', 'd', 'đ', 'h', 'k', 'kh', 'l', 'm', 'n', 'ngh', 'nh', 'ph', 'r', 't', 'th', 'tr', 'x'],
-				'iêc' => ['b', 'ch', 'd', 'đ', 'gh', 'l', 'nh', 't', 'th', 'v', 'x'],
-				'iêm' => ['b', 'ch', 'd', 'đ', 'h', 'k', 'kh', 'l', 'n', 'ngh', 'nh', 'ph', 't', 'th', 'v', 'x'],
-				'iên' => ['b', 'ch', 'd', 'đ', 'gh', 'h', 'k', 'kh', 'l', 'm', 'n', 'ngh', 'nh', 'ph', 't', 'th', 'tr', 'v', 'x'],
-				'iêp' => ['d', 'đ', 'h', 'ngh', 'nh', 't', 'th'],
-				'iêt' => ['b', 'ch', 'd', 'g', 'k', 'kh', 'l', 'm', 'n', 'ngh', 'nh', 'ph', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'iêu' => ['b', 'ch', 'd', 'đ', 'h', 'k', 'kh', 'l', 'm', 'n', 'nh', 'ph', 'r', 's', 't', 'th', 'tr', 'x'],
-				'inh' => ['b', 'ch', 'd', 'đ', 'h', 'k', 'kh', 'l', 'm', 'n', 'ngh', 'nh', 'ph', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'oac' => ['ch', 'kh', 'ng'],
-				'oai' => ['ch', 'đ', 'h', 'kh', 'l', 'ng', 'nh', 's', 't', 'th', 'x'],
-				'oam' => ['ng'],
-				'oan' => ['d', 'đ', 'h', 'kh', 'l', 'ng', 's', 't', 'x'],
-				'oat' => ['đ', 'h', 'kh', 'l', 's', 't', 'th'],
-				'oay' => ['h', 'kh', 'l', 'ng', 'x'],
-				'oăc' => ['h', 'ng'],
-				'oăm' => [],
-				'oăn' => ['th', 'x'],
-				'oăt' => ['h', 'th'],
-				'oen' => ['h', 'kh'],
-				'oeo' => ['ng'],
-				'oet' => ['kh', 'l', 't'],
-				'ong' => ['b', 'c', 'ch', 'd', 'đ', 'gi', 'h', 'l', 'm', 'n', 'ng', 'ph', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'ông' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gh', 'gi', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'ph', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'uân' => ['ch', 'd', 'h', 'kh', 'l', 'nh', 't', 'th', 'x'],
-				'uât' => ['d', 'kh', 'l', 's', 't', 'th', 'tr', 'x'],
-				'uây' => ['kh', 'ng'],
-				'ung' => ['b', 'c', 'ch', 'd', 'đ', 'h', 'kh', 'l', 'm', 'n', 'nh', 'ph', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'uôc' => ['b', 'c', 'ch', 'đ', 'g', 'gi', 'l', 'nh', 'r', 't', 'th'],
-				'uôi' => ['c', 'ch', 'd', 'đ', 'm', 'n', 'ng', 's', 'x'],
-				'uôm' => ['b', 'c', 'nh', 'th'],
-				'uôn' => ['b', 'c', 'ch', 'kh', 'l', 'm', 'ng', 'r', 's', 't', 'th'],
-				'uôt' => ['b', 'ch', 'r', 't', 'th', 'tr'],
-				'uya' => ['kh'],
-				'uyt' => ['h', 's', 't'],
-				'uyu' => ['kh'],
-				'ưng' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'r', 's', 't', 'th', 'tr', 'v', 'x'],
-				'ươc' => ['b', 'c', 'ch', 'd', 'đ', 'kh', 'l', 'ng', 'nh', 'ph', 'r', 't', 'th', 'tr', 'x'],
-				'ươi' => ['b', 'c', 'd', 'đ', 'kh', 'l', 'm', 'ng', 'r', 's', 't'],
-				'ươm' => ['ch', 'g', 'l', 't'],
-				'ươn' => ['b', 'l', 'tr', 'v'],
-				'ươp' => ['c', 'm'],
-				'ươt' => ['l', 'm', 'ph', 'r', 's', 't', 'th', 'tr', 'v'],
-				'ươu' => ['b', 'h', 'kh', 'r'],
-				'yên' => ['qu'],
-				'yêt' => ['qu'],
-				'yêu' => [],
-				'ynh' => ['qu'],
-
-				// 4-char syllables
-				'iêng' => ['b', 'ch', 'đ', 'g', 'k', 'kh', 'l', 'ngh', 'r', 's', 't', 'th', 'v'],
-				'oach' => ['x'],
-				'oang' => ['ch', 'đ', 'h', 'kh', 'l', 'nh', 'th', 'x'],
-				'oanh' => ['d', 'h', 'l', 't', 'x'],
-				'oăng' => ['gi', 'h'],
-				'oong' => ['b', 'c', 'đ', 'k', 'x'],
-				'uâng' => ['kh'],
-				'uêch' => ['kh'],
-				'uênh' => ['h'],
-				'uông' => ['b', 'c', 'ch', 'đ', 'h', 'kh', 'l', 'm', 'n', 't', 'th', 'tr', 'v', 'x'],
-				'uych' => [],
-				'uyên' => ['ch', 'd', 'h', 'kh', 'l', 'ng', 'nh', 's', 't', 'th', 'tr', 'x'],
-				'uyêt' => ['d', 'h', 'kh', 'ng', 't', 'th', 'x'],
-				'uynh' => ['h', 'kh'],
-				'ương' => ['b', 'c', 'ch', 'd', 'đ', 'g', 'gi', 'h', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'ph', 'r', 's', 't', 'th', 'tr', 'v', 'x']
-			],
 
 			/**
 			 * List of correct words.
@@ -687,7 +476,17 @@ class Vietnamese
 			 */
 			'words' => [],
 
-			// List of wrong accent placements which need to fix
+			/**
+			 * List of wrong accent placements which need to be corrected.
+			 *
+			 * Indexes:
+			 * [wrong_lower_case] =>
+			 *		1 -> Correct lower case.
+			 *		2 -> Wrong upper-first case.
+			 *		3 -> Correct upper-first case.
+			 *		4 -> Wrong upper case.
+			 *		5 -> Correct upper case.
+			 */
 			'accent_placements' => [
 				'aì' => ['ài', 'Aì', 'Ài', 'AÌ', 'ÀI'],
 				'aỉ' => ['ải', 'Aỉ', 'Ải', 'AỈ', 'ẢI'],
@@ -1102,18 +901,21 @@ class Vietnamese
 				'ứơng' => ['ướng', 'Ứơng', 'Ướng', 'ỨƠNG', 'ƯỚNG'],
 				'ựơng' => ['ượng', 'Ựơng', 'Ượng', 'ỰƠNG', 'ƯỢNG']
 			],
+
 			/**
+			 * I or Y cases.
+			 *
 			 * What is the rule?
-			 * Please view details in the iVN.docx file.
+			 * Please view details in the document file.
 			 *
 			 * Indexes:
-			 *	0 -> Replace text in lowercase
-			 *	1 -> Find text in upper first char and lower remain chars
-			 *	2 -> Replace text in upper first char and lower remain chars
-			 *	3 -> Find text in uppercase
-			 *	4 -> Replace text in uppercase
-			 *	5 -> true: can within another word (ex: 'hì' within 'hình'), use preg_replace()
-			 *		false: never within another word, safe to use str_replace()
+			 *	0 -> Replace text in lowercase.
+			 *	1 -> Find text in upper first character and lower remain characters.
+			 *	2 -> Replace text in upper first character and lower remain characters.
+			 *	3 -> Find text in uppercase.
+			 *	4 -> Replace text in uppercase.
+			 *	5 -> true: can within another word (ex: 'hì' within 'hình'), use preg_replace().
+			 *		false: never within another word, safe to use str_replace().
 			 */
 			'i_or_y' => [
 				'i' => [
@@ -1401,13 +1203,14 @@ class Vietnamese
 					]
 				]
 			],
+
 			/**
-			 * Alternate Unicode index for Vietnamese letters with accents
+			 * Alternate Unicode index for sorting Vietnamese letters with accents.
 			 *
 			 * Sorting order:
-			 *	[1] Number first, letter last
-			 *	[2] lower first, UPPER last
-			 *	[3] Accent order: a à ả ã á ạ
+			 *	(1) Number first, letter last.
+			 *	(2) lower first, UPPER last.
+			 *	(3) Accent order: a à ả ã á ạ.
 			 */
 			'sort_index' => [
 				'a' => 'aa',
@@ -1912,160 +1715,6 @@ class Vietnamese
 		}
 
 		return $result;
-	}
-
-	/**
-	 * Place an accent into a non-accent single word
-	 *
-	 * @param string $word Input word
-	 * @param int $accent Accent code
-	 *							1: [à]
-	 *							2: [ả]
-	 *							3: [ã]
-	 *							4: [á]
-	 *							5: [ạ]
-	 * @return string Final word with new accent
-	 */
-	public function place_accent(string $word = '', int $accent = 0): string
-	{
-		// Max length of a Vietnamese single word is 7 characters: "nghiêng"
-		$word_len = mb_strlen($word);
-
-		if ($word_len > 0 && $word_len < 8 && $accent > 0 && $accent < 6)
-		{
-			$consonant = $syllable_consonant = '';
-
-			// Use the list which was sorted by length DESC to detect "ngh/ng/nh/n", "kh/h"... correctly
-			if (preg_match('/\A(' . implode('|', $this->data['consonants_desc']) . ')(.+)/i', $word, $matches))
-			{
-				$consonant = $matches[1];
-				$syllable = $matches[2];
-			}
-			else
-			{
-				$syllable = $word;
-			}
-
-			// Also check consonants within syllables
-			if (preg_match('/(.+)(' . implode('|', $this->data['end_consonants_desc']) . ')\Z/i', $syllable, $matches))
-			{
-				$syllable_vowel = $matches[1];
-				$syllable_consonant = $matches[2];
-			}
-			else
-			{
-				$syllable_vowel = $syllable;
-			}
-
-			// Max length of a vowel within syllable is 3 characters
-			$syllable_vowel_len = mb_strlen($syllable_vowel);
-
-			if ($syllable_vowel_len > 0 && $syllable_vowel_len < 4 && isset($this->data['syllable_to_consonants'][mb_strtolower($syllable)]))
-			{
-				// Always place accent at "ê/ơ" first, regardless of length
-				if (str_contains($syllable_vowel, 'ê'))
-				{
-					$syllable_vowel = str_replace('ê', $this->data['accent_to_vowels']['ê'][$accent][0], $syllable_vowel);
-				}
-				elseif (str_contains($syllable_vowel, 'Ê'))
-				{
-					$syllable_vowel = str_replace('Ê', $this->data['accent_to_vowels']['ê'][$accent][1], $syllable_vowel);
-				}
-				elseif (str_contains($syllable_vowel, 'ơ'))
-				{
-					$syllable_vowel = str_replace('ơ', $this->data['accent_to_vowels']['ơ'][$accent][0], $syllable_vowel);
-				}
-				elseif (str_contains($syllable_vowel, 'Ơ'))
-				{
-					$syllable_vowel = str_replace('Ơ', $this->data['accent_to_vowels']['ơ'][$accent][1], $syllable_vowel);
-				}
-				else
-				{
-					/**
-					 * If "ê/ơ" do not appear, then...
-					 *
-					 * Classic method:
-					 *	For each syllable, if the number of vowels is...
-					 *		[...a...]	-> [...á...]
-					 *			(1 -> itself vowel)
-					 *		[...oa]		-> [...óa]
-					 *			(2, and the last character is VOWEL -> first vowel)
-					 *		[...oan]	-> [oán]
-					 *			(2, and the last character is CONSONANT -> second vowel)
-					 *		[...oai...]	-> [...oái...]
-					 *			(3 -> second vowel)
-					 *
-					 * New method:
-					 *	Same as the classic method, but there are 3 exceptions:
-					 *		[oa]	->	[oá]	(second vowel, instead of "óa")
-					 *		[oe]	->	[oé]	(second vowel, instead of "óe")
-					 *		[uy]	->	[uý]	(second vowel, instead of "úy")
-					 *
-					 * Note: The recommended method and also is required by the iVN document is the classic
-					 */
-					if ($syllable_vowel_len == 1)
-					{
-						$pos = 0;
-					}
-					elseif ($syllable_vowel_len == 2)
-					{
-						if (!empty($syllable_consonant))
-						{
-							$pos = 1;
-						}
-						else
-						{
-							$pos = 0;
-						}
-					}
-					else
-					{
-						$pos = 1;
-					}
-
-					$lower = mb_strtolower(mb_substr($syllable_vowel, $pos, 1));
-					$upper = mb_strtoupper($lower);
-					$syllable_vowel = str_replace([$lower, $upper], [$this->data['accent_to_vowels'][$lower][$accent][0], $this->data['accent_to_vowels'][$lower][$accent][1]], $syllable_vowel);
-				}
-			}
-
-			// Return final word
-			$word = $consonant . $syllable_vowel . $syllable_consonant;
-		}
-
-		return $word;
-	}
-
-	/**
-	 * Generate all of Vietnamese single words
-	 *
-	 * @param bool $strict_mode true: Words only in Vietnamese dictionary
-	 *							false: All available words in theory
-	 * @return array Array of words
-	 */
-	protected function generate_words(bool $strict_mode = true): array
-	{
-		$words = [];
-
-		foreach ($this->data['syllable_to_consonants'] as $syllable => $consonants)
-		{
-			$source = ($strict_mode) ? $consonants : array_keys($this->data['consonants']);
-
-			for ($i = 0; $i < 6; $i++)
-			{
-				$words[] = $this->place_accent($syllable, $i);
-
-				if (count($source))
-				{
-					foreach ($source as $consonant)
-					{
-						$words[] = $this->place_accent($consonant . $syllable, $i);
-					}
-				}
-			}
-		}
-
-		return $words;
 	}
 
 	/**
