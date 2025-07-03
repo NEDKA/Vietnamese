@@ -14,10 +14,10 @@
  *		$iVN->formatPeopleName('ViỆt NaM')
  *		Việt Nam
  * Remove all accents:
- *		$iVN->convert_accent('Việt Nam', 'remove')
+ *		$iVN->removeAccents('Việt Nam', 'remove')
  *		Viet Nam
  * Convert into NCR Decimal:
- *		$iVN->convert_accent('Việt Nam', 'ncr_decimal')
+ *		$iVN->removeAccents('Việt Nam', 'ncr_decimal')
  *		Vi&#7879;t Nam
  * Correct wrong accent placements:
  *		$iVN->fix_accent('Vịêt Nam')
@@ -1704,17 +1704,15 @@ class Vietnamese
 	}
 
 	/**
-	 * Remove all accents or convert them to something
+	 * Remove all accents or convert them to something.
 	 * Used for SEO, out-dated browsers...
 	 *
-	 * @param string $text Input text
 	 * @param string $mode Mode:
-	 *		'remove': Remove all accents and convert special letters into English letters
-	 *		'remove_keep_alphabet': Remove only accents, keep Vietnamese letters in the alphabet
-	 *		'ncr_decimal': Convert accents into NCR Decimal
-	 * @return string Result text
+	 *		'remove': Remove all accents and convert special letters into English letters.
+	 *		'alphabet': Remove only accents, keep Vietnamese letters in the alphabet.
+	 *		'ncr_decimal': Convert accents into NCR Decimal.
 	 */
-	public function convert_accent(string $text = '', string $mode = 'remove'): string
+	public function removeAccents(string $text = '', string $mode = 'remove'): string
 	{
 		if (!empty($text))
 		{
@@ -1726,7 +1724,7 @@ class Vietnamese
 					$i_upper = 2;
 				break;
 
-				case 'remove_keep_alphabet';
+				case 'alphabet';
 					$i_lower = 3;
 					$i_upper = 4;
 				break;
@@ -2195,7 +2193,7 @@ class Vietnamese
 					}
 
 					// Accent is spelt lastly
-					$syllable_vowel_no_accent = $this->convert_accent($syllable_vowel, 'remove_keep_alphabet');
+					$syllable_vowel_no_accent = $this->removeAccents($syllable_vowel, 'alphabet');
 
 					if (!empty($syllable_vowel))
 					{
@@ -2239,7 +2237,7 @@ class Vietnamese
 						// Do not repeat if there is vowel only
 						if (mb_strlen($word) > 1)
 						{
-							$read_text .= $syllable_vowel_no_accent . $syllable_consonant . ' ' . $this->convert_accent($word, 'remove_keep_alphabet') . " $accent /$word/; ";
+							$read_text .= $syllable_vowel_no_accent . $syllable_consonant . ' ' . $this->removeAccents($word, 'alphabet') . " $accent /$word/; ";
 						}
 						else
 						{
