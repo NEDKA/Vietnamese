@@ -17,9 +17,9 @@ use NEDKA\Vietnamese\Vietnamese;
 ```
 
 ## Usage
-Format people names:
+Format names:
 ```php
-Vietnamese::formatPeopleName('ViỆt NaM')
+Vietnamese::formatName('ViỆt NaM')
 ```
 Result: `Việt Nam`
 
