@@ -1756,10 +1756,7 @@ class Vietnamese
 	}
 
 	/**
-	 * Print out the way to spell Vietnamese words
-	 *
-	 * @param string $text Input text
-	 * @return string Spell text
+	 * Print out the way to spell Vietnamese words.
 	 */
 	public function speak(string $text = ''): string
 	{
