@@ -74,7 +74,21 @@ Vietnamese::checkChar('w')
 Result: `false`
 
 ---
-Print the way to speak:
+Scan and detect incorrect words in Vietnamese:
+
+```php
+Vietnamese::scanWords('Xứ Wales thắng Nga, đứng nhất bảng B')
+```
+Result: `['Wales']`
+
+Otherwise, get correct words:
+```php
+Vietnamese::scanWords('Xứ Wales thắng Nga, đứng nhất bảng B', false)
+```
+Result: `['Xứ', 'thắng', 'Nga', 'đứng', 'nhất', 'bảng', 'B']`
+
+---
+Print the way to speak a Vietnamese text string:
 ```php
 Vietnamese::speak('Việt Nam')
 ```
