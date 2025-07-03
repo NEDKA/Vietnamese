@@ -29,7 +29,7 @@
  *		$iVN->sortWord(['Ă', 'A', 'Â', 'À', 'Á'])
  *		['A', 'Á', 'À', 'Ă', 'Â']
  * Sorting people names:
- *		$iVN->sort_people_name(['Nguyễn Văn Đảnh', 'Nguyễn VĂN Đàn', 'nguYỄn Văn Đàng', 'NGUYỄN Văn Đang', 'nguyễn anh đang'])
+ *		$iVN->sortPeopleName(['Nguyễn Văn Đảnh', 'Nguyễn VĂN Đàn', 'nguYỄn Văn Đàng', 'NGUYỄN Văn Đang', 'nguyễn anh đang'])
  *		['Nguyễn Anh Đang', 'Nguyễn Văn Đang', 'Nguyễn Văn Đàn', 'Nguyễn Văn Đàng', 'Nguyễn Văn Đảnh']
  * Check a character in the Vietnamese alphabet:
  *		$iVN->check_char('w')
@@ -1849,20 +1849,17 @@ class Vietnamese
 	}
 
 	/**
-	 * Sorting Vietnamese people names
+	 * Sorting Vietnamese people names.
 	 *
 	 * Sorting order:
-	 *	> First name.
-	 *	> Last name: surname + middle name
-	 *
-	 * @param array $data Input array
-	 * @return array Result array
+	 *	(1) First name.
+	 *	(2) Last name: surname + middle name.
 	 */
-	public function sort_people_name(array $data = []): array
+	public function sortPeopleName(array $data = []): array
 	{
 		$new_names = [];
 
-		if (count($data))
+		if ($data)
 		{
 			$names = [];
 
