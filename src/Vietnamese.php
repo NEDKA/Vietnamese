@@ -1679,7 +1679,7 @@ class Vietnamese
 			{
 				foreach ($rows as $lastname)
 				{
-					$new_names[] = "$lastname $firstname";
+					$new_names[] = trim("$lastname $firstname");
 				}
 			}
 		}
