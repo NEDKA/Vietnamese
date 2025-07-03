@@ -48,7 +48,7 @@
  *		$iVN->speak('Việt Nam')
  *		i ê tờ iêt, vờ iêt viêt nặng /việt/; a mờ am, nờ am /nam/; /việt nam/
  * Convert number to text:
- *		$iVN->number_to_text(1452369)
+ *		$iVN->numberToText(1452369)
  *		một triệu bốn trăm năm mươi hai nghìn ba trăm sáu mươi chín
  */
 
@@ -1897,12 +1897,9 @@ class Vietnamese
 	}
 
 	/**
-	 * Convert number/amount into Vietnamese text
-	 *
-	 * @param float $amount Original amount
-	 * @return string Amount in text
+	 * Convert number/amount into Vietnamese text.
 	 */
-	public function number_to_text(float $amount): string
+	public function numberToText(float $amount): string
 	{
 		$text = '';
 
@@ -1934,16 +1931,16 @@ class Vietnamese
 
 				for ($i = 0; $i < $n; $i++)
 				{
-					if ($this->convert_3_numbers($split[$i]) != $this->data['number_format']['0'])
+					if ($this->convertSteps($split[$i]) != $this->data['number_format']['0'])
 					{
-						$text .= ($steps[$i] == '') ? $this->convert_3_numbers($split[$i]) : sprintf($steps[$i], $this->convert_3_numbers($split[$i]));
+						$text .= ($steps[$i] == '') ? $this->convertSteps($split[$i]) : sprintf($steps[$i], $this->convertSteps($split[$i]));
 						$text .= ' ';
 					}
 				}
 			}
 			else
 			{
-				$text .= $this->convert_3_numbers($split[0]);
+				$text .= $this->convertSteps($split[0]);
 			}
 		}
 
@@ -1951,12 +1948,9 @@ class Vietnamese
 	}
 
 	/**
-	 * Convert amount into text for each thousand steps
-	 *
-	 * @param int $number	Original amount
-	 * @return string		Amount in text
+	 * Convert amount into text for each thousand steps.
 	 */
-	protected function convert_3_numbers(int $number): string
+	private function convertSteps(int $number): string
 	{
 		$text = '';
 
