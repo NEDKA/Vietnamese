@@ -1,12 +1,13 @@
 * text=auto eol=lf
 
-# NEDKA
-*.data text
-
 # Git
 .github/ export-ignore
 .gitignore export-ignore
 .gitattributes export-ignore
+
+# Data
+*.data text
+*.tsv text
 
 # Code
 *.blade.php diff=html
