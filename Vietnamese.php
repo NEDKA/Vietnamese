@@ -11,7 +11,7 @@
  * HOW TO USE?
  *
  * Format people names:
- *		$iVN->format_people_name('ViỆt NaM')
+ *		$iVN->formatPeopleName('ViỆt NaM')
  *		Việt Nam
  * Remove all accents:
  *		$iVN->convert_accent('Việt Nam', 'remove')
@@ -1676,13 +1676,10 @@ class Vietnamese
 	}
 
 	/**
-	 * Upper the first character of each single word, lower remain characters
+	 * Upper the first character of each single word, lower remain characters.
 	 * Used for Vietnamese people names, administrative unit names...
-	 *
-	 * @param string $text Input text
-	 * @return string Result text
 	 */
-	public function format_people_name(string $text = ''): string
+	public function formatPeopleName(string $text = ''): string
 	{
 		if (!empty($text))
 		{
@@ -1881,7 +1878,7 @@ class Vietnamese
 
 			foreach ($data as $name)
 			{
-				$name = $this->format_people_name($name);
+				$name = $this->formatPeopleName($name);
 				$name_ary = explode(' ', $name);
 				$firstname = array_pop($name_ary);
 				$lastname = implode(' ', $name_ary);
