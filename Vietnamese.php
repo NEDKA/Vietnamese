@@ -32,7 +32,7 @@
  *		$iVN->sortPeopleName(['Nguyễn Văn Đảnh', 'Nguyễn VĂN Đàn', 'nguYỄn Văn Đàng', 'NGUYỄN Văn Đang', 'nguyễn anh đang'])
  *		['Nguyễn Anh Đang', 'Nguyễn Văn Đang', 'Nguyễn Văn Đàn', 'Nguyễn Văn Đàng', 'Nguyễn Văn Đảnh']
  * Check a character in the Vietnamese alphabet:
- *		$iVN->check_char('w')
+ *		$iVN->checkChar('w')
  *		false
  * Place accent into a single word:
  *		$iVN->place_accent('Hoa', 2)
@@ -1895,12 +1895,9 @@ class Vietnamese
 
 	/**
 	 * Check a character is one of Vietnamese characters or not?
-	 * A Vietnamese character is an alphabet or a character with accents
-	 *
-	 * @param string $char Input character
-	 * @return bool true/false; if input is empty or more than 1 character, return false
+	 * A Vietnamese character is an alphabet or a character with accents.
 	 */
-	public function check_char(string $char = ''): bool
+	public function checkChar(string $char = ''): bool
 	{
 		$result = false;
 
