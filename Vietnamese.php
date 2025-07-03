@@ -13,44 +13,41 @@ namespace NEDKA\Vietnamese;
  * HOW TO USE?
  *
  * Format people names:
- *		$iVN->formatPeopleName('ViỆt NaM')
+ *		$this::formatPeopleName('ViỆt NaM')
  *		Việt Nam
  * Remove all accents:
- *		$iVN->removeAccent('Việt Nam', 'remove')
+ *		$this::removeAccent('Việt Nam', 'remove')
  *		Viet Nam
  * Convert into NCR Decimal:
- *		$iVN->removeAccent('Việt Nam', 'ncr_decimal')
+ *		$this::removeAccent('Việt Nam', 'ncr_decimal')
  *		Vi&#7879;t Nam
  * Correct wrong accent placements:
- *		$iVN->fixAccent('Vịêt Nam')
+ *		$this::fixAccent('Vịêt Nam')
  *		Việt Nam
  * Correct wrong cases between "i" and "y":
- *		$iVN->fixIY('Thi tuổi Kỉ Tị')
+ *		$this::fixIY('Thi tuổi Kỉ Tị')
  *		Thi tuổi Kỷ Tỵ
  * Sorting words:
- *		$iVN->sortWord(['Ă', 'A', 'Â', 'À', 'Á'])
+ *		$this::sortWord(['Ă', 'A', 'Â', 'À', 'Á'])
  *		['A', 'Á', 'À', 'Ă', 'Â']
  * Sorting people names:
- *		$iVN->sortPeopleName(['Nguyễn Văn Đảnh', 'Nguyễn VĂN Đàn', 'nguYỄn Văn Đàng', 'NGUYỄN Văn Đang', 'nguyễn anh đang'])
+ *		$this::sortPeopleName(['Nguyễn Văn Đảnh', 'Nguyễn VĂN Đàn', 'nguYỄn Văn Đàng', 'NGUYỄN Văn Đang', 'nguyễn anh đang'])
  *		['Nguyễn Anh Đang', 'Nguyễn Văn Đang', 'Nguyễn Văn Đàn', 'Nguyễn Văn Đàng', 'Nguyễn Văn Đảnh']
  * Check a character in the Vietnamese alphabet:
- *		$iVN->checkChar('w')
+ *		$this::checkChar('w')
  *		false
- * Place accent into a single word:
- *		$iVN->place_accent('Hoa', 2)
- *		Hỏa
  * Scan and detect incorrect words in Vietnamese:
  * > Find incorrect words:
- *		$iVN->scanWords('Xứ Wales thắng Nga, đứng nhất bảng B')
+ *		$this::scanWords('Xứ Wales thắng Nga, đứng nhất bảng B')
  *		['Wales']
  * > Otherwise, get correct words:
- *		$iVN->scanWords('Xứ Wales thắng Nga, đứng nhất bảng B', false)
+ *		$this::scanWords('Xứ Wales thắng Nga, đứng nhất bảng B', false)
  *		['Xứ', 'thắng', 'Nga', 'đứng', 'nhất', 'bảng', 'B']
  * Print the way to speak:
- *		$iVN->speak('Việt Nam')
+ *		$this::speak('Việt Nam')
  *		i ê tờ iêt, vờ iêt viêt nặng /việt/; a mờ am, nờ am /nam/; /việt nam/
  * Convert number to text:
- *		$iVN->numberToText(1452369)
+ *		$this::numberToText(1452369)
  *		một triệu bốn trăm năm mươi hai nghìn ba trăm sáu mươi chín
  */
 
