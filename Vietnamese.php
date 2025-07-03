@@ -23,7 +23,7 @@
  *		$iVN->fixAccent('Vịêt Nam')
  *		Việt Nam
  * Correct wrong cases between "i" and "y":
- *		$iVN->fix_i_or_y('Thi tuổi Kỉ Tị')
+ *		$iVN->fixIY('Thi tuổi Kỉ Tị')
  *		Thi tuổi Kỷ Tỵ
  * Sorting words:
  *		$iVN->sort_word(['Ă', 'A', 'Â', 'À', 'Á'])
@@ -1765,22 +1765,20 @@ class Vietnamese
 	}
 
 	/**
-	 * Fix wrong cases of i and y
+	 * Correct wrong cases between using of I and Y.
 	 *
-	 *	ZERO-CASE: NOT I, NOT Y (Skipped)
-	 *	LEFT-CASE: ONLY I, NOT Y
-	 *	RIGHT-CASE: NOT I, ONLY Y
-	 *	MAJOR-I-CASE: MAJOR I, MINORITY Y
-	 *		> Replace all *Y to *I
-	 *		> Fix specified Y cases
-	 *	MAJOR-Y-CASE: MINORITY I, MAJOR Y
-	 *		> Replace all *I to *Y
-	 *		> Fix specified I cases
-	 *
-	 * @param string $text Input text
-	 * @return string Result text
+	 *	Cases:
+	 *		ZERO-CASE: NOT I, NOT Y (Skipped)
+	 *		LEFT-CASE: ONLY I, NOT Y
+	 *		RIGHT-CASE: NOT I, ONLY Y
+	 *		MAJOR-I-CASE: MAJOR I, MINORITY Y
+	 *			(1) Replace all *Y to *I.
+	 *			(2) Fix specified "Y" cases.
+	 *		MAJOR-Y-CASE: MINORITY I, MAJOR Y
+	 *			(1) Replace all *I to *Y.
+	 *			(2) Fix specified "I" cases.
 	 */
-	public function fix_i_or_y(string $text = ''): string
+	public function fixIY(string $text = ''): string
 	{
 		if (!empty($text))
 		{
