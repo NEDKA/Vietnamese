@@ -20,7 +20,7 @@
  *		$iVN->removeAccent('Việt Nam', 'ncr_decimal')
  *		Vi&#7879;t Nam
  * Correct wrong accent placements:
- *		$iVN->fix_accent('Vịêt Nam')
+ *		$iVN->fixAccent('Vịêt Nam')
  *		Việt Nam
  * Correct wrong cases between "i" and "y":
  *		$iVN->fix_i_or_y('Thi tuổi Kỉ Tị')
@@ -1745,16 +1745,13 @@ class Vietnamese
 	}
 
 	/**
-	 * Correct accent placements
+	 * Correct wrong accent placements.
 	 *
 	 * We have 2 types of problems:
-	 *	[1]: Differences between the new method and the classic one
-	 *	[2]: Wrong placement of accents, they are really errors
-	 *
-	 * @param string $text Input text
-	 * @return string Result text
+	 *	(1) Differences between the new method and the classic one.
+	 *	(2) Wrong placement of accents, they are really errors.
 	 */
-	public function fix_accent(string $text = ''): string
+	public function fixAccent(string $text = ''): string
 	{
 		if (!empty($text))
 		{
