@@ -2,7 +2,7 @@
 /**
  * This file is part of the Vietnamese package.
  *
- * @version 1.0.10
+ * @version 1.0.11
  * @copyright (c) NEDKA. All rights reserved.
  * @license MIT License.
  */
