@@ -16,7 +16,7 @@ namespace NEDKA\Vietnamese;
  *		Vietnamese::formatName('ViỆt NaM')
  *		Việt Nam
  * Remove all accents:
- *		Vietnamese::removeAccent('Việt Nam', 'remove')
+ *		Vietnamese::removeAccent('Việt Nam')
  *		Viet Nam
  * Convert into NCR Decimal:
  *		Vietnamese::removeAccent('Việt Nam', 'ncr_decimal')
@@ -36,11 +36,11 @@ namespace NEDKA\Vietnamese;
  * Check a character in the Vietnamese alphabet:
  *		Vietnamese::checkChar('w')
  *		false
- * Scan and detect incorrect words in Vietnamese:
- * > Find incorrect words:
+ * Scan and detect incorrect words in Vietnamese: (waiting for the new version to work again)
+ *	Find incorrect words:
  *		Vietnamese::scanWords('Xứ Wales thắng Nga, đứng nhất bảng B')
  *		['Wales']
- * > Otherwise, get correct words:
+ *	Otherwise, get correct words:
  *		Vietnamese::scanWords('Xứ Wales thắng Nga, đứng nhất bảng B', false)
  *		['Xứ', 'thắng', 'Nga', 'đứng', 'nhất', 'bảng', 'B']
  * Print the way to speak:
