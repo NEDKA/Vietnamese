@@ -26,7 +26,7 @@ Result: `Việt Nam`
 ---
 Remove all accents:
 ```php
-Vietnamese::removeAccent('Việt Nam', 'remove')
+Vietnamese::removeAccent('Việt Nam')
 ```
 Result: `Viet Nam`
 
