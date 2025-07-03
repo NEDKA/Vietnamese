@@ -7,6 +7,8 @@
  * @license MIT License.
  */
 
+namespace NEDKA\Vietnamese;
+
 /**
  * HOW TO USE?
  *
