@@ -14,10 +14,10 @@
  *		$iVN->formatPeopleName('ViỆt NaM')
  *		Việt Nam
  * Remove all accents:
- *		$iVN->removeAccents('Việt Nam', 'remove')
+ *		$iVN->removeAccent('Việt Nam', 'remove')
  *		Viet Nam
  * Convert into NCR Decimal:
- *		$iVN->removeAccents('Việt Nam', 'ncr_decimal')
+ *		$iVN->removeAccent('Việt Nam', 'ncr_decimal')
  *		Vi&#7879;t Nam
  * Correct wrong accent placements:
  *		$iVN->fix_accent('Vịêt Nam')
@@ -1712,7 +1712,7 @@ class Vietnamese
 	 *		'alphabet': Remove only accents, keep Vietnamese letters in the alphabet.
 	 *		'ncr_decimal': Convert accents into NCR Decimal.
 	 */
-	public function removeAccents(string $text = '', string $mode = 'remove'): string
+	public function removeAccent(string $text = '', string $mode = 'remove'): string
 	{
 		if (!empty($text))
 		{
@@ -2193,7 +2193,7 @@ class Vietnamese
 					}
 
 					// Accent is spelt lastly
-					$syllable_vowel_no_accent = $this->removeAccents($syllable_vowel, 'alphabet');
+					$syllable_vowel_no_accent = $this->removeAccent($syllable_vowel, 'alphabet');
 
 					if (!empty($syllable_vowel))
 					{
@@ -2237,7 +2237,7 @@ class Vietnamese
 						// Do not repeat if there is vowel only
 						if (mb_strlen($word) > 1)
 						{
-							$read_text .= $syllable_vowel_no_accent . $syllable_consonant . ' ' . $this->removeAccents($word, 'alphabet') . " $accent /$word/; ";
+							$read_text .= $syllable_vowel_no_accent . $syllable_consonant . ' ' . $this->removeAccent($word, 'alphabet') . " $accent /$word/; ";
 						}
 						else
 						{
