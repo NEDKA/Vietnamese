@@ -31,7 +31,7 @@ namespace NEDKA\Vietnamese;
  *		Sorting by values in a simple array:
  *			Vietnamese::sortWord(['Ă', 'A', 'Â', 'À', 'Á'])
  *			['A', 'Á', 'À', 'Ă', 'Â']
- *		Sorting a two-dimensional array by multiple keys in order, with the first key in Vietnamese:
+ *		Sorting a two-dimensional array by multiple keys in order:
  *			------
  * 			$array = [
  *				['name' => 'Cần Thơ', 'valid_date' => '2004-01-01'],
@@ -1638,7 +1638,7 @@ class Vietnamese
 	 * This method has 2 modes:
 	 *	(1) Sorting by values in a simple array:
 	 *		Vietnamese::sortWord(['a', 'b', 'c']);
-	 *	(2) Sorting by one or more keys in a two-dimensional array, with the first key in Vietnamese:
+	 *	(2) Sorting by one or more keys in a two-dimensional array:
 	 *		Vietnamese::sortWord($array, ['name', 'date'])
 	 *		-> Sorting by the Vietnamese name first, the date last.
 	 */
@@ -1658,14 +1658,10 @@ class Vietnamese
 
 			if ($keys)
 			{
-				foreach ($keys as $i => $key)
+				foreach ($keys as $key)
 				{
-					if ($i == 0)
-					{
-						$a[$key] = str_replace(array_keys(static::$data['sort_index']), array_values(static::$data['sort_index']), $a[$key]);
-						$b[$key] = str_replace(array_keys(static::$data['sort_index']), array_values(static::$data['sort_index']), $b[$key]);
-					}
-
+					$a[$key] = str_replace(array_keys(static::$data['sort_index']), array_values(static::$data['sort_index']), $a[$key]);
+					$b[$key] = str_replace(array_keys(static::$data['sort_index']), array_values(static::$data['sort_index']), $b[$key]);
 					$result = $a[$key] <=> $b[$key];
 
 					if ($result !== 0)
