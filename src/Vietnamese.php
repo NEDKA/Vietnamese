@@ -28,8 +28,35 @@ namespace NEDKA\Vietnamese;
  *		Vietnamese::fixIY('Thi tuổi Kỉ Tị')
  *		Thi tuổi Kỷ Tỵ
  *	Sorting words:
- *		Vietnamese::sortWord(['Ă', 'A', 'Â', 'À', 'Á'])
- *		['A', 'Á', 'À', 'Ă', 'Â']
+ *		Sorting by values in a simple array:
+ *			Vietnamese::sortWord(['Ă', 'A', 'Â', 'À', 'Á'])
+ *			['A', 'Á', 'À', 'Ă', 'Â']
+ *		Sorting a two-dimensional array by multiple keys in order, with the first key in Vietnamese:
+ *			------
+ * 			$array = [
+ *				['name' => 'Cần Thơ', 'valid_date' => '2004-01-01'],
+ *				['name' => 'Cà Mau', 'valid_date' => '1997-01-01'],
+ *				['name' => 'Cần Thơ', 'valid_date' => '1992-01-01']
+ *			];
+ *			$array = Vietnamese::sortWord($array, ['name', 'valid_date']);
+ *			------
+ *			Result:
+ *			------
+ *			array:3 [
+ *				0 => array:2 [
+ *					'name' => 'Cà Mau'
+ *					'valid_date' => '1997-01-01'
+ *				]
+ *				1 => array:2 [
+ *					'name' => 'Cần Thơ'
+ *					'valid_date' => '1992-01-01'
+ *				]
+ *				2 => array:2 [
+ *					'name' => 'Cần Thơ'
+ *					'valid_date' => '2004-01-01'
+ *				]
+ *			]
+ *			------
  *	Sorting people names:
  *		Vietnamese::sortPeopleName(['Nguyễn Văn Đảnh', 'Nguyễn VĂN Đàn', 'nguYỄn Văn Đàng', 'NGUYỄN Văn Đang', 'nguyễn anh đang'])
  *		['Nguyễn Anh Đang', 'Nguyễn Văn Đang', 'Nguyễn Văn Đàn', 'Nguyễn Văn Đàng', 'Nguyễn Văn Đảnh']
@@ -1606,39 +1633,50 @@ class Vietnamese
 	}
 
 	/**
-	 * Binary safe case-insensitive string comparison.
-	 * Internal use for static::sortWord().
-	 *
-	 * @param string $a	First string.
-	 * @param string $b	Second string.
-	 * @return int Returns: < 0 if $a < $b; > 0 if $a > $b; 0 if $a == $b.
-	 */
-	private static function cmp(string $a, string $b): int
-	{
-		$a = str_replace(array_keys(static::$data['sort_index']), array_values(static::$data['sort_index']), $a);
-		$b = str_replace(array_keys(static::$data['sort_index']), array_values(static::$data['sort_index']), $b);
-
-		return strcasecmp($a, $b);
-	}
-
-	/**
 	 * Sorting Vietnamese words.
 	 *
-	 * @param bool $sort_keys Sorting by array keys (true) or array values (false).
+	 * This method has 2 modes:
+	 *	(1) Sorting by values in a simple array:
+	 *		Vietnamese::sortWord(['a', 'b', 'c']);
+	 *	(2) Sorting by one or more keys in a two-dimensional array, with the first key in Vietnamese:
+	 *		Vietnamese::sortWord($array, ['name', 'date'])
+	 *		-> Sorting by the Vietnamese name first, the date last.
 	 */
-	public static function sortWord(array $data = [], bool $sort_keys = false): array
+	public static function sortWord(array $data = [], array $keys = []): array
 	{
-		if ($data)
+		usort($data, function($a, $b) use ($keys)
 		{
-			if ($sort_keys)
+			if (!is_array($a))
 			{
-				uksort($data, [static::class, 'cmp']);
+				$a = str_replace(array_keys(static::$data['sort_index']), array_values(static::$data['sort_index']), $a);
+				$b = str_replace(array_keys(static::$data['sort_index']), array_values(static::$data['sort_index']), $b);
+
+				return $a <=> $b;
 			}
-			else
+
+			$result = 0;
+
+			if ($keys)
 			{
-				usort($data, [static::class, 'cmp']);
+				foreach ($keys as $i => $key)
+				{
+					if ($i == 0)
+					{
+						$a[$key] = str_replace(array_keys(static::$data['sort_index']), array_values(static::$data['sort_index']), $a[$key]);
+						$b[$key] = str_replace(array_keys(static::$data['sort_index']), array_values(static::$data['sort_index']), $b[$key]);
+					}
+
+					$result = $a[$key] <=> $b[$key];
+
+					if ($result !== 0)
+					{
+						break;
+					}
+				}
 			}
-		}
+
+			return $result;
+		});
 
 		return $data;
 	}
@@ -1668,7 +1706,7 @@ class Vietnamese
 			}
 
 			// Sorting
-			$names = static::sortWord($names, true);
+			$names = static::sortWord($names);
 
 			foreach ($names as $firstname => $rows)
 			{
