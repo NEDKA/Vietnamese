@@ -54,10 +54,39 @@ Result: `Thi tuổi Kỷ Tỵ`
 
 ---
 Sorting words:
+
+Sorting by values in a simple array:
 ```php
 Vietnamese::sortWord(['Ă', 'A', 'Â', 'À', 'Á'])
 ```
 Result: `['A', 'Á', 'À', 'Ă', 'Â']`
+
+Sorting a two-dimensional array by multiple keys in order:
+```php
+$array = [
+	['name' => 'Cần Thơ', 'valid_date' => '2004-01-01'],
+	['name' => 'Cà Mau', 'valid_date' => '1997-01-01'],
+	['name' => 'Cần Thơ', 'valid_date' => '1992-01-01']
+];
+$array = Vietnamese::sortWord($array, ['name', 'valid_date']);
+```
+Result:
+```php
+array:3 [
+	0 => array:2 [
+		'name' => 'Cà Mau'
+		'valid_date' => '1997-01-01'
+	]
+	1 => array:2 [
+		'name' => 'Cần Thơ'
+		'valid_date' => '1992-01-01'
+	]
+	2 => array:2 [
+		'name' => 'Cần Thơ'
+		'valid_date' => '2004-01-01'
+	]
+]
+```
 
 ---
 Sorting people names:
