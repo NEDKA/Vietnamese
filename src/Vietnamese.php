@@ -2,7 +2,7 @@
 /**
  * This file is part of the Vietnamese package.
  *
- * @version 1.0.11
+ * @version 1.0.12
  * @copyright (c) NEDKA. All rights reserved.
  * @license MIT License.
  */
@@ -44,22 +44,59 @@ namespace NEDKA\Vietnamese;
  *			------
  *			array:3 [
  *				0 => array:2 [
- *					'name' => 'Cà Mau'
- *					'valid_date' => '1997-01-01'
+ *					"name" => "Cà Mau"
+ *					"valid_date" => "1997-01-01"
  *				]
  *				1 => array:2 [
- *					'name' => 'Cần Thơ'
- *					'valid_date' => '1992-01-01'
+ *					"name" => "Cần Thơ"
+ *					"valid_date" => "1992-01-01"
  *				]
  *				2 => array:2 [
- *					'name' => 'Cần Thơ'
- *					'valid_date' => '2004-01-01'
+ *					"name" => "Cần Thơ"
+ *					"valid_date" => "2004-01-01"
  *				]
  *			]
  *			------
  *	Sorting people names:
- *		Vietnamese::sortPeopleName(['Nguyễn Văn Đảnh', 'Nguyễn VĂN Đàn', 'nguYỄn Văn Đàng', 'NGUYỄN Văn Đang', 'nguyễn anh đang'])
- *		['Nguyễn Anh Đang', 'Nguyễn Văn Đang', 'Nguyễn Văn Đàn', 'Nguyễn Văn Đàng', 'Nguyễn Văn Đảnh']
+ *		Sorting by values in a simple array:
+ *			Vietnamese::sortPeopleName(['Nguyễn Văn Đảnh', 'Nguyễn VĂN Đàn', 'nguYỄn Văn Đàng', 'NGUYỄN Văn Đang', 'nguyễn anh đang'])
+ *			['Nguyễn Anh Đang', 'Nguyễn Văn Đang', 'Nguyễn Văn Đàn', 'Nguyễn Văn Đàng', 'Nguyễn Văn Đảnh']
+ *		Sorting a two-dimensional array by multiple keys in order:
+ *			------
+ *			$array = [
+ *				['name' => 'Nguyễn Văn Đảnh', 'birth_date' => '1999-01-30'],
+ *				['name' => 'Nguyễn VĂN Đàn', 'birth_date' => '1996-01-30'],
+ *				['name' => 'Nguyễn Văn Đảnh', 'birth_date' => '1997-01-30'],
+ *				['name' => 'NGUYỄN Văn Đang', 'birth_date' => '1995-01-30'],
+ *				['name' => 'Nguyễn VĂN Đàn', 'birth_date' => '1994-01-30']
+ *			];
+ *			$array = Vietnamese::sortPeopleName($array, ['name', 'birth_date'])
+ *			------
+ *			Result:
+ *			------
+ *			array:5 [
+ *				0 => array:2 [
+ *					"name" => "Nguyễn Văn Đang"
+ *					"birth_date" => "1995-01-30"
+ *				]
+ *				1 => array:2 [
+ *					"name" => "Nguyễn Văn Đàn"
+ *					"birth_date" => "1994-01-30"
+ *				]
+ *				2 => array:2 [
+ *					"name" => "Nguyễn Văn Đàn"
+ *					"birth_date" => "1996-01-30"
+ *				]
+ *				3 => array:2 [
+ *					"name" => "Nguyễn Văn Đảnh"
+ *					"birth_date" => "1997-01-30"
+ *				]
+ *				4 => array:2 [
+ *					"name" => "Nguyễn Văn Đảnh"
+ *					"birth_date" => "1999-01-30"
+ *				]
+ *			]
+ *			------
  *	Check a character in the Vietnamese alphabet:
  *		Vietnamese::checkChar('w')
  *		false
@@ -1640,7 +1677,7 @@ class Vietnamese
 	 *		Vietnamese::sortWord(['a', 'b', 'c']);
 	 *	(2) Sorting by one or more keys in a two-dimensional array:
 	 *		Vietnamese::sortWord($array, ['name', 'date'])
-	 *		-> Sorting by the Vietnamese name first, the date last.
+	 *		-> Sorting by the name first, the date last.
 	 */
 	public static function sortWord(array $data = [], array $keys = []): array
 	{
@@ -1680,41 +1717,80 @@ class Vietnamese
 	/**
 	 * Sorting Vietnamese people names.
 	 *
+	 * If the first name and the last name in 2 different keys, use the `Vietnamese::sortWord()` instead.
+	 *	Vietnamese::sortWord($array, ['first_name', 'last_name'])
+	 * Use this method if both of fields are within a combined string = [last_name] + [first_name].
+	 *
 	 * Sorting order:
 	 *	(1) First name.
-	 *	(2) Last name: surname + middle name.
+	 *	(2) Last name.
+	 *	(3) Other keys in order.
+	 *
+	 * This method has 2 modes:
+	 *	(1) Sorting by values in a simple array:
+	 *		Vietnamese::sortPeopleName(['Nguyễn Văn A', 'Nguyễn Văn B', 'Nguyễn Văn C']);
+	 *	(2) Sorting by one or more keys in a two-dimensional array, with the first key is the people name:
+	 *		Vietnamese::sortPeopleName($array, ['name', 'birth_date'])
+	 *		-> Sorting by the name first, the birthdate last.
 	 */
-	public static function sortPeopleName(array $data = []): array
+	public static function sortPeopleName(array $data = [], array $keys = []): array
 	{
 		$new_names = [];
+		$first_name_key = uniqid() . '_first_name';
+		$last_name_key = uniqid() . '_last_name';
 
 		if ($data)
 		{
-			$names = [];
-
-			foreach ($data as $name)
+			if (is_array(current($data)) && $keys)
 			{
-				$name = static::formatName($name);
-				$name_ary = explode(' ', $name);
-				$firstname = array_pop($name_ary);
-				$lastname = implode(' ', $name_ary);
-				$names[$firstname][] = $lastname;
-			}
+				$name_key = array_shift($keys);
 
-			// Sorting
-			$names = static::sortWord($names);
-
-			foreach ($names as $firstname => $rows)
-			{
-				$names[$firstname] = static::sortWord($rows);
-			}
-
-			// Return the name list
-			foreach ($names as $firstname => $rows)
-			{
-				foreach ($rows as $lastname)
+				foreach ($data as &$row)
 				{
-					$new_names[] = trim("$lastname $firstname");
+					$name = static::formatName($row[$name_key]);
+					$row[$name_key] = $name;
+					$name_ary = explode(' ', $name);
+					$row[$first_name_key] = array_pop($name_ary);
+					$row[$last_name_key] = implode(' ', $name_ary);
+				}
+
+				if ($keys)
+				{
+					$new_names = static::sortWord($data, array_merge([$first_name_key, $last_name_key], $keys));
+				}
+				else
+				{
+					$new_names = static::sortWord($data, [$first_name_key, $last_name_key]);
+				}
+
+				// Remove temporary keys
+				foreach ($new_names as &$new_name)
+				{
+					unset($new_name[$first_name_key]);
+					unset($new_name[$last_name_key]);
+				}
+			}
+			else
+			{
+				$tmp = [];
+
+				foreach ($data as $name)
+				{
+					$name = static::formatName($name);
+					$name_ary = explode(' ', $name);
+					$first_name = array_pop($name_ary);
+					$last_name = implode(' ', $name_ary);
+					$tmp[] = [
+						'first_name' => $first_name,
+						'last_name' => $last_name
+					];
+				}
+
+				$tmp = static::sortWord($tmp, ['first_name', 'last_name']);
+
+				foreach ($tmp as $row)
+				{
+					$new_names[] = trim($row['last_name']  . ' ' . $row['first_name']);
 				}
 			}
 		}
