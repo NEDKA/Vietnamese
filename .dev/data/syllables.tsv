@@ -1,4 +1,4 @@
-v0.9.0	NULL	b	c	ch	d	đ	g	gh	gi	h	k	kh	l	m	n	ng	ngh	nh	p	ph	qu	r	s	t	th	tr	v	x
+v0.10.0	NULL	b	c	ch	d	đ	g	gh	gi	h	k	kh	l	m	n	ng	ngh	nh	p	ph	qu	r	s	t	th	tr	v	x
 a	a	ba	ca	cha	da	đa	sân ga	X	gia đình	ha ha	X	kha khá	la bàn	ma	na	nga	X	nha	pa tê	pha lê	qua	ra	sa	ta	tha	tra	va	xa
 à	à	bà	cà	chà	dà	đà	con gà	X	già cả	hà mã	X	cười khà	thì là	mà	nà	ngà	X	nhà	X	bến phà	quà	rà	sà	tà	thà	trà	và	xà
 ả	ả	bả	cả	chả	dả	đả	gả chồng	X	đồ giả	vậy hả	X	khả năng	lả người	mả	nả	ngả	X	nhả	X	gia phả	quả	rả	sả	tả	thả	trả	vả	xả
@@ -169,9 +169,9 @@ ay	ay	bay	cay	chay	day	đay	gay go	X	X	hay ho	X	khay trà	lay động	may	nay	ng
 ậm	ậm	bậm	cậm	chậm	dậm	đậm	X	X	giậm chân	hậm hực	X	X	lậm thuốc	mậm	nậm	ngậm	X	nhậm	X	X	quậm	rậm	sậm	tậm	thậm	trậm	vậm	xậm
 ân	ân	bân	cân	chân	dân	đân	bong gân	X	X	hân hoan	X	lần khân	lân cận	mân	nân	ngân	X	nhân	X	phân bón	quân	rân	sân	tân	thân	trân	vân	xân
 ần	ần	bần	cần	lần chần	dần	đần	gần gũi	X	giần gạo	X	X	X	nhiều lần	mần	nần	ngần	X	nhần	X	thành phần	quần	rần	sần	tần	thần	trần	vần	xần
-ẩn	ẩn	bẩn	cẩn	chẩn	dẩn	đẩn	X	X	X	X	X	khẩn cấp	lẩn khuất	lẩn mẩn	nẩn	ngẩn	X	nhẩn	X	X	quẩn	rẩn	sẩn	tẩn	lẩn thẩn	trẩn	vẩn	xẩn
+ẩn	ẩn	bẩn	cẩn	chẩn	dẩn	đẩn	X	X	X	X	X	khẩn cấp	lẩn khuất	lẩn mẩn	nẩn	ngẩn	X	nhẩn	X	X	luẩn quẩn	rẩn	sẩn	tẩn	lẩn thẩn	trẩn	vẩn	xẩn
 ẫn	ẫn	bẫn	lẫn cẫn	chẫn	dẫn	đẫn	X	X	X	X	X	X	lẫn lộn	mẫn	nẫn	ngẫn	X	nhẫn	X	phẫn nộ	quẫn	rẫn	sẫn	tẫn	thẫn	trẫn	vẫn	xẫn
-ấn	ấn	lấn bấn	lấn cấn	chấn	dấn	đấn	X	X	X	gây hấn	X	khấn khứa	lấn chiếm	mấn	nấn	ngấn	X	nhấn	X	phấn đấu	quấn	rấn	sấn	tấn	thấn	trấn	vấn	xấn
+ấn	ấn	lấn bấn	lấn cấn	chấn	dấn	đấn	X	X	X	gây hấn	X	khấn khứa	lấn chiếm	mấn	nấn	ngấn	X	nhấn	X	phấn đấu	luấn quấn	rấn	sấn	tấn	thấn	trấn	vấn	xấn
 ận	ận	bận	cận	chận	dận	lận đận	X	X	giận dữ	hận thù	X	X	lận đận	mận	nận	ngận	X	nhận	X	số phận	quận	rận	sận	tận	thận	trận	vận	xận
 âp	âp	bâp	câp	châp	dâp	đâp	X	X	X	X	X	X	X	mâp	nâp	ngâp	X	nhâp	X	X	quâp	râp	sâp	tâp	thâp	trâp	vâp	xâp
 ầp	ầp	bầp	cầp	chầp	dầp	đầp	X	X	X	X	X	X	X	mầp	nầp	ngầp	X	nhầp	X	X	quầp	rầp	sầp	tầp	thầp	trầp	vầp	xầp
@@ -214,13 +214,13 @@ en	en	ben	cen	chen	den	đen	X	ghén tuông	X	ho hen	đông ken	khen thưởng	cu
 ẻn	ẻn	bẻn	cẻn	chẻn	dẻn	đẻn	X	X	X	hỏn hẻn	X	X	lẻn vào	mẻn	nẻn	ngẻn	X	nhẻn	X	X	quẻn	rẻn	sẻn	tẻn	thẻn	trẻn	vẻn	xẻn
 ẽn	ẽn	bẽn lẽn	cẽn	chẽn	dẽn	đẽn	X	X	X	X	X	X	bẽn lẽn	mẽn	nẽn	ngẽn	nghẽn cống	nhẽn	X	X	quẽn	rẽn	sẽn	tẽn	thẽn	trẽn	vẽn	xẽn
 én	én	bén	cén	chén	dén	đén	X	X	X	ừ hén	kén chọn	thóc khén	lén lút	mén	nén	ngén	ốm nghén	nhén	X	X	quén	rén	sén	tén	thén	trén	vén	xén
-ẹn	ẹn	bẹn	cẹn	chẹn	dẹn	đẹn	X	X	X	hẹn hò	X	X	X	mẹn	nẹn	ngẹn	nghèn nghẹn	nhẹn	X	X	quẹn	rẹn	sẹn	tẹn	thẹn	trẹn	vẹn	xẹn
+ẹn	ẹn	bẹn	cẹn	chẹn	dẹn	đẹn	X	X	X	hẹn hò	X	X	lanh lẹn	mẹn	nẹn	ngẹn	nghèn nghẹn	nhẹn	X	X	quẹn	rẹn	sẹn	tẹn	thẹn	trẹn	vẹn	xẹn
 eo	eo	beo	ceo	cheo	deo	đeo	X	X	gieo mạ	heo hút	keo kiệt	cà kheo	leo trèo	meo	neo	ngeo	X	nheo	X	X	lăn queo	reo	seo	teo	theo	treo	veo	xeo
 èo	èo	bèo	cèo	chèo	dèo	đèo	X	X	X	cây hèo	cá kèo	X	lèo nhèo	mèo	kèo nèo	ngèo	nghèo khổ	lèo nhèo	X	phèo lợn	quèo	rèo	sèo	tèo	thèo	trèo	vèo	xèo
 ẻo	ẻo	bẻo	cẻo	chẻo	dẻo	đẻo	X	X	X	hẻo lánh	kẻo mà	X	leo lẻo	mẻo	nẻo	ngẻo	X	nhẻo	X	X	quẻo	rẻo	sẻo	tẻo	thẻo	trẻo	vẻo	xẻo
 ẽo	ẽo	bẽo	cẽo	chẽo	dẽo	lẽo đẽo	X	X	X	X	kẽo kẹt	X	lẽo đẽo	mẽo	nẽo	ngẽo	ngặt nghẽo	nhẽo	X	X	quẽo	rẽo	sẽo	tẽo	thẽo	trẽo	vẽo	xẽo
 éo	éo	béo	céo	chéo	déo	đéo	X	X	X	héo hon	kéo co	khéo léo	léo hánh	méo	néo	ngéo	X	léo nhéo	X	X	quéo	réo	séo	téo	théo	tréo	véo	léo xéo
-ẹo	ẹo	bẹo	cẹo	chẹo	dẹo	đẹo	X	chọc ghẹo	giẹo giọ	X	viên kẹo	X	mắt mọc lẹo	mẹo	nẹo	ngẹo	X	nhẹo	X	X	quẹo	rẹo	sẹo	tẹo	thẹo	trẹo	vẹo	xẹo
+ẹo	ẹo	bẹo	cẹo	chẹo	dẹo	đẹo	X	chọc ghẹo	giẹo giọ	X	viên kẹo	X	lươn lẹo	mẹo	nẹo	ngẹo	X	nhẹo	X	X	quẹo	rẹo	sẹo	tẹo	thẹo	trẹo	vẹo	xẹo
 ep	ep	bep	cep	chep	dep	đep	X	X	X	X	X	X	X	mep	nep	ngep	X	nhep	X	X	quep	rep	sep	tep	thep	trep	vep	xep
 èp	èp	bèp	cèp	chèp	dèp	đèp	X	X	X	X	X	X	X	mèp	nèp	ngèp	X	nhèp	X	X	quèp	rèp	sèp	tèp	thèp	trèp	vèp	xèp
 ẻp	ẻp	bẻp	cẻp	chẻp	dẻp	đẻp	X	X	X	X	X	X	X	mẻp	nẻp	ngẻp	X	nhẻp	X	X	quẻp	rẻp	sẻp	tẻp	thẻp	trẻp	vẻp	xẻp
@@ -413,531 +413,531 @@ ot	ot	bot	cot	chot	dot	đot	X	X	X	X	X	X	X	mot	not	ngot	X	nhot	X	X	quot	rot	sot	t
 ỡp	ỡp	bỡp	cỡp	chỡp	dỡp	đỡp	X	X	X	X	X	X	X	mỡp	nỡp	ngỡp	X	nhỡp	X	X	quỡp	rỡp	sỡp	tỡp	thỡp	trỡp	vỡp	xỡp
 ớp	ớp	bớp	cớp	chớp	có dớp	đớp	X	X	X	hớp nước	X	trùng khớp	lớp học	mớp	nớp	ngớp	X	nhớp	X	X	quớp	rớp	sớp	tớp	thớp	trớp	vớp	xớp
 ợp	ợp	bợp	cợp	chợp	dợp	đợp	X	X	X	hợp nhau	X	X	lợp tôn	mợp	nợp	ngợp	X	nhợp	X	X	quợp	rợp	sợp	tợp	thợp	trợp	vợp	xợp
-ơt	ơt	bơt	cơt	chơt	dơt	đơt	X	X	X	X	X	X	lơt	mơt	nơt	ngơt	X	nhơt	X	X	quơt	rơt	sơt	tơt	thơt	trơt	vơt	xơt
-ờt	ờt	bờt	cờt	chờt	dờt	đờt	X	X	X	X	X	X	lờt	mờt	nờt	ngờt	X	nhờt	X	X	quờt	rờt	sờt	tờt	thờt	trờt	vờt	xờt
-ởt	ởt	bởt	cởt	chởt	dởt	đởt	X	X	X	X	X	X	lởt	mởt	nởt	ngởt	X	nhởt	X	X	quởt	rởt	sởt	tởt	thởt	trởt	vởt	xởt
-ỡt	ỡt	bỡt	cỡt	chỡt	dỡt	đỡt	X	X	X	X	X	X	lỡt	mỡt	nỡt	ngỡt	X	nhỡt	X	X	quỡt	rỡt	sỡt	tỡt	thỡt	trỡt	vỡt	xỡt
+ơt	ơt	bơt	cơt	chơt	dơt	đơt	X	X	X	X	X	X	X	mơt	nơt	ngơt	X	nhơt	X	X	quơt	rơt	sơt	tơt	thơt	trơt	vơt	xơt
+ờt	ờt	bờt	cờt	chờt	dờt	đờt	X	X	X	X	X	X	X	mờt	nờt	ngờt	X	nhờt	X	X	quờt	rờt	sờt	tờt	thờt	trờt	vờt	xờt
+ởt	ởt	bởt	cởt	chởt	dởt	đởt	X	X	X	X	X	X	X	mởt	nởt	ngởt	X	nhởt	X	X	quởt	rởt	sởt	tởt	thởt	trởt	vởt	xởt
+ỡt	ỡt	bỡt	cỡt	chỡt	dỡt	đỡt	X	X	X	X	X	X	X	mỡt	nỡt	ngỡt	X	nhỡt	X	X	quỡt	rỡt	sỡt	tỡt	thỡt	trỡt	vỡt	xỡt
 ớt	ớt	bớt	cớt	chớt	dớt	đớt	X	X	X	hớt tóc	X	X	lớt phớt	mớt	nớt	ngớt	X	nhớt	X	phơn phớt	quớt	rớt	sớt	tớt	thớt	trớt	vớt	xớt
-ợt	ợt	bợt	cợt	chợt	dợt	đợt	gợt váng	X	X	hời hợt	X	X	lợt	mợt	nợt	ngợt	X	nhợt	X	X	quợt	rợt	sợt	tợt	thợt	trợt	vợt	xợt
-ua	ua	phân bua	cua	chua	dua	đua	X	X	X	X	X	khua khoắng	lua	mua	nua	ngua	X	nhua	X	X	quua	rua	sua	tua	thua	trua	vua	xua
-ùa	ùa	bùa	cùa	chùa	dùa	đùa	X	X	X	hùa nhau	X	X	lùa	mùa	nùa	ngùa	X	nhùa	X	X	quùa	rùa	sùa	tùa	thùa	trùa	vùa	xùa
-ủa	ủa	bủa	của	chủa	dủa	đủa	X	X	X	X	X	X	lủa	mủa	nủa	ngủa	X	nhủa	X	X	quủa	rủa	sủa	tủa	thủa	trủa	vủa	xủa
-ũa	ũa	bũa	cũa	chũa	dũa	đũa	X	X	gọt giũa	X	X	X	lũa	mũa	nũa	ngũa	X	nhũa	X	X	quũa	rũa	sũa	tũa	thũa	trũa	vũa	xũa
-úa	héo úa	búa	cúa	chúa	dúa	đúa	X	X	X	X	X	X	lúa	múa	núa	ngúa	X	nhúa	X	X	quúa	rúa	súa	túa	thúa	trúa	vúa	xúa
-ụa	ụa	bụa	cụa	chụa	dụa	đụa	X	X	giãy giụa	X	X	X	lụa	mụa	nụa	ngụa	X	nhụa	X	X	quụa	rụa	sụa	tụa	thụa	trụa	vụa	xụa
-uc	uc	buc	cuc	chuc	duc	đuc	X	X	X	X	X	X	luc	muc	nuc	nguc	X	nhuc	X	X	quuc	ruc	suc	tuc	thuc	truc	vuc	xuc
-ùc	ùc	bùc	cùc	chùc	dùc	đùc	X	X	X	X	X	X	lùc	mùc	nùc	ngùc	X	nhùc	X	X	quùc	rùc	sùc	tùc	thùc	trùc	vùc	xùc
-ủc	ủc	bủc	củc	chủc	dủc	đủc	X	X	X	X	X	X	lủc	mủc	nủc	ngủc	X	nhủc	X	X	quủc	rủc	sủc	tủc	thủc	trủc	vủc	xủc
-ũc	ũc	bũc	cũc	chũc	dũc	đũc	X	X	X	X	X	X	lũc	mũc	nũc	ngũc	X	nhũc	X	X	quũc	rũc	sũc	tũc	thũc	trũc	vũc	xũc
-úc	úc	búc	cúc	chúc	dúc	đúc	X	X	X	húc đầu	X	khúc khuỷu	lúc	múc	núc	ngúc	X	nhúc	X	hạnh phúc	quúc	rúc	hàm súc	túc	thúc	trúc	vúc	xúc
-ục	ục	bục	cục	chục	dục	đục	gục gặc	X	thúc giục	hì hục	X	X	lục	mục	nục	ngục	X	nhục	X	bái phục	quục	rục	sục	tục	thục	trục	vục	xục
-uê	uê	buê	cuê	chuê	duê	đuê	X	X	X	X	X	khuê các	luê	muê	nuê	nguê	X	nhuê	X	X	quuê	ruê	suê	tuê	thuê	truê	vuê	xuê
-uề	uề	buề	cuề	chuề	duề	đuề	X	X	X	xử huề	X	X	luề	muề	nuề	nguề	X	nhuề	X	X	quuề	ruề	suề	tuề	thuề	truề	vuề	xuề
-uể	uể	buể	cuể	chuể	duể	đuể	X	X	X	X	X	X	luể	muể	nuể	nguể	X	nhuể	X	X	quuể	ruể	suể	tuể	thuể	truể	vuể	xuể
-uễ	uễ	buễ	cuễ	chuễ	duễ	đuễ	X	X	X	X	X	X	luễ	muễ	nuễ	nguễ	X	nhuễ	X	X	quuễ	ruễ	suễ	tuễ	thuễ	truễ	vuễ	xuễ
-uế	uế	buế	cuế	chuế	duế	đuế	X	X	X	X	X	X	luế	muế	nuế	nguế	X	nhuế	X	X	quuế	ruế	suế	tuế	thuế	truế	vuế	xuế
-uệ	uệ	buệ	cuệ	chuệ	duệ	đuệ	X	X	X	hoa huệ	X	X	luệ	muệ	nuệ	nguệ	X	nhuệ	X	X	quuệ	ruệ	suệ	tuệ	thuệ	truệ	vuệ	xuệ
-ui	ui	bui	cui	chui	dui	đui	X	X	X	X	X	khui rượu	lui	mui	nui	ngui	X	nhui	X	phanh phui	quui	rui	sui	tui	thui	trui	vui	xui
-ùi	ùi	bùi	cùi	chùi	dùi	đùi	gùi hàng	X	X	hùi hụi	X	X	lùi	mùi	nùi	ngùi	X	nhùi	X	X	quùi	rùi	sùi	tùi	thùi	trùi	vùi	xùi
-ủi	ủi	bủi	củi	chủi	dủi	đủi	X	X	X	hắt hủi	X	X	lủi	mủi	nủi	ngủi	X	nhủi	X	phủi tay	quủi	rủi	sủi	tủi	thủi	trủi	vủi	xủi
+ợt	ợt	bợt	cợt	chợt	dợt	đợt	gợt váng	X	X	hời hợt	X	X	lợt lạt	mợt	nợt	ngợt	X	nhợt	X	X	quợt	rợt	sợt	tợt	thợt	trợt	vợt	xợt
+ua	ua	phân bua	cua	chua	dua	đua	X	X	X	X	X	khua khoắng	lua bát cơm	mua	nua	ngua	X	nhua	X	X	quua	rua	sua	tua	thua	trua	vua	xua
+ùa	ùa	bùa	cùa	chùa	dùa	đùa	X	X	X	hùa nhau	X	X	lùa vịt	mùa	nùa	ngùa	X	nhùa	X	X	quùa	rùa	sùa	tùa	thùa	trùa	vùa	xùa
+ủa	ủa	bủa	của	chủa	dủa	đủa	X	X	X	X	X	X	X	mủa	nủa	ngủa	X	nhủa	X	X	quủa	rủa	sủa	tủa	thủa	trủa	vủa	xủa
+ũa	ũa	bũa	cũa	chũa	dũa	đũa	X	X	gọt giũa	X	X	X	chín lũa	mũa	nũa	ngũa	X	nhũa	X	X	quũa	rũa	sũa	tũa	thũa	trũa	vũa	xũa
+úa	héo úa	búa	cúa	chúa	dúa	đúa	X	X	X	X	X	X	cây lúa	múa	núa	ngúa	X	nhúa	X	X	quúa	rúa	súa	túa	thúa	trúa	vúa	xúa
+ụa	ụa	bụa	cụa	chụa	dụa	đụa	X	X	giãy giụa	X	X	X	vải lụa	mụa	nụa	ngụa	X	nhụa	X	X	quụa	rụa	sụa	tụa	thụa	trụa	vụa	xụa
+uc	uc	buc	cuc	chuc	duc	đuc	X	X	X	X	X	X	X	muc	nuc	nguc	X	nhuc	X	X	quuc	ruc	suc	tuc	thuc	truc	vuc	xuc
+ùc	ùc	bùc	cùc	chùc	dùc	đùc	X	X	X	X	X	X	X	mùc	nùc	ngùc	X	nhùc	X	X	quùc	rùc	sùc	tùc	thùc	trùc	vùc	xùc
+ủc	ủc	bủc	củc	chủc	dủc	đủc	X	X	X	X	X	X	X	mủc	nủc	ngủc	X	nhủc	X	X	quủc	rủc	sủc	tủc	thủc	trủc	vủc	xủc
+ũc	ũc	bũc	cũc	chũc	dũc	đũc	X	X	X	X	X	X	X	mũc	nũc	ngũc	X	nhũc	X	X	quũc	rũc	sũc	tũc	thũc	trũc	vũc	xũc
+úc	úc	búc	cúc	chúc	dúc	đúc	X	X	X	húc đầu	X	khúc khuỷu	lúc nhúc	múc	núc	ngúc	X	lúc nhúc	X	hạnh phúc	quúc	rúc	hàm súc	túc	thúc	trúc	vúc	xúc
+ục	ục	bục	cục	chục	dục	đục	gục gặc	X	thúc giục	hì hục	X	X	lục lọi	mục	nục	ngục	X	nhục	X	bái phục	quục	rục	sục	tục	thục	trục	vục	xục
+uê	uê	buê	cuê	chuê	duê	đuê	X	X	X	X	X	khuê các	X	muê	nuê	nguê	X	nhuê	X	X	quuê	ruê	suê	tuê	thuê	truê	vuê	xuê
+uề	uề	buề	cuề	chuề	duề	đuề	X	X	X	xử huề	X	X	X	muề	nuề	nguề	X	nhuề	X	X	quuề	ruề	suề	tuề	thuề	truề	vuề	xuề
+uể	uể	buể	cuể	chuể	duể	đuể	X	X	X	X	X	X	X	muể	nuể	nguể	X	nhuể	X	X	quuể	ruể	suể	tuể	thuể	truể	vuể	xuể
+uễ	uễ	buễ	cuễ	chuễ	duễ	đuễ	X	X	X	X	X	X	X	muễ	nuễ	nguễ	X	nhuễ	X	X	quuễ	ruễ	suễ	tuễ	thuễ	truễ	vuễ	xuễ
+uế	uế	buế	cuế	chuế	duế	đuế	X	X	X	X	X	X	X	muế	nuế	nguế	X	nhuế	X	X	quuế	ruế	suế	tuế	thuế	truế	vuế	xuế
+uệ	uệ	buệ	cuệ	chuệ	duệ	đuệ	X	X	X	hoa huệ	X	X	X	muệ	nuệ	nguệ	X	nhuệ	X	X	quuệ	ruệ	suệ	tuệ	thuệ	truệ	vuệ	xuệ
+ui	ui	bui	lui cui	chui	dui	đui	X	X	X	X	X	khui rượu	lui cui	mui	nui	ngui	X	nhui	X	phanh phui	quui	rui	sui	tui	thui	trui	vui	xui
+ùi	ùi	bùi	cùi	chùi	dùi	đùi	gùi hàng	X	X	hùi hụi	X	X	lùi lại	mùi	nùi	ngùi	X	nhùi	X	X	quùi	rùi	sùi	tùi	thùi	trùi	vùi	lúi xùi
+ủi	ủi	bủi	củi	chủi	dủi	đủi	X	X	X	hắt hủi	X	X	lui lủi	mủi	nủi	ngủi	X	nhủi	X	phủi tay	quủi	rủi	sủi	tủi	thủi	trủi	vủi	xủi
 ũi	ũi	bũi	cũi	chũi	dũi	đũi	gần gũi	X	X	X	X	X	lầm lũi	mũi	nũi	ngũi	X	nhũi	X	X	quũi	rũi	sũi	tũi	thũi	trũi	vũi	xũi
-úi	úi	búi	cúi	chúi	dúi	đúi	X	X	giấm giúi	húi trọc	X	X	lúi	múi	núi	ngúi	X	nhúi	X	X	quúi	rúi	súi	túi	thúi	trúi	vúi	xúi
-ụi	ụi	bụi	cụi	chụi	dụi	đụi	X	X	X	hì hụi	X	X	lụi	mụi	nụi	ngụi	X	nhụi	X	X	quụi	rụi	sụi	tụi	thụi	trụi	vụi	xụi
-um	um	bum	cum	chum	dum	đum	X	X	X	hum húp	X	khum tay	lum	mum	num	ngum	X	nhum	X	X	quum	rum	sum	tum	thum	trum	vum	xum
-ùm	ùm	bùm	gông cùm	chùm	dùm	đùm	X	X	làm giùm	tôm hùm	X	X	lùm	mùm	nùm	ngùm	X	nhùm	X	X	quùm	rùm	sùm	tùm	thùm	trùm	vùm	xùm
-ủm	ủm	bủm	củm	chủm	dủm	đủm	X	X	X	X	X	X	lủm	mủm	nủm	ngủm	X	nhủm	X	X	quủm	rủm	sủm	tủm	thủm	trủm	vủm	xủm
-ũm	ũm	bũm	cũm	chũm	dũm	đũm	X	X	X	X	X	X	lũm	mũm	nũm	ngũm	X	nhũm	X	X	quũm	rũm	sũm	tũm	thũm	trũm	vũm	xũm
-úm	úm	búm	cúm	chúm	dúm	đúm	X	X	X	mừng húm	X	khúm núm	lúm	múm	núm	ngúm	X	nhúm	X	X	quúm	rúm	súm	túm	thúm	trúm	vúm	xúm
-ụm	ụm	bụm	cụm	chụm	dụm	đụm	X	X	X	X	X	X	lụm	mụm	nụm	ngụm	X	nhụm	X	X	quụm	rụm	sụm	tụm	thụm	trụm	vụm	xụm
-un	un	bun	cun	chun	dun	đun	X	X	con giun	hun hút	X	X	lun	mun	nun	ngun	X	nhun	X	phun nước	quun	run	sun	tun	thun	trun	vun	xun
-ùn	ùn	bùn	cùn	chùn	dùn	đùn	X	X	X	hùn hạp	X	X	lùn	mùn	nùn	ngùn	X	nhùn	X	phùn phụt	quùn	rùn	sùn	tùn	thùn	trùn	vùn	xùn
-ủn	ủn	bủn	củn	chủn	dủn	đủn	X	X	X	hủn hoẳn	X	X	lủn	mủn	nủn	ngủn	X	nhủn	X	X	quủn	rủn	sủn	tủn	thủn	trủn	vủn	xủn
-ũn	ũn	bũn	cũn	chũn	dũn	đũn	X	X	X	X	X	X	lũn	mũn	nũn	ngũn	X	nhũn	X	X	quũn	rũn	sũn	tũn	thũn	trũn	vũn	xũn
-ún	ún	bún	cún	chún	dún	đún	X	X	X	X	X	X	lún	mún	nún	ngún	X	nhún	X	lún phún	quún	rún	sún	tún	thún	trún	vún	xún
-ụn	ụn	bụn	cụn	chụn	dụn	đụn	X	X	X	X	X	X	lụn	mụn	nụn	ngụn	X	nhụn	X	X	quụn	rụn	sụn	tụn	thụn	trụn	vụn	xụn
-up	up	bup	cup	chup	dup	đup	X	X	X	X	X	X	lup	mup	nup	ngup	X	nhup	X	X	quup	rup	sup	tup	thup	trup	vup	xup
-ùp	ùp	bùp	cùp	chùp	dùp	đùp	X	X	X	X	X	X	lùp	mùp	nùp	ngùp	X	nhùp	X	X	quùp	rùp	sùp	tùp	thùp	trùp	vùp	xùp
-ủp	ủp	bủp	củp	chủp	dủp	đủp	X	X	X	X	X	X	lủp	mủp	nủp	ngủp	X	nhủp	X	X	quủp	rủp	sủp	tủp	thủp	trủp	vủp	xủp
-ũp	ũp	bũp	cũp	chũp	dũp	đũp	X	X	X	X	X	X	lũp	mũp	nũp	ngũp	X	nhũp	X	X	quũp	rũp	sũp	tũp	thũp	trũp	vũp	xũp
-úp	úp	búp	cúp	chúp	dúp	đúp	X	X	giúp đỡ	húp cháo	X	X	lúp	múp	núp	ngúp	X	nhúp	X	X	quúp	rúp	súp	túp	thúp	trúp	vúp	xúp
-ụp	ụp	bụp	cụp	chụp	dụp	đụp	X	X	X	hụp lặn	X	X	lụp	mụp	nụp	lặn ngụp	X	nhụp	X	X	quụp	rụp	sụp	tụp	thụp	trụp	vụp	xụp
-uơ	uơ	buơ	cuơ	chuơ	duơ	đuơ	X	X	X	huơ tay	X	X	luơ	muơ	nuơ	nguơ	X	nhuơ	X	X	quuơ	ruơ	suơ	tuơ	thuơ	truơ	vuơ	xuơ
-uờ	uờ	buờ	cuờ	chuờ	duờ	đuờ	X	X	X	X	X	X	luờ	muờ	nuờ	nguờ	X	nhuờ	X	X	quuờ	ruờ	suờ	tuờ	thuờ	truờ	vuờ	xuờ
-uở	uở	buở	cuở	chuở	duở	đuở	X	X	X	X	X	X	luở	muở	nuở	nguở	X	nhuở	X	X	quuở	ruở	suở	tuở	thuở	truở	vuở	xuở
-uỡ	uỡ	buỡ	cuỡ	chuỡ	duỡ	đuỡ	X	X	X	X	X	X	luỡ	muỡ	nuỡ	nguỡ	X	nhuỡ	X	X	quuỡ	ruỡ	suỡ	tuỡ	thuỡ	truỡ	vuỡ	xuỡ
-uớ	uớ	buớ	cuớ	chuớ	duớ	đuớ	X	X	X	X	X	X	luớ	muớ	nuớ	nguớ	X	nhuớ	X	X	quuớ	ruớ	suớ	tuớ	thuớ	truớ	vuớ	xuớ
-uợ	uợ	buợ	cuợ	chuợ	duợ	đuợ	X	X	X	X	X	X	luợ	muợ	nuợ	nguợ	X	nhuợ	X	X	quuợ	ruợ	suợ	tuợ	thuợ	truợ	vuợ	xuợ
-ut	ut	but	cut	chut	dut	đut	X	X	X	X	X	X	lut	mut	nut	ngut	X	nhut	X	X	quut	rut	sut	tut	thut	trut	vut	xut
-ùt	ùt	bùt	cùt	chùt	dùt	đùt	X	X	X	X	X	X	lùt	mùt	nùt	ngùt	X	nhùt	X	X	quùt	rùt	sùt	tùt	thùt	trùt	vùt	xùt
-ủt	ủt	bủt	củt	chủt	dủt	đủt	X	X	X	X	X	X	lủt	mủt	nủt	ngủt	X	nhủt	X	X	quủt	rủt	sủt	tủt	thủt	trủt	vủt	xủt
-ũt	ũt	bũt	cũt	chũt	dũt	đũt	X	X	X	X	X	X	lũt	mũt	nũt	ngũt	X	nhũt	X	X	quũt	rũt	sũt	tũt	thũt	trũt	vũt	xũt
-út	út	bút	cút	chút	dút	đút	thắt gút	X	X	hút máu	X	X	lút	mút	nút	ngút	X	nhút	X	phút giây	quút	rút	sút	tút	thút	trút	vút	xút
-ụt	ụt	bụt	cụt	chụt	dụt	đụt	X	X	X	hụt hẫng	X	X	lụt	mụt	nụt	ngụt	X	nhụt	X	phùn phụt	quụt	rụt	sụt	tụt	thụt	trụt	vụt	xụt
-uy	uy	buy	cuy	chuy	duy	đuy	X	X	X	huy chương	X	X	luy	muy	nuy	nguy	X	nhuy	X	X	quuy	ruy	suy	tuy	thuy	truy	vuy	xuy
-ùy	ùy	bùy	cùy	chùy	dùy	đùy	X	X	X	X	X	X	lùy	mùy	nùy	ngùy	X	nhùy	X	X	quùy	rùy	sùy	tùy	thùy	trùy	vùy	xùy
-ủy	ủy	bủy	củy	chủy	dủy	đủy	X	X	X	phá hủy	X	X	lủy	mủy	nủy	ngủy	X	nhủy	X	X	quủy	rủy	sủy	tủy	thủy	trủy	vủy	xủy
-ũy	ũy	bũy	cũy	chũy	dũy	đũy	X	X	X	X	X	X	lũy	mũy	nũy	ngũy	X	nhũy	X	X	quũy	rũy	sũy	tũy	thũy	trũy	vũy	xũy
-úy	úy	búy	cúy	chúy	dúy	đúy	X	X	X	phạm húy	X	X	lúy	múy	núy	ngúy	X	nhúy	X	X	quúy	rúy	súy	túy	thúy	trúy	vúy	xúy
-ụy	ụy	bụy	cụy	chụy	dụy	đụy	X	X	X	X	X	X	lụy	mụy	nụy	ngụy	X	nhụy	X	X	quụy	rụy	sụy	tụy	thụy	trụy	vụy	xụy
-ưa	ưa	bưa	cưa	chưa	dưa	đưa	X	X	X	X	X	X	lưa	mưa	nưa	ngưa	X	nhưa	X	X	quưa	rưa	sưa	tưa	thưa	trưa	vưa	xưa
-ừa	ừa	bừa	cừa	chừa	dừa	đừa	X	X	X	X	X	X	lừa	mừa	nừa	ngừa	X	nhừa	X	X	quừa	rừa	sừa	từa	thừa	trừa	vừa	xừa
-ửa	ửa	bửa	cửa	chửa	dửa	đửa	X	X	X	X	X	X	lửa	mửa	nửa	ngửa	X	nhửa	X	X	quửa	rửa	sửa	tửa	thửa	trửa	vửa	xửa
+úi	úi	búi	cúi	chúi	dúi	đúi	X	X	giấm giúi	húi trọc	X	X	lúi húi	múi	núi	ngúi	X	nhúi	X	X	quúi	rúi	súi	túi	thúi	trúi	vúi	xúi
+ụi	ụi	bụi	cụi	chụi	dụi	đụi	X	X	X	hì hụi	X	X	lụi tàn	mụi	nụi	ngụi	X	nhụi	X	X	quụi	rụi	sụi	tụi	thụi	trụi	vụi	xụi
+um	um	bum	cum	chum	dum	đum	X	X	X	hum húp	X	khum tay	lum khum	mum	num	ngum	X	nhum	X	X	quum	rum	sum	tum	thum	trum	vum	xum
+ùm	ùm	bùm	gông cùm	chùm	dùm	đùm	X	X	làm giùm	tôm hùm	X	X	lùm cây	mùm	nùm	ngùm	X	nhùm	X	X	quùm	rùm	sùm	tùm	thùm	trùm	vùm	xùm
+ủm	ủm	bủm	củm	chủm	dủm	đủm	X	X	X	X	X	X	bốc lủm	mủm	nủm	ngủm	X	nhủm	X	X	quủm	rủm	sủm	tủm	thủm	trủm	vủm	xủm
+ũm	ũm	bũm	cũm	chũm	dũm	đũm	X	X	X	X	X	X	lũm đá	mũm	nũm	ngũm	X	nhũm	X	X	quũm	rũm	sũm	tũm	thũm	trũm	vũm	xũm
+úm	úm	búm	cúm	chúm	dúm	đúm	X	X	X	mừng húm	X	khúm núm	lúm đồng tiền	múm	núm	ngúm	X	nhúm	X	X	quúm	rúm	súm	túm	thúm	trúm	vúm	xúm
+ụm	ụm	bụm	lụm cụm	chụm	dụm	đụm	X	X	X	X	X	X	lụm cụm	mụm	nụm	ngụm	X	nhụm	X	X	quụm	rụm	sụm	tụm	thụm	trụm	vụm	xụm
+un	un	bun	cun	chun	dun	đun	X	X	con giun	hun hút	X	X	X	mun	nun	ngun	X	nhun	X	phun nước	quun	run	sun	tun	thun	trun	vun	xun
+ùn	ùn	bùn	cùn	chùn	dùn	đùn	X	X	X	hùn hạp	X	X	lùn tịt	mùn	nùn	ngùn	X	nhùn	X	phùn phụt	quùn	rùn	sùn	tùn	thùn	trùn	vùn	xùn
+ủn	ủn	bủn	lủn củn	chủn	dủn	đủn	X	X	X	hủn hoẳn	X	X	lủn củn	lủn mủn	nủn	ngủn	X	nhủn	X	X	quủn	rủn	sủn	tủn	thủn	trủn	vủn	xủn
+ũn	ũn	bũn	cũn	lũn chũn	dũn	đũn	X	X	X	X	X	X	lũn chũn	mũn	nũn	ngũn	X	nhũn	X	X	quũn	rũn	sũn	tũn	thũn	trũn	vũn	xũn
+ún	ún	bún	cún	chún	dún	đún	X	X	X	X	X	X	sụt lún	mún	nún	ngún	X	nhún	X	lún phún	quún	rún	sún	tún	thún	trún	vún	xún
+ụn	ụn	bụn	cụn	chụn	dụn	đụn	X	X	X	X	X	X	lụn bại	mụn	nụn	ngụn	X	nhụn	X	X	quụn	rụn	sụn	tụn	thụn	trụn	vụn	xụn
+up	up	bup	cup	chup	dup	đup	X	X	X	X	X	X	X	mup	nup	ngup	X	nhup	X	X	quup	rup	sup	tup	thup	trup	vup	xup
+ùp	ùp	bùp	cùp	chùp	dùp	đùp	X	X	X	X	X	X	X	mùp	nùp	ngùp	X	nhùp	X	X	quùp	rùp	sùp	tùp	thùp	trùp	vùp	xùp
+ủp	ủp	bủp	củp	chủp	dủp	đủp	X	X	X	X	X	X	X	mủp	nủp	ngủp	X	nhủp	X	X	quủp	rủp	sủp	tủp	thủp	trủp	vủp	xủp
+ũp	ũp	bũp	cũp	chũp	dũp	đũp	X	X	X	X	X	X	X	mũp	nũp	ngũp	X	nhũp	X	X	quũp	rũp	sũp	tũp	thũp	trũp	vũp	xũp
+úp	úp	búp	cúp	chúp	dúp	đúp	X	X	giúp đỡ	húp cháo	X	X	kính lúp	múp	núp	ngúp	X	nhúp	X	X	quúp	rúp	súp	túp	thúp	trúp	vúp	lúp xúp
+ụp	ụp	lụp bụp	cụp	chụp	dụp	đụp	X	X	X	hụp lặn	X	X	lụp chụp	mụp	nụp	lặn ngụp	X	nhụp	X	X	quụp	rụp	sụp	tụp	thụp	trụp	vụp	lụp xụp
+uơ	uơ	buơ	cuơ	chuơ	duơ	đuơ	X	X	X	huơ tay	X	X	X	muơ	nuơ	nguơ	X	nhuơ	X	X	quuơ	ruơ	suơ	tuơ	thuơ	truơ	vuơ	xuơ
+uờ	uờ	buờ	cuờ	chuờ	duờ	đuờ	X	X	X	X	X	X	X	muờ	nuờ	nguờ	X	nhuờ	X	X	quuờ	ruờ	suờ	tuờ	thuờ	truờ	vuờ	xuờ
+uở	uở	buở	cuở	chuở	duở	đuở	X	X	X	X	X	X	X	muở	nuở	nguở	X	nhuở	X	X	quuở	ruở	suở	tuở	thuở	truở	vuở	xuở
+uỡ	uỡ	buỡ	cuỡ	chuỡ	duỡ	đuỡ	X	X	X	X	X	X	X	muỡ	nuỡ	nguỡ	X	nhuỡ	X	X	quuỡ	ruỡ	suỡ	tuỡ	thuỡ	truỡ	vuỡ	xuỡ
+uớ	uớ	buớ	cuớ	chuớ	duớ	đuớ	X	X	X	X	X	X	X	muớ	nuớ	nguớ	X	nhuớ	X	X	quuớ	ruớ	suớ	tuớ	thuớ	truớ	vuớ	xuớ
+uợ	uợ	buợ	cuợ	chuợ	duợ	đuợ	X	X	X	X	X	X	X	muợ	nuợ	nguợ	X	nhuợ	X	X	quuợ	ruợ	suợ	tuợ	thuợ	truợ	vuợ	xuợ
+ut	ut	but	cut	chut	dut	đut	X	X	X	X	X	X	X	mut	nut	ngut	X	nhut	X	X	quut	rut	sut	tut	thut	trut	vut	xut
+ùt	ùt	bùt	cùt	chùt	dùt	đùt	X	X	X	X	X	X	X	mùt	nùt	ngùt	X	nhùt	X	X	quùt	rùt	sùt	tùt	thùt	trùt	vùt	xùt
+ủt	ủt	bủt	củt	chủt	dủt	đủt	X	X	X	X	X	X	X	mủt	nủt	ngủt	X	nhủt	X	X	quủt	rủt	sủt	tủt	thủt	trủt	vủt	xủt
+ũt	ũt	bũt	cũt	chũt	dũt	đũt	X	X	X	X	X	X	X	mũt	nũt	ngũt	X	nhũt	X	X	quũt	rũt	sũt	tũt	thũt	trũt	vũt	xũt
+út	út	bút	cút	chút	dút	đút	thắt gút	X	X	hút máu	X	X	sâu lút	mút	nút	ngút	X	nhút	X	phút giây	quút	rút	sút	tút	thút	trút	vút	xút
+ụt	ụt	bụt	cụt	chụt	dụt	đụt	X	X	X	hụt hẫng	X	X	lũ lụt	mụt	nụt	ngụt	X	nhụt	X	phùn phụt	quụt	rụt	sụt	tụt	thụt	trụt	vụt	xụt
+uy	uy	buy	cuy	chuy	duy	đuy	X	X	X	huy chương	X	X	X	muy	nuy	nguy	X	nhuy	X	X	quuy	ruy	suy	tuy	thuy	truy	vuy	xuy
+ùy	ùy	bùy	cùy	chùy	dùy	đùy	X	X	X	X	X	X	X	mùy	nùy	ngùy	X	nhùy	X	X	quùy	rùy	sùy	tùy	thùy	trùy	vùy	xùy
+ủy	ủy	bủy	củy	chủy	dủy	đủy	X	X	X	phá hủy	X	X	X	mủy	nủy	ngủy	X	nhủy	X	X	quủy	rủy	sủy	tủy	thủy	trủy	vủy	xủy
+ũy	ũy	bũy	cũy	chũy	dũy	đũy	X	X	X	X	X	X	lũy thừa	mũy	nũy	ngũy	X	nhũy	X	X	quũy	rũy	sũy	tũy	thũy	trũy	vũy	xũy
+úy	úy	búy	cúy	chúy	dúy	đúy	X	X	X	phạm húy	X	X	X	múy	núy	ngúy	X	nhúy	X	X	quúy	rúy	súy	túy	thúy	trúy	vúy	xúy
+ụy	ụy	bụy	cụy	chụy	dụy	đụy	X	X	X	X	X	X	lụy đò	mụy	nụy	ngụy	X	nhụy	X	X	quụy	rụy	sụy	tụy	thụy	trụy	vụy	xụy
+ưa	ưa	bưa	cưa	chưa	dưa	đưa	X	X	X	X	X	X	lưa thưa	mưa	nưa	ngưa	X	nhưa	X	X	quưa	rưa	sưa	tưa	thưa	trưa	vưa	xưa
+ừa	ừa	bừa	cừa	chừa	dừa	đừa	X	X	X	X	X	X	con lừa	mừa	nừa	ngừa	X	nhừa	X	X	quừa	rừa	sừa	từa	thừa	trừa	vừa	xừa
+ửa	ửa	bửa	cửa	chửa	dửa	đửa	X	X	X	X	X	X	khói lửa	mửa	nửa	ngửa	X	nhửa	X	X	quửa	rửa	sửa	tửa	thửa	trửa	vửa	xửa
 ữa	ữa	bữa	cữa	chữa	dữa	đữa	X	X	ở giữa	X	X	X	lần lữa	mữa	nữa	ngữa	X	nhữa	X	X	quữa	rữa	sữa	tữa	thữa	trữa	vữa	xữa
-ứa	ứa	bứa	cứa	chứa	dứa	đứa	X	X	X	hứa hẹn	X	khấn khứa	lứa	mứa	nứa	ngứa	X	nhứa	X	X	quứa	rứa	sứa	tứa	thứa	trứa	vứa	xứa
-ựa	ựa	bựa	cựa	chựa	dựa	đựa	X	X	X	X	X	bọn khựa	lựa	mựa	nựa	ngựa	X	nhựa	X	X	quựa	rựa	sựa	tựa	thựa	trựa	vựa	xựa
-ưc	ưc	bưc	cưc	chưc	dưc	đưc	X	X	X	X	X	X	lưc	mưc	nưc	ngưc	X	nhưc	X	X	quưc	rưc	sưc	tưc	thưc	trưc	vưc	xưc
-ừc	ừc	bừc	cừc	chừc	dừc	đừc	X	X	X	X	X	X	lừc	mừc	nừc	ngừc	X	nhừc	X	X	quừc	rừc	sừc	từc	thừc	trừc	vừc	xừc
-ửc	ửc	bửc	cửc	chửc	dửc	đửc	X	X	X	X	X	X	lửc	mửc	nửc	ngửc	X	nhửc	X	X	quửc	rửc	sửc	tửc	thửc	trửc	vửc	xửc
-ữc	ữc	bữc	cữc	chữc	dữc	đữc	X	X	X	X	X	X	lữc	mữc	nữc	ngữc	X	nhữc	X	X	quữc	rữc	sữc	tữc	thữc	trữc	vữc	xữc
-ức	ức	bức	cức	chức	dức	đức	X	X	X	háo hức	X	X	lức	mức	nức	ngức	X	nhức	X	phức tạp	quức	rức	sức	tức	thức	trức	vức	xức
-ực	ực	bực	cực	chực	dực	đực	X	X	X	hậm hực	X	X	lực	mực	nực	ngực	X	nhực	X	X	quực	rực	sực	tực	thực	trực	vực	xực
-ưi	ưi	bưi	cưi	chưi	dưi	đưi	X	X	X	X	X	X	lưi	mưi	nưi	ngưi	X	nhưi	X	X	quưi	rưi	sưi	tưi	thưi	trưi	vưi	xưi
-ừi	ừi	bừi	cừi	chừi	dừi	đừi	X	X	X	X	X	X	lừi	mừi	nừi	ngừi	X	nhừi	X	X	quừi	rừi	sừi	từi	thừi	trừi	vừi	xừi
-ửi	ửi	bửi	cửi	chửi	dửi	đửi	gửi thư	X	X	X	X	X	lửi	mửi	nửi	ngửi	X	nhửi	X	X	quửi	rửi	sửi	tửi	thửi	trửi	vửi	xửi
-ữi	ữi	bữi	cữi	chữi	dữi	đữi	X	X	X	X	X	X	lữi	mữi	nữi	ngữi	X	nhữi	X	X	quữi	rữi	sữi	tữi	thữi	trữi	vữi	xữi
-ứi	ứi	bứi	cứi	chứi	dứi	đứi	X	X	X	X	X	X	lứi	mứi	nứi	ngứi	X	nhứi	X	X	quứi	rứi	sứi	tứi	thứi	trứi	vứi	xứi
-ựi	ựi	bựi	cựi	chựi	dựi	đựi	X	X	X	X	X	khựi đất	lựi	mựi	nựi	ngựi	X	nhựi	X	X	quựi	rựi	sựi	tựi	thựi	trựi	vựi	xựi
-ưm	ưm	bưm	cưm	chưm	dưm	đưm	X	X	X	X	X	X	lưm	mưm	nưm	ngưm	X	nhưm	X	X	quưm	rưm	sưm	tưm	thưm	trưm	vưm	xưm
-ừm	ừm	bừm	cừm	chừm	dừm	đừm	X	X	X	hừm	X	X	lừm	mừm	nừm	ngừm	X	nhừm	X	X	quừm	rừm	sừm	từm	thừm	trừm	vừm	xừm
-ửm	ửm	bửm	cửm	chửm	dửm	đửm	X	X	X	X	X	X	lửm	mửm	nửm	ngửm	X	nhửm	X	X	quửm	rửm	sửm	tửm	thửm	trửm	vửm	xửm
-ữm	ữm	bữm	cữm	chữm	dữm	đữm	X	X	X	X	X	X	lữm	mữm	nữm	ngữm	X	nhữm	X	X	quữm	rữm	sữm	tữm	thữm	trữm	vữm	xữm
-ứm	ứm	bứm	cứm	chứm	dứm	đứm	X	X	X	X	X	X	lứm	mứm	nứm	ngứm	X	nhứm	X	X	quứm	rứm	sứm	tứm	thứm	trứm	vứm	xứm
-ựm	ựm	bựm	cựm	chựm	dựm	đựm	X	X	X	X	X	X	lựm	mựm	nựm	ngựm	X	nhựm	X	X	quựm	rựm	sựm	tựm	thựm	trựm	vựm	xựm
-ưt	ưt	bưt	cưt	chưt	dưt	đưt	X	X	X	X	X	X	lưt	mưt	nưt	ngưt	X	nhưt	X	X	quưt	rưt	sưt	tưt	thưt	trưt	vưt	xưt
-ừt	ừt	bừt	cừt	chừt	dừt	đừt	X	X	X	X	X	X	lừt	mừt	nừt	ngừt	X	nhừt	X	X	quừt	rừt	sừt	từt	thừt	trừt	vừt	xừt
-ửt	ửt	bửt	cửt	chửt	dửt	đửt	X	X	X	X	X	X	lửt	mửt	nửt	ngửt	X	nhửt	X	X	quửt	rửt	sửt	tửt	thửt	trửt	vửt	xửt
-ữt	ữt	bữt	cữt	chữt	dữt	đữt	X	X	X	X	X	X	lữt	mữt	nữt	ngữt	X	nhữt	X	X	quữt	rữt	sữt	tữt	thữt	trữt	vữt	xữt
-ứt	ứt	bứt	cứt	chứt	dứt	đứt	X	X	X	X	X	X	lứt	mứt	nứt	ngứt	X	nhứt	X	X	quứt	rứt	sứt	tứt	thứt	trứt	vứt	xứt
-ựt	ựt	bựt	cựt	chựt	dựt	đựt	X	X	X	X	X	X	lựt	mựt	nựt	ngựt	X	nhựt	X	X	quựt	rựt	sựt	tựt	thựt	trựt	vựt	xựt
-ưu	ưu	bưu	cưu	chưu	dưu	đưu	X	X	X	nghỉ hưu	X	X	lưu	mưu	nưu	ngưu	X	nhưu	X	X	quưu	rưu	sưu	tưu	thưu	trưu	vưu	xưu
-ừu	ừu	bừu	cừu	chừu	dừu	đừu	X	X	X	X	X	X	lừu	mừu	nừu	ngừu	X	nhừu	X	X	quừu	rừu	sừu	từu	thừu	trừu	vừu	xừu
-ửu	ửu	bửu	cửu	chửu	dửu	đửu	X	X	X	X	X	X	lửu	mửu	nửu	ngửu	X	nhửu	X	X	quửu	rửu	sửu	tửu	thửu	trửu	vửu	xửu
-ữu	ữu	bữu	cữu	chữu	dữu	đữu	X	X	X	bằng hữu	X	X	lữu	mữu	nữu	ngữu	X	nhữu	X	X	quữu	rữu	sữu	tữu	thữu	trữu	vữu	xữu
-ứu	ứu	bứu	cứu	chứu	dứu	đứu	X	X	X	X	X	X	lứu	mứu	nứu	ngứu	X	nhứu	X	X	quứu	rứu	sứu	tứu	thứu	trứu	vứu	xứu
-ựu	ựu	bựu	cựu	chựu	dựu	đựu	X	X	X	X	X	X	lựu	mựu	nựu	ngựu	X	nhựu	X	X	quựu	rựu	sựu	tựu	thựu	trựu	vựu	xựu
-yt	yt	byt	cyt	chyt	dyt	đyt	X	X	X	X	X	X	lyt	myt	nyt	ngyt	X	nhyt	X	X	quyt	ryt	syt	tyt	thyt	tryt	vyt	xyt
-ỳt	ỳt	bỳt	cỳt	chỳt	dỳt	đỳt	X	X	X	X	X	X	lỳt	mỳt	nỳt	ngỳt	X	nhỳt	X	X	quỳt	rỳt	sỳt	tỳt	thỳt	trỳt	vỳt	xỳt
-ỷt	ỷt	bỷt	cỷt	chỷt	dỷt	đỷt	X	X	X	X	X	X	lỷt	mỷt	nỷt	ngỷt	X	nhỷt	X	X	quỷt	rỷt	sỷt	tỷt	thỷt	trỷt	vỷt	xỷt
-ỹt	ỹt	bỹt	cỹt	chỹt	dỹt	đỹt	X	X	X	X	X	X	lỹt	mỹt	nỹt	ngỹt	X	nhỹt	X	X	quỹt	rỹt	sỹt	tỹt	thỹt	trỹt	vỹt	xỹt
-ýt	ýt	být	cýt	chýt	dýt	đýt	X	X	X	X	X	X	lýt	mýt	nýt	ngýt	X	nhýt	X	X	quýt	rýt	sýt	týt	thýt	trýt	výt	xýt
-ỵt	ỵt	bỵt	cỵt	chỵt	dỵt	đỵt	X	X	X	X	X	X	lỵt	mỵt	nỵt	ngỵt	X	nhỵt	X	X	quỵt	rỵt	sỵt	tỵt	thỵt	trỵt	vỵt	xỵt
-ach	ach	bach	cach	chach	dach	đach	X	X	X	X	X	X	lach	mach	nach	ngach	X	nhach	X	X	quach	rach	sach	tach	thach	trach	vach	xach
-àch	àch	bàch	càch	chàch	dàch	đàch	X	X	X	X	X	X	làch	màch	nàch	ngàch	X	nhàch	X	X	quàch	ràch	sàch	tàch	thàch	tràch	vàch	xàch
-ảch	ảch	bảch	cảch	chảch	dảch	đảch	X	X	X	X	X	X	lảch	mảch	nảch	ngảch	X	nhảch	X	X	quảch	rảch	sảch	tảch	thảch	trảch	vảch	xảch
-ãch	ãch	bãch	cãch	chãch	dãch	đãch	X	X	X	X	X	X	lãch	mãch	nãch	ngãch	X	nhãch	X	X	quãch	rãch	sãch	tãch	thãch	trãch	vãch	xãch
-ách	ách	bách	cách	chách	dách	đách	X	X	X	hách dịch	X	khách hàng	lách	mách	nách	ngách	X	nhách	X	hổ phách	quách	rách	sách	tách	thách	trách	vách	xách
-ạch	ạch	bạch	cạch	chạch	dạch	đạch	viên gạch	X	X	hạch toán	X	X	lạch	mạch	nạch	ngạch	X	nhạch	X	phành phạch	quạch	rạch	sạch	tạch	thạch	trạch	vạch	xạch
-ang	ang	bang	cang	chang	dang	đang	gang tay	X	giang sơn	hang động	X	an khang	lang	mang	nang	ngang	X	nhang	X	phang đồ	quang	rang	sang	tang	thang	trang	vang	xang
-àng	àng	bàng	càng	chàng	dàng	đàng	gọn gàng	X	giàng ná	xếp hàng	X	khẽ khàng	làng	màng	nàng	ngàng	X	nhàng	X	X	quàng	ràng	sàng	tàng	thàng	tràng	vàng	xàng
-ảng	ảng	bảng	cảng	chảng	dảng	đảng	X	X	giảng viên	X	X	khảng khái	lảng	mảng	nảng	ngảng	X	nhảng	X	phảng phất	quảng	rảng	sảng	tảng	thảng	trảng	vảng	xảng
-ãng	ãng	bãng	cãng	chãng	dãng	lơ đãng	X	X	X	chính hãng	X	X	lãng	mãng	nãng	nghễnh ngãng	X	nhãng	X	X	quãng	rãng	sãng	tãng	thãng	trãng	vãng	xãng
-áng	áng	báng	cáng	cháng	dáng	đáng	X	X	giáng thế	cái háng	X	kháng cự	lai láng	máng	náng	ngáng	X	nháng	X	X	quáng	ráng	sáng	táng	tháng	tráng	váng	xáng
-ạng	ạng	bạng	cạng	chạng	dạng	đạng	X	X	giạng chân	xếp hạng	X	khạng nạng	lạng	mạng	nạng	ngạng	X	nhạng	X	X	quạng	rạng	sạng	tạng	thạng	trạng	vạng	xạng
-anh	anh	banh	canh	chanh	danh	đanh	ganh ghét	X	X	hanh thông	X	khanh khách	lanh	manh	nanh	nganh	X	nhanh	X	phanh phui	quanh	ranh	sanh	tanh	thanh	tranh	vanh	xanh
-ành	ành	bành	cành	chành	dành	đành	X	X	tranh giành	hành động	X	X	lành	mành	nành	ngành	X	nhành	X	phành phạch	quành	rành	sành	tành	thành	trành	vành	xành
-ảnh	ảnh	bảnh	cảnh	chảnh	dảnh	đảnh	X	X	giảnh tai	hảnh nắng	X	khảnh ăn	lảnh	mảnh	nảnh	ngảnh	X	nhảnh	X	X	quảnh	rảnh	sảnh	tảnh	thảnh	trảnh	vảnh	xảnh
-ãnh	ãnh	bãnh	cãnh	chãnh	dãnh	đãnh	X	X	X	hãnh diện	X	X	lãnh	mãnh	nãnh	ngãnh	X	nhãnh	X	X	quãnh	rãnh	sãnh	tãnh	thãnh	trãnh	vãnh	xãnh
-ánh	ánh	bánh	cánh	chánh	dánh	đánh	đòn gánh	X	X	léo hánh	X	khánh thành	lánh	mánh	nánh	ngánh	X	nhánh	X	X	quánh	ránh	sánh	tánh	thánh	tránh	vánh	xánh
-ạnh	ạnh	bạnh	cạnh	chạnh	dạnh	đạnh	X	X	X	hạnh phúc	X	X	lạnh	mạnh	nạnh	ngạnh	X	nhạnh	X	X	quạnh	rạnh	sạnh	tạnh	thạnh	trạnh	vạnh	xạnh
-ăng	ăng	băng	căng	chăng	dăng	đăng	găng tay	X	giăng lưới	hăng hái	X	khăng khăng	lăng	măng	năng	ngăng	X	nhăng	X	phăng phắc	quăng	răng	săng	tăng	thăng	trăng	văng	xăng
-ằng	ằng	bằng	cằng	chằng	dằng	đằng	X	X	giằng co	hằng số	X	khằng khặc	lằng	mằng	nằng	ngằng	X	nhằng	X	X	quằng	rằng	sằng	tằng	thằng	trằng	vằng	xằng
-ẳng	ẳng	bẳng	cẳng	chẳng	dẳng	đẳng	X	X	X	X	X	khẳng khiu	lẳng	mẳng	nẳng	ngẳng	X	nhẳng	X	mặt phẳng	quẳng	rẳng	sẳng	tẳng	thẳng	trẳng	vẳng	xẳng
-ẵng	ẵng	bẵng	cẵng	chẵng	dẵng	đẵng	gọ gẵng	X	X	hẵng làm	X	X	lẵng	mẵng	nẵng	ngẵng	X	nhẵng	X	X	quẵng	rẵng	sẵng	tẵng	thẵng	trẵng	vẵng	xẵng
-ắng	ắng	bắng	cắng	chắng	dắng	đắng	cố gắng	X	X	húng hắng	X	khúng khắng	lắng	mắng	nắng	ngắng	X	nhắng	X	X	quắng	rắng	sắng	tắng	thắng	trắng	vắng	xắng
-ặng	ặng	bặng	cặng	chặng	dặng	đặng	gặng hỏi	X	X	X	X	X	lặng	mặng	nặng	ngặng	X	nhặng	X	X	quặng	rặng	sặng	tặng	thặng	trặng	vặng	xặng
-âng	âng	bâng	câng	châng	dâng	đâng	X	X	X	X	X	X	lâng	mâng	nâng	ngâng	X	nhâng	X	X	quâng	râng	sâng	tâng	thâng	trâng	vâng	xâng
-ầng	ầng	bầng	cầng	chầng	dầng	đầng	X	X	X	X	X	X	lầng	mầng	nầng	ngầng	X	nhầng	X	X	quầng	rầng	sầng	tầng	thầng	trầng	vầng	xầng
-ẩng	ẩng	bẩng	cẩng	chẩng	dẩng	đẩng	X	X	X	X	X	X	lẩng	mẩng	nẩng	ngẩng	X	nhẩng	X	X	quẩng	rẩng	sẩng	tẩng	thẩng	trẩng	vẩng	xẩng
-ẫng	ẫng	bẫng	cẫng	chẫng	dẫng	đẫng	X	X	X	hụt hẫng	X	X	lẫng	mẫng	nẫng	ngẫng	X	nhẫng	X	X	quẫng	rẫng	sẫng	tẫng	thẫng	trẫng	vẫng	xẫng
-ấng	ấng	bấng	cấng	chấng	dấng	đấng	X	X	X	X	X	X	lấng	mấng	nấng	ngấng	X	nhấng	X	X	quấng	rấng	sấng	tấng	thấng	trấng	vấng	xấng
-ậng	ậng	bậng	cậng	chậng	dậng	đậng	X	X	X	X	X	X	lậng	mậng	nậng	ngậng	X	nhậng	X	X	quậng	rậng	sậng	tậng	thậng	trậng	vậng	xậng
-eng	eng	beng	ceng	cheng	deng	đeng	X	X	X	X	leng keng	X	leng keng	meng	neng	ngeng	X	nheng	X	X	queng	reng	seng	teng	theng	treng	veng	xeng
-èng	èng	bèng	cèng	chèng	dèng	đèng	X	X	X	X	X	X	lèng	mèng	nèng	ngèng	X	nhèng	X	X	quèng	rèng	sèng	tèng	thèng	trèng	vèng	xèng
-ẻng	ẻng	bẻng	cẻng	chẻng	dẻng	đẻng	X	X	X	X	đánh kẻng	X	lẻng	mẻng	nẻng	ngẻng	X	nhẻng	X	X	quẻng	rẻng	sẻng	tẻng	thẻng	trẻng	vẻng	xẻng
-ẽng	ẽng	bẽng	cẽng	chẽng	dẽng	đẽng	X	X	X	X	X	X	lẽng	mẽng	nẽng	ngẽng	X	nhẽng	X	X	quẽng	rẽng	sẽng	tẽng	thẽng	trẽng	vẽng	xẽng
+ứa	ứa	bứa	cứa	chứa	dứa	đứa	X	X	X	hứa hẹn	X	khấn khứa	lứa đôi	mứa	nứa	ngứa	X	nhứa	X	X	quứa	rứa	sứa	tứa	thứa	trứa	vứa	xứa
+ựa	ựa	bựa	cựa	chựa	dựa	đựa	X	X	X	X	X	bọn khựa	lựa chọn	mựa	nựa	ngựa	X	nhựa	X	X	quựa	rựa	sựa	tựa	thựa	trựa	vựa	xựa
+ưc	ưc	bưc	cưc	chưc	dưc	đưc	X	X	X	X	X	X	X	mưc	nưc	ngưc	X	nhưc	X	X	quưc	rưc	sưc	tưc	thưc	trưc	vưc	xưc
+ừc	ừc	bừc	cừc	chừc	dừc	đừc	X	X	X	X	X	X	X	mừc	nừc	ngừc	X	nhừc	X	X	quừc	rừc	sừc	từc	thừc	trừc	vừc	xừc
+ửc	ửc	bửc	cửc	chửc	dửc	đửc	X	X	X	X	X	X	X	mửc	nửc	ngửc	X	nhửc	X	X	quửc	rửc	sửc	tửc	thửc	trửc	vửc	xửc
+ữc	ữc	bữc	cữc	chữc	dữc	đữc	X	X	X	X	X	X	X	mữc	nữc	ngữc	X	nhữc	X	X	quữc	rữc	sữc	tữc	thữc	trữc	vữc	xữc
+ức	ức	bức	cức	chức	dức	đức	X	X	X	háo hức	X	X	X	mức	nức	ngức	X	nhức	X	phức tạp	quức	rức	sức	tức	thức	trức	vức	xức
+ực	ực	bực	cực	chực	dực	đực	X	X	X	hậm hực	X	X	lực lưỡng	mực	nực	ngực	X	nhực	X	X	quực	rực	sực	tực	thực	trực	vực	xực
+ưi	ưi	bưi	cưi	chưi	dưi	đưi	X	X	X	X	X	X	X	mưi	nưi	ngưi	X	nhưi	X	X	quưi	rưi	sưi	tưi	thưi	trưi	vưi	xưi
+ừi	ừi	bừi	cừi	chừi	dừi	đừi	X	X	X	X	X	X	X	mừi	nừi	ngừi	X	nhừi	X	X	quừi	rừi	sừi	từi	thừi	trừi	vừi	xừi
+ửi	ửi	bửi	cửi	chửi	dửi	đửi	gửi thư	X	X	X	X	X	X	mửi	nửi	ngửi	X	nhửi	X	X	quửi	rửi	sửi	tửi	thửi	trửi	vửi	xửi
+ữi	ữi	bữi	cữi	chữi	dữi	đữi	X	X	X	X	X	X	X	mữi	nữi	ngữi	X	nhữi	X	X	quữi	rữi	sữi	tữi	thữi	trữi	vữi	xữi
+ứi	ứi	bứi	cứi	chứi	dứi	đứi	X	X	X	X	X	X	X	mứi	nứi	ngứi	X	nhứi	X	X	quứi	rứi	sứi	tứi	thứi	trứi	vứi	xứi
+ựi	ựi	bựi	cựi	chựi	dựi	đựi	X	X	X	X	X	khựi đất	X	mựi	nựi	ngựi	X	nhựi	X	X	quựi	rựi	sựi	tựi	thựi	trựi	vựi	xựi
+ưm	ưm	bưm	cưm	chưm	dưm	đưm	X	X	X	X	X	X	X	mưm	nưm	ngưm	X	nhưm	X	X	quưm	rưm	sưm	tưm	thưm	trưm	vưm	xưm
+ừm	ừm	bừm	cừm	chừm	dừm	đừm	X	X	X	hừm	X	X	X	mừm	nừm	ngừm	X	nhừm	X	X	quừm	rừm	sừm	từm	thừm	trừm	vừm	xừm
+ửm	ửm	bửm	cửm	chửm	dửm	đửm	X	X	X	X	X	X	X	mửm	nửm	ngửm	X	nhửm	X	X	quửm	rửm	sửm	tửm	thửm	trửm	vửm	xửm
+ữm	ữm	bữm	cữm	chữm	dữm	đữm	X	X	X	X	X	X	X	mữm	nữm	ngữm	X	nhữm	X	X	quữm	rữm	sữm	tữm	thữm	trữm	vữm	xữm
+ứm	ứm	bứm	cứm	chứm	dứm	đứm	X	X	X	X	X	X	X	mứm	nứm	ngứm	X	nhứm	X	X	quứm	rứm	sứm	tứm	thứm	trứm	vứm	xứm
+ựm	ựm	bựm	cựm	chựm	dựm	đựm	X	X	X	X	X	X	X	mựm	nựm	ngựm	X	nhựm	X	X	quựm	rựm	sựm	tựm	thựm	trựm	vựm	xựm
+ưt	ưt	bưt	cưt	chưt	dưt	đưt	X	X	X	X	X	X	X	mưt	nưt	ngưt	X	nhưt	X	X	quưt	rưt	sưt	tưt	thưt	trưt	vưt	xưt
+ừt	ừt	bừt	cừt	chừt	dừt	đừt	X	X	X	X	X	X	X	mừt	nừt	ngừt	X	nhừt	X	X	quừt	rừt	sừt	từt	thừt	trừt	vừt	xừt
+ửt	ửt	bửt	cửt	chửt	dửt	đửt	X	X	X	X	X	X	X	mửt	nửt	ngửt	X	nhửt	X	X	quửt	rửt	sửt	tửt	thửt	trửt	vửt	xửt
+ữt	ữt	bữt	cữt	chữt	dữt	đữt	X	X	X	X	X	X	X	mữt	nữt	ngữt	X	nhữt	X	X	quữt	rữt	sữt	tữt	thữt	trữt	vữt	xữt
+ứt	ứt	bứt	cứt	chứt	dứt	đứt	X	X	X	X	X	X	gạo lứt	mứt	nứt	ngứt	X	nhứt	X	X	quứt	rứt	sứt	tứt	thứt	trứt	vứt	xứt
+ựt	ựt	bựt	cựt	chựt	dựt	đựt	X	X	X	X	X	X	X	mựt	nựt	ngựt	X	nhựt	X	X	quựt	rựt	sựt	tựt	thựt	trựt	vựt	xựt
+ưu	ưu	bưu	cưu	chưu	dưu	đưu	X	X	X	nghỉ hưu	X	X	lưu bút	mưu	nưu	ngưu	X	nhưu	X	X	quưu	rưu	sưu	tưu	thưu	trưu	vưu	xưu
+ừu	ừu	bừu	cừu	chừu	dừu	đừu	X	X	X	X	X	X	X	mừu	nừu	ngừu	X	nhừu	X	X	quừu	rừu	sừu	từu	thừu	trừu	vừu	xừu
+ửu	ửu	bửu	cửu	chửu	dửu	đửu	X	X	X	X	X	X	X	mửu	nửu	ngửu	X	nhửu	X	X	quửu	rửu	sửu	tửu	thửu	trửu	vửu	xửu
+ữu	ữu	bữu	cữu	chữu	dữu	đữu	X	X	X	bằng hữu	X	X	X	mữu	nữu	ngữu	X	nhữu	X	X	quữu	rữu	sữu	tữu	thữu	trữu	vữu	xữu
+ứu	ứu	bứu	cứu	chứu	dứu	đứu	X	X	X	X	X	X	X	mứu	nứu	ngứu	X	nhứu	X	X	quứu	rứu	sứu	tứu	thứu	trứu	vứu	xứu
+ựu	ựu	bựu	cựu	chựu	dựu	đựu	X	X	X	X	X	X	lựu đạn	mựu	nựu	ngựu	X	nhựu	X	X	quựu	rựu	sựu	tựu	thựu	trựu	vựu	xựu
+yt	yt	byt	cyt	chyt	dyt	đyt	X	X	X	X	X	X	X	myt	nyt	ngyt	X	nhyt	X	X	quyt	ryt	syt	tyt	thyt	tryt	vyt	xyt
+ỳt	ỳt	bỳt	cỳt	chỳt	dỳt	đỳt	X	X	X	X	X	X	X	mỳt	nỳt	ngỳt	X	nhỳt	X	X	quỳt	rỳt	sỳt	tỳt	thỳt	trỳt	vỳt	xỳt
+ỷt	ỷt	bỷt	cỷt	chỷt	dỷt	đỷt	X	X	X	X	X	X	X	mỷt	nỷt	ngỷt	X	nhỷt	X	X	quỷt	rỷt	sỷt	tỷt	thỷt	trỷt	vỷt	xỷt
+ỹt	ỹt	bỹt	cỹt	chỹt	dỹt	đỹt	X	X	X	X	X	X	X	mỹt	nỹt	ngỹt	X	nhỹt	X	X	quỹt	rỹt	sỹt	tỹt	thỹt	trỹt	vỹt	xỹt
+ýt	ýt	být	cýt	chýt	dýt	đýt	X	X	X	X	X	X	X	mýt	nýt	ngýt	X	nhýt	X	X	quýt	rýt	sýt	týt	thýt	trýt	výt	xýt
+ỵt	ỵt	bỵt	cỵt	chỵt	dỵt	đỵt	X	X	X	X	X	X	X	mỵt	nỵt	ngỵt	X	nhỵt	X	X	quỵt	rỵt	sỵt	tỵt	thỵt	trỵt	vỵt	xỵt
+ach	ach	bach	cach	chach	dach	đach	X	X	X	X	X	X	X	mach	nach	ngach	X	nhach	X	X	quach	rach	sach	tach	thach	trach	vach	xach
+àch	àch	bàch	càch	chàch	dàch	đàch	X	X	X	X	X	X	X	màch	nàch	ngàch	X	nhàch	X	X	quàch	ràch	sàch	tàch	thàch	tràch	vàch	xàch
+ảch	ảch	bảch	cảch	chảch	dảch	đảch	X	X	X	X	X	X	X	mảch	nảch	ngảch	X	nhảch	X	X	quảch	rảch	sảch	tảch	thảch	trảch	vảch	xảch
+ãch	ãch	bãch	cãch	chãch	dãch	đãch	X	X	X	X	X	X	X	mãch	nãch	ngãch	X	nhãch	X	X	quãch	rãch	sãch	tãch	thãch	trãch	vãch	xãch
+ách	ách	bách	cách	chách	dách	đách	X	X	X	hách dịch	X	khách hàng	lá lách	mách	nách	ngách	X	nhách	X	hổ phách	quách	rách	sách	tách	thách	trách	vách	xách
+ạch	ạch	bạch	lạch cạch	chạch	dạch	đạch	viên gạch	X	X	hạch toán	X	X	lạch bạch	mạch	nạch	ngạch	X	nhạch	X	phành phạch	quạch	rạch	sạch	lạch tạch	thạch	trạch	vạch	lạch xạch
+ang	ang	bang	cang	chang	dang	đang	gang tay	X	giang sơn	hang động	X	an khang	lang thang	mang	nang	ngang	X	nhang	X	phang đồ	quang	rang	sang	tang	thang	trang	vang	xang
+àng	àng	bàng	càng	chàng	dàng	đàng	gọn gàng	X	giàng ná	xếp hàng	X	khẽ khàng	làng xóm	màng	nàng	ngàng	X	nhàng	X	X	quàng	ràng	sàng	tàng	thàng	tràng	vàng	xàng
+ảng	ảng	bảng	cảng	chảng	dảng	đảng	X	X	giảng viên	X	X	khảng khái	lảng vảng	mảng	nảng	ngảng	X	nhảng	X	phảng phất	quảng	rảng	sảng	tảng	thảng	trảng	lảng vảng	xảng
+ãng	ãng	bãng	cãng	chãng	dãng	lơ đãng	X	X	X	chính hãng	X	X	lãng mạn	mãng	nãng	nghễnh ngãng	X	nhãng	X	X	quãng	rãng	sãng	tãng	thãng	trãng	vãng	xãng
+áng	áng	báng	cáng	láng cháng	dáng	đáng	X	X	giáng thế	cái háng	X	kháng cự	lai láng	láng máng	náng	ngáng	X	nháng	X	X	quáng	ráng	sáng	táng	tháng	tráng	váng	xáng
+ạng	ạng	bạng	cạng	chạng	dạng	đạng	X	X	giạng chân	xếp hạng	X	khạng nạng	lạng lách	mạng	nạng	ngạng	X	nhạng	X	X	loạng quạng	rạng	sạng	tạng	thạng	trạng	vạng	xạng
+anh	anh	banh	canh	chanh	danh	đanh	ganh ghét	X	X	hanh thông	X	khanh khách	lanh chanh	manh	nanh	nganh	X	nhanh	X	phanh phui	loanh quanh	ranh	sanh	tanh	thanh	tranh	vanh	xanh
+ành	ành	bành	cành	chành	dành	đành	X	X	tranh giành	hành động	X	X	tốt lành	mành	nành	ngành	X	nhành	X	phành phạch	quành	rành	sành	tành	thành	trành	vành	xành
+ảnh	ảnh	bảnh	cảnh	chảnh	dảnh	đảnh	X	X	giảnh tai	hảnh nắng	X	khảnh ăn	lanh lảnh	mảnh	nảnh	ngảnh	X	nhảnh	X	X	quảnh	rảnh	sảnh	tảnh	thảnh	trảnh	vảnh	xảnh
+ãnh	ãnh	bãnh	cãnh	chãnh	dãnh	đãnh	X	X	X	hãnh diện	X	X	lãnh đạo	mãnh	nãnh	ngãnh	X	nhãnh	X	X	quãnh	rãnh	sãnh	tãnh	thãnh	trãnh	vãnh	xãnh
+ánh	ánh	bánh	cánh	chánh	dánh	đánh	đòn gánh	X	X	léo hánh	X	khánh thành	lấp lánh	mánh	nánh	ngánh	X	nhánh	X	X	quánh	ránh	sánh	tánh	thánh	tránh	vánh	xánh
+ạnh	ạnh	bạnh	cạnh	chạnh	dạnh	đạnh	X	X	X	hạnh phúc	X	X	lạnh lùng	mạnh	nạnh	ngạnh	X	nhạnh	X	X	quạnh	rạnh	sạnh	tạnh	thạnh	trạnh	vạnh	xạnh
+ăng	ăng	băng	căng	chăng	dăng	đăng	găng tay	X	giăng lưới	hăng hái	X	khăng khăng	lăng	măng	năng	ngăng	X	lăng nhăng	X	phăng phắc	quăng	răng	săng	tăng	thăng	trăng	văng	xăng
+ằng	ằng	bằng	cằng	chằng	dằng	đằng	X	X	giằng co	hằng số	X	khằng khặc	lằng nhằng	mằng	nằng	ngằng	X	lằng nhằng	X	X	quằng	rằng	sằng	tằng	thằng	trằng	vằng	xằng
+ẳng	ẳng	bẳng	cẳng	chẳng	dẳng	đẳng	X	X	X	X	X	khẳng khiu	lẳng lặng	mẳng	nẳng	ngẳng	X	lẳng nhẳng	X	mặt phẳng	quẳng	rẳng	sẳng	tẳng	thẳng	trẳng	vẳng	xẳng
+ẵng	ẵng	bẵng	cẵng	chẵng	dẵng	lẵng đẵng	gọ gẵng	X	X	hẵng làm	X	X	lẵng đẵng	mẵng	nẵng	ngẵng	X	lẵng nhẵng	X	X	quẵng	rẵng	sẵng	tẵng	thẵng	trẵng	vẵng	xẵng
+ắng	ắng	bắng	cắng	chắng	dắng	đắng	cố gắng	X	X	húng hắng	X	khúng khắng	lắng nghe	mắng	nắng	ngắng	X	nhắng	X	X	quắng	rắng	sắng	tắng	thắng	trắng	vắng	xắng
+ặng	ặng	bặng	cặng	chặng	dặng	đặng	gặng hỏi	X	X	X	X	X	im lặng	mặng	nặng	ngặng	X	nhặng	X	X	quặng	rặng	sặng	tặng	thặng	trặng	vặng	xặng
+âng	âng	bâng	câng	châng	dâng	đâng	X	X	X	X	X	X	lâng lâng	mâng	nâng	ngâng	X	nhâng	X	X	quâng	râng	sâng	tâng	thâng	trâng	vâng	xâng
+ầng	ầng	bầng	cầng	chầng	dầng	đầng	X	X	X	X	X	X	X	mầng	nầng	ngầng	X	nhầng	X	X	quầng	rầng	sầng	tầng	thầng	trầng	vầng	xầng
+ẩng	ẩng	bẩng	cẩng	chẩng	dẩng	đẩng	X	X	X	X	X	X	X	mẩng	nẩng	ngẩng	X	nhẩng	X	X	quẩng	rẩng	sẩng	tẩng	thẩng	trẩng	vẩng	xẩng
+ẫng	ẫng	bẫng	cẫng	chẫng	dẫng	đẫng	X	X	X	hụt hẫng	X	X	X	mẫng	nẫng	ngẫng	X	nhẫng	X	X	quẫng	rẫng	sẫng	tẫng	thẫng	trẫng	vẫng	xẫng
+ấng	ấng	bấng	cấng	chấng	dấng	đấng	X	X	X	X	X	X	X	mấng	nấng	ngấng	X	nhấng	X	X	quấng	rấng	sấng	tấng	thấng	trấng	vấng	xấng
+ậng	ậng	bậng	cậng	chậng	dậng	đậng	X	X	X	X	X	X	X	mậng	nậng	ngậng	X	nhậng	X	X	quậng	rậng	sậng	tậng	thậng	trậng	vậng	xậng
+eng	eng	lung tung beng	ceng	cheng	deng	đeng	X	X	X	X	leng keng	X	leng keng	meng	neng	ngeng	X	nheng	X	X	queng	reng	seng	teng	theng	treng	veng	xeng
+èng	èng	bèng	cèng	chèng	dèng	đèng	X	X	X	X	X	X	X	mèng	nèng	ngèng	X	nhèng	X	X	quèng	rèng	sèng	tèng	thèng	trèng	vèng	xèng
+ẻng	ẻng	bẻng	cẻng	chẻng	dẻng	đẻng	X	X	X	X	đánh kẻng	X	lẻng xẻng	mẻng	nẻng	ngẻng	X	nhẻng	X	X	quẻng	rẻng	sẻng	tẻng	thẻng	trẻng	vẻng	lẻng xẻng
+ẽng	ẽng	bẽng	cẽng	chẽng	dẽng	đẽng	X	X	X	X	X	X	X	mẽng	nẽng	ngẽng	X	nhẽng	X	X	quẽng	rẽng	sẽng	tẽng	thẽng	trẽng	vẽng	xẽng
 éng	éng	béng	céng	chéng	déng	đéng	X	X	X	X	X	X	léng phéng	méng	néng	ngéng	X	nhéng	X	léng phéng	quéng	réng	séng	téng	théng	tréng	véng	xéng
-ẹng	ẹng	bẹng	cẹng	chẹng	dẹng	đẹng	X	X	X	X	X	X	lẹng	mẹng	nẹng	ngẹng	X	nhẹng	X	X	quẹng	rẹng	sẹng	tẹng	thẹng	trẹng	vẹng	xẹng
-êch	êch	bêch	cêch	chêch	dêch	đêch	X	X	X	X	X	X	lêch	mêch	nêch	ngêch	X	nhêch	X	X	quêch	rêch	sêch	têch	thêch	trêch	vêch	xêch
-ềch	ềch	bềch	cềch	chềch	dềch	đềch	X	X	X	X	X	X	lềch	mềch	nềch	ngềch	X	nhềch	X	X	quềch	rềch	sềch	tềch	thềch	trềch	vềch	xềch
-ểch	ểch	bểch	cểch	chểch	dểch	đểch	X	X	X	X	X	X	lểch	mểch	nểch	ngểch	X	nhểch	X	X	quểch	rểch	sểch	tểch	thểch	trểch	vểch	xểch
-ễch	ễch	bễch	cễch	chễch	dễch	đễch	X	X	X	X	X	X	lễch	mễch	nễch	ngễch	X	nhễch	X	X	quễch	rễch	sễch	tễch	thễch	trễch	vễch	xễch
-ếch	ếch	bếch	cếch	chếch	dếch	đếch	X	ghếch mắt	X	hếch mũi	X	X	lếch	mếch	nếch	ngếch	ngốc nghếch	nhếch	X	bạc phếch	quếch	rếch	sếch	tếch	thếch	trếch	vếch	xếch
-ệch	ệch	bệch	cệch	chệch	dệch	đệch	X	đỗ ghệch	X	hệch mồm	X	X	lệch	mệch	nệch	ngệch	ngờ nghệch	nhệch	X	X	quệch	rệch	sệch	tệch	thệch	trệch	vệch	xệch
-ênh	ênh	bênh	cênh	chênh	dênh	đênh	X	X	X	hớ hênh	con kênh	X	lênh	mênh	nênh	ngênh	nghênh mặt	nhênh	X	X	quênh	rênh	sênh	tênh	thênh	trênh	vênh	xênh
-ềnh	ềnh	bềnh	cềnh	chềnh	dềnh	đềnh	X	ghềnh thác	X	X	lăn kềnh	nằm khềnh	lềnh	mềnh	nềnh	ngềnh	nghềnh	nhềnh	X	căng phềnh	quềnh	rềnh	sềnh	tềnh	thềnh	trềnh	vềnh	xềnh
-ểnh	ểnh	bểnh	cểnh	chểnh	dểnh	đểnh	X	ghểnh tượng	X	hổng hểnh	X	khấp khểnh	lểnh	mểnh	nểnh	ngểnh	X	nhểnh	X	X	quểnh	rểnh	sểnh	tểnh	thểnh	trểnh	vểnh	xểnh
-ễnh	ễnh	bễnh	cễnh	chễnh	dễnh	đễnh	X	X	X	X	kễnh bụng	X	lễnh	mễnh	nễnh	ngễnh	nghễnh ngãng	nhễnh	X	X	quễnh	rễnh	sễnh	tễnh	thễnh	trễnh	vễnh	xễnh
-ếnh	ếnh	bếnh	cếnh	chếnh	dếnh	đếnh	X	X	X	X	X	X	lếnh	mếnh	nếnh	ngếnh	X	nhếnh	X	X	quếnh	rếnh	sếnh	tếnh	thếnh	trếnh	vếnh	xếnh
-ệnh	ệnh	bệnh	cệnh	chệnh	dệnh	đệnh	X	X	X	X	kềnh kệnh	khệnh khạng	lệnh	mệnh	nệnh	ngệnh	X	nhệnh	X	bụng phệnh	quệnh	rệnh	sệnh	tệnh	thệnh	trệnh	vệnh	xệnh
-ich	ich	bich	cich	chich	dich	đich	X	X	X	X	X	X	lich	mich	nich	ngich	X	nhich	X	X	quich	rich	sich	tich	thich	trich	vich	xich
-ìch	ìch	bìch	cìch	chìch	dìch	đìch	X	X	X	X	X	X	lìch	mìch	nìch	ngìch	X	nhìch	X	X	quìch	rìch	sìch	tìch	thìch	trìch	vìch	xìch
-ỉch	ỉch	bỉch	cỉch	chỉch	dỉch	đỉch	X	X	X	X	X	X	lỉch	mỉch	nỉch	ngỉch	X	nhỉch	X	X	quỉch	rỉch	sỉch	tỉch	thỉch	trỉch	vỉch	xỉch
-ĩch	ĩch	bĩch	cĩch	chĩch	dĩch	đĩch	X	X	X	X	X	X	lĩch	mĩch	nĩch	ngĩch	X	nhĩch	X	X	quĩch	rĩch	sĩch	tĩch	thĩch	trĩch	vĩch	xĩch
-ích	ích	bích	cích	chích	dích	đích	X	X	X	X	kích thước	khiêu khích	lích	mích	ních	ngích	X	nhích	X	phích cắm	quích	rích	sích	tích	thích	trích	vích	xích
-ịch	ịch	bịch	cịch	chịch	dịch	địch	X	X	X	bài hịch	bi kịch	X	lịch	mịch	nịch	ngịch	nghịch ngợm	nhịch	X	ngồi phịch	quịch	rịch	sịch	tịch	thịch	trịch	vịch	xịch
-iêc	iêc	biêc	ciêc	chiêc	diêc	điêc	X	X	X	X	X	X	liêc	miêc	niêc	ngiêc	X	nhiêc	X	X	quiêc	riêc	siêc	tiêc	thiêc	triêc	viêc	xiêc
-iềc	iềc	biềc	ciềc	chiềc	diềc	điềc	X	X	X	X	X	X	liềc	miềc	niềc	ngiềc	X	nhiềc	X	X	quiềc	riềc	siềc	tiềc	thiềc	triềc	viềc	xiềc
-iểc	iểc	biểc	ciểc	chiểc	diểc	điểc	X	X	X	X	X	X	liểc	miểc	niểc	ngiểc	X	nhiểc	X	X	quiểc	riểc	siểc	tiểc	thiểc	triểc	viểc	xiểc
-iễc	iễc	biễc	ciễc	chiễc	diễc	điễc	X	X	X	X	X	X	liễc	miễc	niễc	ngiễc	X	nhiễc	X	X	quiễc	riễc	siễc	tiễc	thiễc	triễc	viễc	xiễc
-iếc	iếc	biếc	ciếc	chiếc	diếc	điếc	X	gớm ghiếc	X	X	X	X	liếc	miếc	niếc	ngiếc	X	nhiếc	X	X	quiếc	riếc	siếc	tiếc	thiếc	triếc	viếc	xiếc
-iệc	iệc	biệc	ciệc	chiệc	diệc	điệc	X	X	X	X	X	X	liệc	miệc	niệc	ngiệc	X	nhiệc	X	X	quiệc	riệc	siệc	tiệc	thiệc	triệc	việc	xiệc
-iêm	iêm	biêm	ciêm	chiêm	diêm	điêm	X	X	X	X	kiêm nhiệm	khiêm tốn	liêm	miêm	niêm	ngiêm	nghiêm túc	nhiêm	X	X	quiêm	riêm	siêm	tiêm	thiêm	triêm	viêm	xiêm
-iềm	iềm	biềm	ciềm	chiềm	diềm	điềm	X	X	X	hiềm khích	kiềm chế	X	liềm	miềm	niềm	ngiềm	X	nhiềm	X	X	quiềm	riềm	siềm	tiềm	thiềm	triềm	viềm	xiềm
-iểm	iểm	biểm	ciểm	chiểm	diểm	điểm	X	X	X	hiểm trở	kiểm điểm	X	liểm	miểm	niểm	ngiểm	X	nhiểm	X	X	quiểm	riểm	siểm	tiểm	thiểm	triểm	viểm	xiểm
-iễm	iễm	biễm	ciễm	chiễm	diễm	điễm	X	X	X	X	X	X	liễm	miễm	niễm	ngiễm	nghiễm nhiên	nhiễm	X	X	quiễm	riễm	siễm	tiễm	thiễm	triễm	viễm	xiễm
-iếm	iếm	biếm	ciếm	chiếm	diếm	điếm	X	X	X	hiếm hoi	cây kiếm	khiếm khuyết	liếm	miếm	niếm	ngiếm	X	nhiếm	X	phù phiếm	quiếm	riếm	siếm	tiếm	thiếm	triếm	viếm	xiếm
-iệm	iệm	biệm	ciệm	chiệm	diệm	điệm	X	X	X	X	tiết kiệm	X	liệm	miệm	niệm	ngiệm	thí nghiệm	nhiệm	X	X	quiệm	riệm	siệm	tiệm	thiệm	triệm	việm	xiệm
-iên	iên	biên	ciên	chiên	diên	điên	X	X	X	mái hiên	kiên cường	cái khiên	liên	miên	niên	ngiên	nghiên cứu	nhiên	X	phiên bản	quiên	riên	siên	tiên	thiên	triên	viên	xiên
-iền	iền	biền	ciền	chiền	diền	điền	X	X	X	hiền tài	kiền kiền	X	liền	miền	niền	ngiền	nghiền ngẫm	nhiền	X	làm phiền	quiền	riền	siền	tiền	thiền	triền	viền	xiền
-iển	iển	biển	ciển	chiển	diển	điển	X	X	X	hiển nhiên	X	khiển trách	liển	miển	niển	ngiển	X	nhiển	X	X	quiển	riển	siển	tiển	thiển	triển	viển	xiển
-iễn	iễn	biễn	ciễn	chiễn	diễn	điễn	X	X	X	X	X	X	liễn	miễn	niễn	ngiễn	X	nhiễn	X	X	quiễn	riễn	siễn	tiễn	thiễn	triễn	viễn	xiễn
-iến	iến	biến	ciến	chiến	diến	điến	X	X	X	cống hiến	con kiến	xui khiến	liến	miến	niến	ngiến	ngấu nghiến	nhiến	X	phiến loạn	quiến	riến	siến	tiến	thiến	triến	viến	xiến
-iện	iện	biện	ciện	chiện	diện	điện	X	X	X	hiện ra	vụ kiện	X	liện	miện	niện	ngiện	con nghiện	nhiện	X	thuốc phiện	quiện	riện	siện	tiện	thiện	triện	viện	xiện
-iêp	iêp	biêp	ciêp	chiêp	diêp	điêp	X	X	X	X	X	X	liêp	miêp	niêp	ngiêp	X	nhiêp	X	X	quiêp	riêp	siêp	tiêp	thiêp	triêp	viêp	xiêp
-iềp	iềp	biềp	ciềp	chiềp	diềp	điềp	X	X	X	X	X	X	liềp	miềp	niềp	ngiềp	X	nhiềp	X	X	quiềp	riềp	siềp	tiềp	thiềp	triềp	viềp	xiềp
-iểp	iểp	biểp	ciểp	chiểp	diểp	điểp	X	X	X	X	X	X	liểp	miểp	niểp	ngiểp	X	nhiểp	X	X	quiểp	riểp	siểp	tiểp	thiểp	triểp	viểp	xiểp
-iễp	iễp	biễp	ciễp	chiễp	diễp	điễp	X	X	X	X	X	X	liễp	miễp	niễp	ngiễp	X	nhiễp	X	X	quiễp	riễp	siễp	tiễp	thiễp	triễp	viễp	xiễp
-iếp	iếp	biếp	ciếp	chiếp	diếp	điếp	X	X	X	hiếp đáp	kiếp người	khiếp đảm	liếp	miếp	niếp	ngiếp	X	nhiếp	X	X	quiếp	riếp	siếp	tiếp	thiếp	triếp	viếp	xiếp
-iệp	iệp	biệp	ciệp	chiệp	diệp	điệp	X	X	X	hiệp định	X	X	liệp	miệp	niệp	ngiệp	nghề nghiệp	nhiệp	X	X	quiệp	riệp	siệp	tiệp	thiệp	triệp	việp	xiệp
-iêt	iêt	biêt	ciêt	chiêt	diêt	điêt	X	X	X	X	X	X	liêt	miêt	niêt	ngiêt	X	nhiêt	X	X	quiêt	riêt	siêt	tiêt	thiêt	triêt	viêt	xiêt
-iềt	iềt	biềt	ciềt	chiềt	diềt	điềt	X	X	X	X	X	X	liềt	miềt	niềt	ngiềt	X	nhiềt	X	X	quiềt	riềt	siềt	tiềt	thiềt	triềt	viềt	xiềt
-iểt	iểt	biểt	ciểt	chiểt	diểt	điểt	X	X	X	X	X	X	liểt	miểt	niểt	ngiểt	X	nhiểt	X	X	quiểt	riểt	siểt	tiểt	thiểt	triểt	viểt	xiểt
-iễt	iễt	biễt	ciễt	chiễt	diễt	điễt	X	X	X	X	X	X	liễt	miễt	niễt	ngiễt	X	nhiễt	X	X	quiễt	riễt	siễt	tiễt	thiễt	triễt	viễt	xiễt
-iết	iết	biết	ciết	chiết	diết	điết	X	X	X	X	kiết lị	thuần khiết	liết	miết	niết	ngiết	X	nhiết	X	X	quiết	riết	siết	tiết	thiết	triết	viết	xiết
-iệt	iệt	biệt	ciệt	chiệt	diệt	điệt	X	X	X	X	hào kiệt	X	liệt	miệt	niệt	ngiệt	nghiệt ngã	nhiệt	X	tài phiệt	quiệt	riệt	siệt	tiệt	thiệt	triệt	việt	xiệt
-iêu	iêu	biêu	ciêu	chiêu	phiêu diêu	điêu	X	X	X	X	kiêu hãnh	khiêu khích	liêu	miêu	niêu	ngiêu	X	nhiêu	X	phiêu bạt	quiêu	riêu	siêu	tiêu	thiêu	triêu	viêu	xiêu
-iều	iều	biều	ciều	chiều	diều	điều	X	X	X	X	kiều bào	X	liều	miều	niều	ngiều	X	nhiều	X	X	quiều	riều	siều	tiều	thiều	triều	viều	xiều
-iểu	iểu	biểu	ciểu	chiểu	diểu	điểu	X	X	X	hiểu biết	kiểu dáng	X	liểu	miểu	niểu	ngiểu	X	nhiểu	X	X	quiểu	riểu	siểu	tiểu	thiểu	triểu	viểu	xiểu
-iễu	iễu	biễu	ciễu	chiễu	diễu	điễu	X	X	X	X	X	X	liễu	miễu	niễu	ngiễu	X	nhiễu	X	X	quiễu	riễu	siễu	tiễu	thiễu	triễu	viễu	xiễu
-iếu	iếu	biếu	ciếu	chiếu	diếu	điếu	X	X	X	hiếu thảo	xin kiếu	năng khiếu	liếu	miếu	niếu	ngiếu	X	nhiếu	X	lá phiếu	quiếu	riếu	siếu	tiếu	thiếu	triếu	viếu	xiếu
-iệu	iệu	biệu	ciệu	chiệu	diệu	điệu	X	X	X	hiệu năng	củ kiệu	X	liệu	miệu	niệu	ngiệu	X	nhiệu	X	X	quiệu	riệu	siệu	tiệu	thiệu	triệu	việu	xiệu
-inh	inh	binh	cinh	chinh	dinh	đinh	X	X	X	X	kinh tế	khinh thường	linh	minh	ninh	nginh	Nghinh Ông	nhinh	X	X	quinh	rinh	sinh	tinh	thinh	trinh	vinh	xinh
-ình	ình	bình	cình	chình	dình	đình	X	X	X	hình ảnh	kình địch	X	lình	mình	nình	ngình	X	nhình	X	X	quình	rình	sình	tình	thình	trình	vình	xình
+ẹng	ẹng	bẹng	cẹng	chẹng	dẹng	đẹng	X	X	X	X	X	X	X	mẹng	nẹng	ngẹng	X	nhẹng	X	X	quẹng	rẹng	sẹng	tẹng	thẹng	trẹng	vẹng	xẹng
+êch	êch	bêch	cêch	chêch	dêch	đêch	X	X	X	X	X	X	X	mêch	nêch	ngêch	X	nhêch	X	X	quêch	rêch	sêch	têch	thêch	trêch	vêch	xêch
+ềch	ềch	bềch	cềch	chềch	dềch	đềch	X	X	X	X	X	X	X	mềch	nềch	ngềch	X	nhềch	X	X	quềch	rềch	sềch	tềch	thềch	trềch	vềch	xềch
+ểch	ểch	bểch	cểch	chểch	dểch	đểch	X	X	X	X	X	X	X	mểch	nểch	ngểch	X	nhểch	X	X	quểch	rểch	sểch	tểch	thểch	trểch	vểch	xểch
+ễch	ễch	bễch	cễch	chễch	dễch	đễch	X	X	X	X	X	X	X	mễch	nễch	ngễch	X	nhễch	X	X	quễch	rễch	sễch	tễch	thễch	trễch	vễch	xễch
+ếch	ếch	bếch	cếch	chếch	dếch	đếch	X	ghếch mắt	X	hếch mũi	X	X	lếch thếch	mếch	nếch	ngếch	ngốc nghếch	nhếch	X	bạc phếch	quếch	rếch	sếch	tếch	lếch thếch	trếch	vếch	xếch
+ệch	ệch	bệch	cệch	chệch	dệch	đệch	X	đỗ ghệch	X	hệch mồm	X	X	lệch lạc	mệch	nệch	ngệch	ngờ nghệch	nhệch	X	X	quệch	rệch	sệch	tệch	thệch	trệch	vệch	xệch
+ênh	ênh	bênh	cênh	chênh	dênh	đênh	X	X	X	hớ hênh	con kênh	lênh khênh	lênh đênh	mênh	nênh	ngênh	nghênh mặt	nhênh	X	X	quênh	rênh	sênh	tênh	thênh	trênh	vênh	xênh
+ềnh	ềnh	lềnh bềnh	cềnh	chềnh	dềnh	lềnh đềnh	X	ghềnh thác	X	X	lăn kềnh	nằm khềnh	lềnh bềnh	mềnh	nềnh	ngềnh	nghềnh	nhềnh	X	căng phềnh	quềnh	rềnh	sềnh	tềnh	thềnh	trềnh	vềnh	xềnh
+ểnh	ểnh	bểnh	cểnh	chểnh	dểnh	đểnh	X	ghểnh tượng	X	hổng hểnh	X	khấp khểnh	X	mểnh	nểnh	ngểnh	X	nhểnh	X	X	quểnh	rểnh	sểnh	tểnh	thểnh	trểnh	vểnh	xểnh
+ễnh	ễnh	bễnh	cễnh	chễnh	dễnh	đễnh	X	X	X	X	kễnh bụng	X	X	mễnh	nễnh	ngễnh	nghễnh ngãng	nhễnh	X	X	quễnh	rễnh	sễnh	tễnh	thễnh	trễnh	vễnh	xễnh
+ếnh	ếnh	bếnh	cếnh	chếnh	dếnh	đếnh	X	X	X	X	X	X	X	mếnh	nếnh	ngếnh	X	nhếnh	X	X	quếnh	rếnh	sếnh	tếnh	thếnh	trếnh	vếnh	xếnh
+ệnh	ệnh	bệnh	cệnh	chệnh	dệnh	đệnh	X	X	X	X	kềnh kệnh	khệnh khạng	tuân lệnh	mệnh	nệnh	ngệnh	X	nhệnh	X	bụng phệnh	quệnh	rệnh	sệnh	tệnh	thệnh	trệnh	vệnh	xệnh
+ich	ich	bich	cich	chich	dich	đich	X	X	X	X	X	X	X	mich	nich	ngich	X	nhich	X	X	quich	rich	sich	tich	thich	trich	vich	xich
+ìch	ìch	bìch	cìch	chìch	dìch	đìch	X	X	X	X	X	X	X	mìch	nìch	ngìch	X	nhìch	X	X	quìch	rìch	sìch	tìch	thìch	trìch	vìch	xìch
+ỉch	ỉch	bỉch	cỉch	chỉch	dỉch	đỉch	X	X	X	X	X	X	X	mỉch	nỉch	ngỉch	X	nhỉch	X	X	quỉch	rỉch	sỉch	tỉch	thỉch	trỉch	vỉch	xỉch
+ĩch	ĩch	bĩch	cĩch	chĩch	dĩch	đĩch	X	X	X	X	X	X	X	mĩch	nĩch	ngĩch	X	nhĩch	X	X	quĩch	rĩch	sĩch	tĩch	thĩch	trĩch	vĩch	xĩch
+ích	ích	bích	cích	chích	dích	đích	X	X	X	X	kích thước	khiêu khích	lích kích	mích	ních	ngích	X	nhích	X	phích cắm	quích	rích	sích	tích	thích	trích	vích	xích
+ịch	ịch	lịch bịch	cịch	chịch	dịch	địch	X	X	X	bài hịch	bi kịch	X	cuốn lịch	mịch	nịch	ngịch	nghịch ngợm	nhịch	X	ngồi phịch	quịch	rịch	sịch	tịch	thịch	trịch	vịch	xịch
+iêc	iêc	biêc	ciêc	chiêc	diêc	điêc	X	X	X	X	X	X	X	miêc	niêc	ngiêc	X	nhiêc	X	X	quiêc	riêc	siêc	tiêc	thiêc	triêc	viêc	xiêc
+iềc	iềc	biềc	ciềc	chiềc	diềc	điềc	X	X	X	X	X	X	X	miềc	niềc	ngiềc	X	nhiềc	X	X	quiềc	riềc	siềc	tiềc	thiềc	triềc	viềc	xiềc
+iểc	iểc	biểc	ciểc	chiểc	diểc	điểc	X	X	X	X	X	X	X	miểc	niểc	ngiểc	X	nhiểc	X	X	quiểc	riểc	siểc	tiểc	thiểc	triểc	viểc	xiểc
+iễc	iễc	biễc	ciễc	chiễc	diễc	điễc	X	X	X	X	X	X	X	miễc	niễc	ngiễc	X	nhiễc	X	X	quiễc	riễc	siễc	tiễc	thiễc	triễc	viễc	xiễc
+iếc	iếc	biếc	ciếc	chiếc	diếc	điếc	X	gớm ghiếc	X	X	X	X	liếc mắt	miếc	niếc	ngiếc	X	nhiếc	X	X	quiếc	riếc	siếc	tiếc	thiếc	triếc	viếc	xiếc
+iệc	iệc	biệc	ciệc	chiệc	diệc	điệc	X	X	X	X	X	X	X	miệc	niệc	ngiệc	X	nhiệc	X	X	quiệc	riệc	siệc	tiệc	thiệc	triệc	việc	xiệc
+iêm	iêm	biêm	ciêm	chiêm	diêm	điêm	X	X	X	X	kiêm nhiệm	khiêm tốn	thanh liêm	miêm	niêm	ngiêm	nghiêm túc	nhiêm	X	X	quiêm	riêm	siêm	tiêm	thiêm	triêm	viêm	xiêm
+iềm	iềm	biềm	ciềm	chiềm	diềm	điềm	X	X	X	hiềm khích	kiềm chế	X	lưỡi liềm	miềm	niềm	ngiềm	X	nhiềm	X	X	quiềm	riềm	siềm	tiềm	thiềm	triềm	viềm	xiềm
+iểm	iểm	biểm	ciểm	chiểm	diểm	điểm	X	X	X	hiểm trở	kiểm điểm	X	X	miểm	niểm	ngiểm	X	nhiểm	X	X	quiểm	riểm	siểm	tiểm	thiểm	triểm	viểm	xiểm
+iễm	iễm	biễm	ciễm	chiễm	diễm	điễm	X	X	X	X	X	X	X	miễm	niễm	ngiễm	nghiễm nhiên	nhiễm	X	X	quiễm	riễm	siễm	tiễm	thiễm	triễm	viễm	xiễm
+iếm	iếm	biếm	ciếm	chiếm	diếm	điếm	X	X	X	hiếm hoi	cây kiếm	khiếm khuyết	liếm láp	miếm	niếm	ngiếm	X	nhiếm	X	phù phiếm	quiếm	riếm	siếm	tiếm	thiếm	triếm	viếm	xiếm
+iệm	iệm	biệm	ciệm	chiệm	diệm	điệm	X	X	X	X	tiết kiệm	X	vải liệm	miệm	niệm	ngiệm	thí nghiệm	nhiệm	X	X	quiệm	riệm	siệm	tiệm	thiệm	triệm	việm	xiệm
+iên	iên	biên	ciên	chiên	diên	điên	X	X	X	mái hiên	kiên cường	cái khiên	liên hệ	miên	niên	ngiên	nghiên cứu	nhiên	X	phiên bản	quiên	riên	siên	tiên	thiên	triên	viên	xiên
+iền	iền	biền	ciền	chiền	diền	điền	X	X	X	hiền tài	kiền kiền	X	làm liền	miền	niền	ngiền	nghiền ngẫm	nhiền	X	làm phiền	quiền	riền	siền	tiền	thiền	triền	viền	xiền
+iển	iển	biển	ciển	chiển	diển	điển	X	X	X	hiển nhiên	X	khiển trách	X	miển	niển	ngiển	X	nhiển	X	X	quiển	riển	siển	tiển	thiển	triển	viển	xiển
+iễn	iễn	biễn	ciễn	chiễn	diễn	điễn	X	X	X	X	X	X	đôi liễn	miễn	niễn	ngiễn	X	nhiễn	X	X	quiễn	riễn	siễn	tiễn	thiễn	triễn	viễn	xiễn
+iến	iến	biến	ciến	chiến	diến	điến	X	X	X	cống hiến	con kiến	xui khiến	liên liến	miến	niến	ngiến	ngấu nghiến	nhiến	X	phiến loạn	quiến	riến	siến	tiến	thiến	triến	viến	xiến
+iện	iện	biện	ciện	chiện	diện	điện	X	X	X	hiện ra	vụ kiện	X	X	miện	niện	ngiện	con nghiện	nhiện	X	thuốc phiện	quiện	riện	siện	tiện	thiện	triện	viện	xiện
+iêp	iêp	biêp	ciêp	chiêp	diêp	điêp	X	X	X	X	X	X	X	miêp	niêp	ngiêp	X	nhiêp	X	X	quiêp	riêp	siêp	tiêp	thiêp	triêp	viêp	xiêp
+iềp	iềp	biềp	ciềp	chiềp	diềp	điềp	X	X	X	X	X	X	X	miềp	niềp	ngiềp	X	nhiềp	X	X	quiềp	riềp	siềp	tiềp	thiềp	triềp	viềp	xiềp
+iểp	iểp	biểp	ciểp	chiểp	diểp	điểp	X	X	X	X	X	X	X	miểp	niểp	ngiểp	X	nhiểp	X	X	quiểp	riểp	siểp	tiểp	thiểp	triểp	viểp	xiểp
+iễp	iễp	biễp	ciễp	chiễp	diễp	điễp	X	X	X	X	X	X	X	miễp	niễp	ngiễp	X	nhiễp	X	X	quiễp	riễp	siễp	tiễp	thiễp	triễp	viễp	xiễp
+iếp	iếp	biếp	ciếp	chiếp	diếp	điếp	X	X	X	hiếp đáp	kiếp người	khiếp đảm	liếp nhiếp	miếp	niếp	ngiếp	X	liếp nhiếp	X	X	quiếp	riếp	siếp	tiếp	thiếp	triếp	viếp	xiếp
+iệp	iệp	biệp	ciệp	chiệp	diệp	điệp	X	X	X	hiệp định	X	X	X	miệp	niệp	ngiệp	nghề nghiệp	nhiệp	X	X	quiệp	riệp	siệp	tiệp	thiệp	triệp	việp	xiệp
+iêt	iêt	biêt	ciêt	chiêt	diêt	điêt	X	X	X	X	X	X	X	miêt	niêt	ngiêt	X	nhiêt	X	X	quiêt	riêt	siêt	tiêt	thiêt	triêt	viêt	xiêt
+iềt	iềt	biềt	ciềt	chiềt	diềt	điềt	X	X	X	X	X	X	X	miềt	niềt	ngiềt	X	nhiềt	X	X	quiềt	riềt	siềt	tiềt	thiềt	triềt	viềt	xiềt
+iểt	iểt	biểt	ciểt	chiểt	diểt	điểt	X	X	X	X	X	X	X	miểt	niểt	ngiểt	X	nhiểt	X	X	quiểt	riểt	siểt	tiểt	thiểt	triểt	viểt	xiểt
+iễt	iễt	biễt	ciễt	chiễt	diễt	điễt	X	X	X	X	X	X	X	miễt	niễt	ngiễt	X	nhiễt	X	X	quiễt	riễt	siễt	tiễt	thiễt	triễt	viễt	xiễt
+iết	iết	biết	ciết	chiết	diết	điết	X	X	X	X	kiết lị	thuần khiết	X	miết	niết	ngiết	X	nhiết	X	X	quiết	riết	siết	tiết	thiết	triết	viết	xiết
+iệt	iệt	biệt	ciệt	chiệt	diệt	điệt	X	X	X	X	hào kiệt	X	bại liệt	miệt	niệt	ngiệt	nghiệt ngã	nhiệt	X	tài phiệt	quiệt	riệt	siệt	tiệt	thiệt	triệt	việt	xiệt
+iêu	iêu	biêu	ciêu	chiêu	phiêu diêu	điêu	X	X	X	X	kiêu hãnh	khiêu khích	liêu xiêu	miêu	niêu	ngiêu	X	nhiêu	X	phiêu bạt	quiêu	riêu	siêu	tiêu	thiêu	triêu	viêu	liêu xiêu
+iều	iều	biều	ciều	chiều	diều	điều	X	X	X	X	kiều bào	X	làm liều	miều	niều	ngiều	X	nhiều	X	X	quiều	riều	siều	tiều	thiều	triều	viều	xiều
+iểu	iểu	biểu	ciểu	chiểu	diểu	điểu	X	X	X	hiểu biết	kiểu dáng	X	X	miểu	niểu	ngiểu	X	nhiểu	X	X	quiểu	riểu	siểu	tiểu	thiểu	triểu	viểu	xiểu
+iễu	iễu	biễu	ciễu	chiễu	diễu	điễu	X	X	X	X	X	X	dương liễu	miễu	niễu	ngiễu	X	nhiễu	X	X	quiễu	riễu	siễu	tiễu	thiễu	triễu	viễu	xiễu
+iếu	iếu	biếu	ciếu	chiếu	diếu	điếu	X	X	X	hiếu thảo	xin kiếu	năng khiếu	X	miếu	niếu	ngiếu	X	nhiếu	X	lá phiếu	quiếu	riếu	siếu	tiếu	thiếu	triếu	viếu	xiếu
+iệu	iệu	biệu	ciệu	chiệu	diệu	điệu	X	X	X	hiệu năng	củ kiệu	X	liều liệu	miệu	niệu	ngiệu	X	nhiệu	X	X	quiệu	riệu	siệu	tiệu	thiệu	triệu	việu	xiệu
+inh	inh	binh	cinh	chinh	dinh	đinh	X	X	X	X	kinh tế	khinh thường	linh kiện	minh	ninh	nginh	Nghinh Ông	nhinh	X	X	quinh	rinh	sinh	tinh	thinh	trinh	vinh	xinh
+ình	ình	bình	cình	chình	dình	đình	X	X	X	hình ảnh	kình địch	X	X	mình	nình	ngình	X	nhình	X	X	quình	rình	sình	tình	thình	trình	vình	xình
 ỉnh	ỉnh	bỉnh	cỉnh	chỉnh	dỉnh	đỉnh	X	X	X	hóm hỉnh	lỉnh kỉnh	kháu khỉnh	lém lỉnh	mỉnh	nỉnh	ngỉnh	X	nhỉnh	X	X	quỉnh	rỉnh	sỉnh	tỉnh	thỉnh	trỉnh	vỉnh	xỉnh
-ĩnh	ĩnh	phá bĩnh	cĩnh	chĩnh	dĩnh	đĩnh	X	X	X	hợm hĩnh	X	X	lĩnh	mĩnh	nĩnh	ngĩnh	X	nhĩnh	X	X	quĩnh	rĩnh	sĩnh	tĩnh	thĩnh	trĩnh	vĩnh	xĩnh
-ính	ính	bính	cính	chính	dính	đính	X	X	X	X	mắt kính	X	lính	mính	nính	ngính	X	nhính	X	X	quính	rính	sính	tính	thính	trính	vính	xính
-ịnh	ịnh	bịnh	cịnh	chịnh	dịnh	định	X	X	X	X	X	X	lịnh	mịnh	nịnh	ngịnh	X	nhịnh	X	X	quịnh	rịnh	sịnh	tịnh	thịnh	trịnh	vịnh	xịnh
-oac	oac	boac	coac	choac	doac	đoac	X	X	X	X	X	X	loac	moac	noac	ngoac	X	nhoac	X	X	quoac	roac	soac	toac	thoac	troac	voac	xoac
-oàc	oàc	boàc	coàc	choàc	doàc	đoàc	X	X	X	X	X	X	loàc	moàc	noàc	ngoàc	X	nhoàc	X	X	quoàc	roàc	soàc	toàc	thoàc	troàc	voàc	xoàc
-oảc	oảc	boảc	coảc	choảc	doảc	đoảc	X	X	X	X	X	X	loảc	moảc	noảc	ngoảc	X	nhoảc	X	X	quoảc	roảc	soảc	toảc	thoảc	troảc	voảc	xoảc
-oãc	oãc	boãc	coãc	choãc	doãc	đoãc	X	X	X	X	X	X	loãc	moãc	noãc	ngoãc	X	nhoãc	X	X	quoãc	roãc	soãc	toãc	thoãc	troãc	voãc	xoãc
-oác	oác	boác	coác	choác	doác	đoác	X	X	X	huếch hoác	X	khoác lác	loác	moác	noác	ngoác	X	nhoác	X	X	quoác	roác	soác	toác	thoác	troác	voác	xoác
+ĩnh	ĩnh	phá bĩnh	cĩnh	chĩnh	dĩnh	đĩnh	X	X	X	hợm hĩnh	X	X	lĩnh vực	mĩnh	nĩnh	ngĩnh	X	nhĩnh	X	X	quĩnh	rĩnh	sĩnh	tĩnh	thĩnh	trĩnh	vĩnh	xĩnh
+ính	ính	bính	cính	chính	dính	đính	X	X	X	X	mắt kính	X	quân lính	mính	nính	ngính	X	nhính	X	X	quính	rính	sính	tính	thính	trính	vính	xính
+ịnh	ịnh	bịnh	cịnh	chịnh	dịnh	định	X	X	X	X	X	X	X	mịnh	nịnh	ngịnh	X	nhịnh	X	X	quịnh	rịnh	sịnh	tịnh	thịnh	trịnh	vịnh	xịnh
+oac	oac	boac	coac	choac	doac	đoac	X	X	X	X	X	X	X	moac	noac	ngoac	X	nhoac	X	X	quoac	roac	soac	toac	thoac	troac	voac	xoac
+oàc	oàc	boàc	coàc	choàc	doàc	đoàc	X	X	X	X	X	X	X	moàc	noàc	ngoàc	X	nhoàc	X	X	quoàc	roàc	soàc	toàc	thoàc	troàc	voàc	xoàc
+oảc	oảc	boảc	coảc	choảc	doảc	đoảc	X	X	X	X	X	X	X	moảc	noảc	ngoảc	X	nhoảc	X	X	quoảc	roảc	soảc	toảc	thoảc	troảc	voảc	xoảc
+oãc	oãc	boãc	coãc	choãc	doãc	đoãc	X	X	X	X	X	X	X	moãc	noãc	ngoãc	X	nhoãc	X	X	quoãc	roãc	soãc	toãc	thoãc	troãc	voãc	xoãc
+oác	oác	boác	coác	choác	doác	đoác	X	X	X	huếch hoác	X	khoác lác	X	moác	noác	ngoác	X	nhoác	X	X	quoác	roác	soác	toác	thoác	troác	voác	xoác
 oạc	oạc	boạc	coạc	loạc choạc	doạc	đoạc	X	X	X	X	X	X	loạc choạc	moạc	noạc	ngoạc	X	nhoạc	X	X	quoạc	roạc	soạc	toạc	thoạc	troạc	voạc	xoạc
-oai	oai	boai	coai	choai	doai	đoai	X	X	X	phân hoai	X	củ khoai	loai	moai	noai	ngoai	X	nhoai	X	X	quoai	roai	soai	toai	thoai	troai	voai	xoai
-oài	oài	boài	coài	choài	doài	đoài	X	X	X	hoài bão	X	X	loài	moài	noài	ngoài	X	nhoài	X	X	quoài	roài	soài	toài	thoài	troài	voài	xoài
-oải	oải	boải	coải	choải	doải	đoải	X	X	X	X	X	khắc khoải	loải	moải	noải	ngoải	X	nhoải	X	X	quoải	roải	soải	toải	thoải	troải	voải	xoải
-oãi	oãi	boãi	coãi	choãi	doãi	đoãi	X	X	X	X	X	X	loãi	moãi	noãi	ngoãi	X	nhoãi	X	X	quoãi	roãi	soãi	toãi	thoãi	troãi	voãi	xoãi
-oái	oái	boái	coái	choái	doái	đoái	X	X	X	X	X	khoái khẩu	loái	moái	noái	ngoái	X	nhoái	X	X	quoái	roái	soái	toái	thoái	troái	voái	xoái
-oại	oại	boại	coại	choại	doại	đoại	X	X	X	phá hoại	X	X	loại	moại	noại	ngoại	X	nhoại	X	X	quoại	roại	soại	toại	thoại	troại	voại	xoại
-oam	oam	boam	coam	choam	doam	đoam	X	X	X	X	X	X	loam	moam	noam	ngoam	X	nhoam	X	X	quoam	roam	soam	toam	thoam	troam	voam	xoam
-oàm	oàm	boàm	coàm	choàm	doàm	đoàm	X	X	X	X	X	X	loàm	moàm	noàm	ngoàm	X	nhoàm	X	X	quoàm	roàm	soàm	toàm	thoàm	troàm	voàm	xoàm
-oảm	oảm	boảm	coảm	choảm	doảm	đoảm	X	X	X	X	X	X	loảm	moảm	noảm	ngoảm	X	nhoảm	X	X	quoảm	roảm	soảm	toảm	thoảm	troảm	voảm	xoảm
-oãm	oãm	boãm	coãm	choãm	doãm	đoãm	X	X	X	X	X	X	loãm	moãm	noãm	ngoãm	X	nhoãm	X	X	quoãm	roãm	soãm	toãm	thoãm	troãm	voãm	xoãm
-oám	oám	boám	coám	choám	doám	đoám	X	X	X	X	X	X	loám	moám	noám	ngoám	X	nhoám	X	X	quoám	roám	soám	toám	thoám	troám	voám	xoám
-oạm	oạm	boạm	coạm	choạm	doạm	đoạm	X	X	X	X	X	X	loạm	moạm	noạm	ngoạm	X	nhoạm	X	X	quoạm	roạm	soạm	toạm	thoạm	troạm	voạm	xoạm
-oan	oan	boan	coan	choan	doan	đoan	X	X	X	liên hoan	X	khoan dung	loan	moan	noan	ngoan	X	nhoan	X	X	quoan	roan	soan	toan	thoan	troan	voan	xoan
-oàn	oàn	boàn	coàn	choàn	doàn	đoàn	X	X	X	hoàn trả	X	X	loàn	moàn	noàn	ngoàn	X	nhoàn	X	X	quoàn	roàn	soàn	toàn	thoàn	troàn	voàn	xoàn
-oản	oản	boản	coản	choản	doản	đoản	X	X	X	X	X	tài khoản	loản	moản	noản	ngoản	X	nhoản	X	X	quoản	roản	soản	toản	thoản	troản	voản	xoản
-oãn	oãn	boãn	coãn	choãn	doãn	đoãn	X	X	X	hoãn lại	X	X	loãn	moãn	noãn	ngoãn	X	nhoãn	X	X	quoãn	roãn	soãn	toãn	thoãn	troãn	voãn	xoãn
-oán	oán	boán	coán	choán	doán	đoán	X	X	X	hoán đổi	X	chứng khoán	loán	moán	noán	ngoán	X	nhoán	X	X	quoán	roán	soán	toán	thoán	troán	voán	xoán
-oạn	oạn	boạn	coạn	choạn	doạn	đoạn	X	X	X	hoạn nạn	X	X	loạn	moạn	noạn	ngoạn	X	nhoạn	X	X	quoạn	roạn	soạn	toạn	thoạn	troạn	voạn	xoạn
-oat	oat	boat	coat	choat	doat	đoat	X	X	X	X	X	X	loat	moat	noat	ngoat	X	nhoat	X	X	quoat	roat	soat	toat	thoat	troat	voat	xoat
-oàt	oàt	boàt	coàt	choàt	doàt	đoàt	X	X	X	X	X	X	loàt	moàt	noàt	ngoàt	X	nhoàt	X	X	quoàt	roàt	soàt	toàt	thoàt	troàt	voàt	xoàt
-oảt	oảt	boảt	coảt	choảt	doảt	đoảt	X	X	X	X	X	X	loảt	moảt	noảt	ngoảt	X	nhoảt	X	X	quoảt	roảt	soảt	toảt	thoảt	troảt	voảt	xoảt
-oãt	oãt	boãt	coãt	choãt	doãt	đoãt	X	X	X	X	X	X	loãt	moãt	noãt	ngoãt	X	nhoãt	X	X	quoãt	roãt	soãt	toãt	thoãt	troãt	voãt	xoãt
-oát	oát	boát	coát	choát	doát	đoát	X	X	X	X	X	khoát tay	loát	moát	noát	ngoát	X	nhoát	X	X	quoát	roát	soát	toát	thoát	troát	voát	xoát
-oạt	oạt	boạt	coạt	choạt	doạt	đoạt	X	X	X	linh hoạt	X	X	loạt	moạt	noạt	ngoạt	X	nhoạt	X	X	quoạt	roạt	soạt	toạt	thoạt	troạt	voạt	xoạt
+oai	oai	boai	coai	choai	doai	đoai	X	X	X	phân hoai	X	củ khoai	X	moai	noai	ngoai	X	nhoai	X	X	quoai	roai	soai	toai	thoai	troai	voai	xoai
+oài	oài	boài	coài	choài	doài	đoài	X	X	X	hoài bão	X	X	giống loài	moài	noài	ngoài	X	nhoài	X	X	quoài	roài	soài	toài	thoài	troài	voài	xoài
+oải	oải	boải	coải	choải	doải	đoải	X	X	X	X	X	khắc khoải	X	moải	noải	ngoải	X	nhoải	X	X	quoải	roải	soải	toải	thoải	troải	voải	xoải
+oãi	oãi	boãi	coãi	choãi	doãi	đoãi	X	X	X	X	X	X	X	moãi	noãi	ngoãi	X	nhoãi	X	X	quoãi	roãi	soãi	toãi	thoãi	troãi	voãi	xoãi
+oái	oái	boái	coái	choái	doái	đoái	X	X	X	X	X	khoái khẩu	X	moái	noái	ngoái	X	nhoái	X	X	quoái	roái	soái	toái	thoái	troái	voái	xoái
+oại	oại	boại	coại	choại	doại	đoại	X	X	X	phá hoại	X	X	phân loại	moại	noại	ngoại	X	nhoại	X	X	quoại	roại	soại	toại	thoại	troại	voại	xoại
+oam	oam	boam	coam	choam	doam	đoam	X	X	X	X	X	X	X	moam	noam	ngoam	X	nhoam	X	X	quoam	roam	soam	toam	thoam	troam	voam	xoam
+oàm	oàm	boàm	coàm	choàm	doàm	đoàm	X	X	X	X	X	X	X	moàm	noàm	ngoàm	X	nhoàm	X	X	quoàm	roàm	soàm	toàm	thoàm	troàm	voàm	xoàm
+oảm	oảm	boảm	coảm	choảm	doảm	đoảm	X	X	X	X	X	X	X	moảm	noảm	ngoảm	X	nhoảm	X	X	quoảm	roảm	soảm	toảm	thoảm	troảm	voảm	xoảm
+oãm	oãm	boãm	coãm	choãm	doãm	đoãm	X	X	X	X	X	X	X	moãm	noãm	ngoãm	X	nhoãm	X	X	quoãm	roãm	soãm	toãm	thoãm	troãm	voãm	xoãm
+oám	oám	boám	coám	choám	doám	đoám	X	X	X	X	X	X	X	moám	noám	ngoám	X	nhoám	X	X	quoám	roám	soám	toám	thoám	troám	voám	xoám
+oạm	oạm	boạm	coạm	choạm	doạm	đoạm	X	X	X	X	X	X	X	moạm	noạm	ngoạm	X	nhoạm	X	X	quoạm	roạm	soạm	toạm	thoạm	troạm	voạm	xoạm
+oan	oan	boan	coan	choan	doan	đoan	X	X	X	liên hoan	X	khoan dung	loan báo	moan	noan	ngoan	X	nhoan	X	X	quoan	roan	soan	toan	thoan	troan	voan	xoan
+oàn	oàn	boàn	coàn	choàn	doàn	đoàn	X	X	X	hoàn trả	X	X	lăng loàn	moàn	noàn	ngoàn	X	nhoàn	X	X	quoàn	roàn	soàn	toàn	thoàn	troàn	voàn	xoàn
+oản	oản	boản	coản	choản	doản	đoản	X	X	X	X	X	tài khoản	X	moản	noản	ngoản	X	nhoản	X	X	quoản	roản	soản	toản	thoản	troản	voản	xoản
+oãn	oãn	boãn	coãn	choãn	doãn	đoãn	X	X	X	hoãn lại	X	X	X	moãn	noãn	ngoãn	X	nhoãn	X	X	quoãn	roãn	soãn	toãn	thoãn	troãn	voãn	xoãn
+oán	oán	boán	coán	choán	doán	đoán	X	X	X	hoán đổi	X	chứng khoán	X	moán	noán	ngoán	X	nhoán	X	X	quoán	roán	soán	toán	thoán	troán	voán	xoán
+oạn	oạn	boạn	coạn	choạn	doạn	đoạn	X	X	X	hoạn nạn	X	X	loạn luân	moạn	noạn	ngoạn	X	nhoạn	X	X	quoạn	roạn	soạn	toạn	thoạn	troạn	voạn	xoạn
+oat	oat	boat	coat	choat	doat	đoat	X	X	X	X	X	X	X	moat	noat	ngoat	X	nhoat	X	X	quoat	roat	soat	toat	thoat	troat	voat	xoat
+oàt	oàt	boàt	coàt	choàt	doàt	đoàt	X	X	X	X	X	X	X	moàt	noàt	ngoàt	X	nhoàt	X	X	quoàt	roàt	soàt	toàt	thoàt	troàt	voàt	xoàt
+oảt	oảt	boảt	coảt	choảt	doảt	đoảt	X	X	X	X	X	X	X	moảt	noảt	ngoảt	X	nhoảt	X	X	quoảt	roảt	soảt	toảt	thoảt	troảt	voảt	xoảt
+oãt	oãt	boãt	coãt	choãt	doãt	đoãt	X	X	X	X	X	X	X	moãt	noãt	ngoãt	X	nhoãt	X	X	quoãt	roãt	soãt	toãt	thoãt	troãt	voãt	xoãt
+oát	oát	boát	coát	choát	doát	đoát	X	X	X	X	X	khoát tay	lưu loát	moát	noát	ngoát	X	nhoát	X	X	quoát	roát	soát	toát	thoát	troát	voát	xoát
+oạt	oạt	boạt	coạt	choạt	doạt	đoạt	X	X	X	linh hoạt	X	X	hàng loạt	moạt	noạt	ngoạt	X	nhoạt	X	X	quoạt	roạt	loạt soạt	toạt	thoạt	troạt	voạt	loạt xoạt
 oay	oay	boay	coay	choay	doay	đoay	X	X	X	loay hoay	X	X	loay hoay	moay	noay	ngoay	X	nhoay	X	X	quoay	roay	soay	toay	thoay	troay	voay	xoay
-oày	oày	boày	coày	choày	doày	đoày	X	X	X	X	X	X	loày	moày	noày	ngoày	X	nhoày	X	X	quoày	roày	soày	toày	thoày	troày	voày	xoày
-oảy	oảy	boảy	coảy	choảy	doảy	đoảy	X	X	X	X	X	X	loảy	moảy	noảy	ngoảy	X	nhoảy	X	X	quoảy	roảy	soảy	toảy	thoảy	troảy	voảy	xoảy
-oãy	oãy	boãy	coãy	choãy	doãy	đoãy	X	X	X	X	X	X	loãy	moãy	noãy	ngoãy	X	nhoãy	X	X	quoãy	roãy	soãy	toãy	thoãy	troãy	voãy	xoãy
-oáy	oáy	boáy	coáy	choáy	doáy	đoáy	X	X	X	hí hoáy	X	trái khoáy	loáy	moáy	noáy	ngoáy	X	nhoáy	X	X	quoáy	roáy	soáy	toáy	thoáy	troáy	voáy	xoáy
-oạy	oạy	boạy	coạy	choạy	doạy	đoạy	X	X	X	X	X	X	loạy	moạy	noạy	ngoạy	X	nhoạy	X	X	quoạy	roạy	soạy	toạy	thoạy	troạy	voạy	xoạy
-oăc	oăc	boăc	coăc	choăc	doăc	đoăc	X	X	X	X	X	X	loăc	moăc	noăc	ngoăc	X	nhoăc	X	X	quoăc	roăc	soăc	toăc	thoăc	troăc	voăc	xoăc
-oằc	oằc	boằc	coằc	choằc	doằc	đoằc	X	X	X	X	X	X	loằc	moằc	noằc	ngoằc	X	nhoằc	X	X	quoằc	roằc	soằc	toằc	thoằc	troằc	voằc	xoằc
-oẳc	oẳc	boẳc	coẳc	choẳc	doẳc	đoẳc	X	X	X	X	X	X	loẳc	moẳc	noẳc	ngoẳc	X	nhoẳc	X	X	quoẳc	roẳc	soẳc	toẳc	thoẳc	troẳc	voẳc	xoẳc
-oẵc	oẵc	boẵc	coẵc	choẵc	doẵc	đoẵc	X	X	X	X	X	X	loẵc	moẵc	noẵc	ngoẵc	X	nhoẵc	X	X	quoẵc	roẵc	soẵc	toẵc	thoẵc	troẵc	voẵc	xoẵc
-oắc	oắc	boắc	coắc	choắc	doắc	đoắc	X	X	X	lạ hoắc	X	X	loắc	moắc	noắc	ngoắc	X	nhoắc	X	X	quoắc	roắc	soắc	toắc	thoắc	troắc	voắc	xoắc
-oặc	oặc	boặc	coặc	choặc	doặc	đoặc	X	X	X	hoặc là	X	X	loặc	moặc	noặc	ngoặc	X	nhoặc	X	X	quoặc	roặc	soặc	toặc	thoặc	troặc	voặc	xoặc
-oăm	oăm	boăm	coăm	choăm	doăm	đoăm	X	X	X	X	X	X	loăm	moăm	noăm	ngoăm	X	nhoăm	X	X	quoăm	roăm	soăm	toăm	thoăm	troăm	voăm	xoăm
-oằm	oằm	boằm	coằm	choằm	doằm	đoằm	X	X	X	X	X	X	loằm	moằm	noằm	ngoằm	X	nhoằm	X	X	quoằm	roằm	soằm	toằm	thoằm	troằm	voằm	xoằm
-oẳm	oẳm	boẳm	coẳm	choẳm	doẳm	đoẳm	X	X	X	X	X	X	loẳm	moẳm	noẳm	ngoẳm	X	nhoẳm	X	X	quoẳm	roẳm	soẳm	toẳm	thoẳm	troẳm	voẳm	xoẳm
-oẵm	oẵm	boẵm	coẵm	choẵm	doẵm	đoẵm	X	X	X	X	X	X	loẵm	moẵm	noẵm	ngoẵm	X	nhoẵm	X	X	quoẵm	roẵm	soẵm	toẵm	thoẵm	troẵm	voẵm	xoẵm
-oắm	oắm	boắm	coắm	choắm	doắm	đoắm	X	X	X	X	X	X	loắm	moắm	noắm	ngoắm	X	nhoắm	X	X	quoắm	roắm	soắm	toắm	thoắm	troắm	voắm	xoắm
-oặm	oặm	boặm	coặm	choặm	doặm	đoặm	X	X	X	X	X	X	loặm	moặm	noặm	ngoặm	X	nhoặm	X	X	quoặm	roặm	soặm	toặm	thoặm	troặm	voặm	xoặm
-oăn	oăn	boăn	coăn	choăn	doăn	đoăn	X	X	X	X	X	băn khoăn	loăn	moăn	noăn	ngoăn	X	nhoăn	X	X	quoăn	roăn	soăn	toăn	thoăn	troăn	voăn	xoăn
-oằn	oằn	boằn	coằn	choằn	doằn	đoằn	X	X	X	X	X	X	loằn	moằn	noằn	ngoằn	X	nhoằn	X	X	quoằn	roằn	soằn	toằn	thoằn	troằn	voằn	xoằn
-oẳn	oẳn	boẳn	coẳn	choẳn	doẳn	đoẳn	X	X	X	hủn hoẳn	X	X	loẳn	moẳn	noẳn	ngoẳn	X	nhoẳn	X	X	quoẳn	roẳn	soẳn	toẳn	thoẳn	troẳn	voẳn	xoẳn
-oẵn	oẵn	boẵn	coẵn	choẵn	doẵn	đoẵn	X	X	X	X	X	X	loẵn	moẵn	noẵn	ngoẵn	X	nhoẵn	X	X	quoẵn	roẵn	soẵn	toẵn	thoẵn	troẵn	voẵn	xoẵn
-oắn	oắn	boắn	coắn	choắn	doắn	đoắn	X	X	X	X	X	X	loắn	moắn	noắn	ngoắn	X	nhoắn	X	X	quoắn	roắn	soắn	toắn	thoắn	troắn	voắn	xoắn
-oặn	oặn	boặn	coặn	choặn	doặn	đoặn	X	X	X	X	X	X	loặn	moặn	noặn	ngoặn	X	nhoặn	X	X	quoặn	roặn	soặn	toặn	thoặn	troặn	voặn	xoặn
-oăt	oăt	boăt	coăt	choăt	doăt	đoăt	X	X	X	X	X	X	loăt	moăt	noăt	ngoăt	X	nhoăt	X	X	quoăt	roăt	soăt	toăt	thoăt	troăt	voăt	xoăt
-oằt	oằt	boằt	coằt	choằt	doằt	đoằt	X	X	X	X	X	X	loằt	moằt	noằt	ngoằt	X	nhoằt	X	X	quoằt	roằt	soằt	toằt	thoằt	troằt	voằt	xoằt
-oẳt	oẳt	boẳt	coẳt	choẳt	doẳt	đoẳt	X	X	X	X	X	X	loẳt	moẳt	noẳt	ngoẳt	X	nhoẳt	X	X	quoẳt	roẳt	soẳt	toẳt	thoẳt	troẳt	voẳt	xoẳt
-oẵt	oẵt	boẵt	coẵt	choẵt	doẵt	đoẵt	X	X	X	X	X	X	loẵt	moẵt	noẵt	ngoẵt	X	nhoẵt	X	X	quoẵt	roẵt	soẵt	toẵt	thoẵt	troẵt	voẵt	xoẵt
-oắt	oắt	boắt	coắt	choắt	doắt	đoắt	X	X	X	X	X	X	loắt	moắt	noắt	ngoắt	X	nhoắt	X	X	quoắt	roắt	soắt	toắt	thoắt	troắt	voắt	xoắt
-oặt	oặt	boặt	coặt	choặt	doặt	đoặt	X	X	X	X	X	X	loặt	moặt	noặt	ngoặt	X	nhoặt	X	X	quoặt	roặt	soặt	toặt	thoặt	troặt	voặt	xoặt
-oen	oen	boen	coen	choen	doen	đoen	X	X	X	X	X	nắp khoen	loen	moen	noen	ngoen	X	nhoen	X	X	quoen	roen	soen	toen	thoen	troen	voen	xoen
-oèn	oèn	boèn	coèn	choèn	doèn	đoèn	X	X	X	X	X	X	loèn	moèn	noèn	ngoèn	X	nhoèn	X	X	quoèn	roèn	soèn	toèn	thoèn	troèn	voèn	xoèn
-oẻn	oẻn	boẻn	coẻn	choẻn	doẻn	đoẻn	X	X	X	X	X	X	loẻn	moẻn	noẻn	ngoẻn	X	nhoẻn	X	X	quoẻn	roẻn	soẻn	toẻn	thoẻn	troẻn	voẻn	xoẻn
-oẽn	oẽn	boẽn	coẽn	choẽn	doẽn	đoẽn	X	X	X	X	X	X	loẽn	moẽn	noẽn	ngoẽn	X	nhoẽn	X	X	quoẽn	roẽn	soẽn	toẽn	thoẽn	troẽn	voẽn	xoẽn
-oén	oén	boén	coén	choén	doén	đoén	X	X	X	X	X	X	loén	moén	noén	ngoén	X	nhoén	X	X	quoén	roén	soén	toén	thoén	troén	voén	xoén
-oẹn	oẹn	boẹn	coẹn	choẹn	doẹn	đoẹn	X	X	X	X	X	X	loẹn	moẹn	noẹn	ngoẹn	X	nhoẹn	X	X	quoẹn	roẹn	soẹn	toẹn	thoẹn	troẹn	voẹn	xoẹn
-oeo	oeo	boeo	coeo	choeo	doeo	đoeo	X	X	X	X	X	khoeo chân	loeo	moeo	noeo	ngoeo	X	nhoeo	X	X	quoeo	roeo	soeo	toeo	thoeo	troeo	voeo	xoeo
-oèo	oèo	boèo	coèo	choèo	doèo	đoèo	X	X	X	X	X	lèo khoèo	loèo	moèo	noèo	ngoèo	X	nhoèo	X	X	quoèo	roèo	soèo	toèo	thoèo	troèo	voèo	xoèo
-oẻo	oẻo	boẻo	coẻo	choẻo	doẻo	đoẻo	X	X	X	X	X	lẻo khoẻo	loẻo	moẻo	noẻo	ngoẻo	X	nhoẻo	X	X	quoẻo	roẻo	soẻo	toẻo	thoẻo	troẻo	voẻo	xoẻo
-oẽo	oẽo	boẽo	coẽo	choẽo	doẽo	đoẽo	X	X	X	X	X	X	loẽo	moẽo	noẽo	ngoẽo	X	nhoẽo	X	X	quoẽo	roẽo	soẽo	toẽo	thoẽo	troẽo	voẽo	xoẽo
-oéo	oéo	boéo	coéo	choéo	doéo	đoéo	X	X	X	X	X	X	loéo	moéo	noéo	ngoéo	X	nhoéo	X	X	quoéo	roéo	soéo	toéo	thoéo	troéo	voéo	xoéo
-oẹo	oẹo	boẹo	coẹo	choẹo	doẹo	đoẹo	X	X	X	X	X	X	loẹo	moẹo	noẹo	ngoẹo	X	nhoẹo	X	X	quoẹo	roẹo	soẹo	toẹo	thoẹo	troẹo	voẹo	xoẹo
-oet	oet	boet	coet	choet	doet	đoet	X	X	X	X	X	X	loet	moet	noet	ngoet	X	nhoet	X	X	quoet	roet	soet	toet	thoet	troet	voet	xoet
-oèt	oèt	boèt	coèt	choèt	doèt	đoèt	X	X	X	X	X	X	loèt	moèt	noèt	ngoèt	X	nhoèt	X	X	quoèt	roèt	soèt	toèt	thoèt	troèt	voèt	xoèt
-oẻt	oẻt	boẻt	coẻt	choẻt	doẻt	đoẻt	X	X	X	X	X	X	loẻt	moẻt	noẻt	ngoẻt	X	nhoẻt	X	X	quoẻt	roẻt	soẻt	toẻt	thoẻt	troẻt	voẻt	xoẻt
-oẽt	oẽt	boẽt	coẽt	choẽt	doẽt	đoẽt	X	X	X	X	X	X	loẽt	moẽt	noẽt	ngoẽt	X	nhoẽt	X	X	quoẽt	roẽt	soẽt	toẽt	thoẽt	troẽt	voẽt	xoẽt
+oày	oày	boày	coày	choày	doày	đoày	X	X	X	X	X	X	X	moày	noày	ngoày	X	nhoày	X	X	quoày	roày	soày	toày	thoày	troày	voày	xoày
+oảy	oảy	boảy	coảy	choảy	doảy	đoảy	X	X	X	X	X	X	X	moảy	noảy	ngoảy	X	nhoảy	X	X	quoảy	roảy	soảy	toảy	thoảy	troảy	voảy	xoảy
+oãy	oãy	boãy	coãy	choãy	doãy	đoãy	X	X	X	X	X	X	X	moãy	noãy	ngoãy	X	nhoãy	X	X	quoãy	roãy	soãy	toãy	thoãy	troãy	voãy	xoãy
+oáy	oáy	boáy	coáy	choáy	doáy	đoáy	X	X	X	hí hoáy	X	trái khoáy	X	moáy	noáy	ngoáy	X	nhoáy	X	X	quoáy	roáy	soáy	toáy	thoáy	troáy	voáy	xoáy
+oạy	oạy	boạy	coạy	choạy	doạy	đoạy	X	X	X	X	X	X	X	moạy	noạy	ngoạy	X	nhoạy	X	X	quoạy	roạy	soạy	toạy	thoạy	troạy	voạy	xoạy
+oăc	oăc	boăc	coăc	choăc	doăc	đoăc	X	X	X	X	X	X	X	moăc	noăc	ngoăc	X	nhoăc	X	X	quoăc	roăc	soăc	toăc	thoăc	troăc	voăc	xoăc
+oằc	oằc	boằc	coằc	choằc	doằc	đoằc	X	X	X	X	X	X	X	moằc	noằc	ngoằc	X	nhoằc	X	X	quoằc	roằc	soằc	toằc	thoằc	troằc	voằc	xoằc
+oẳc	oẳc	boẳc	coẳc	choẳc	doẳc	đoẳc	X	X	X	X	X	X	X	moẳc	noẳc	ngoẳc	X	nhoẳc	X	X	quoẳc	roẳc	soẳc	toẳc	thoẳc	troẳc	voẳc	xoẳc
+oẵc	oẵc	boẵc	coẵc	choẵc	doẵc	đoẵc	X	X	X	X	X	X	X	moẵc	noẵc	ngoẵc	X	nhoẵc	X	X	quoẵc	roẵc	soẵc	toẵc	thoẵc	troẵc	voẵc	xoẵc
+oắc	oắc	boắc	coắc	choắc	doắc	đoắc	X	X	X	lạ hoắc	X	X	X	moắc	noắc	ngoắc	X	nhoắc	X	X	quoắc	roắc	soắc	toắc	thoắc	troắc	voắc	xoắc
+oặc	oặc	boặc	coặc	choặc	doặc	đoặc	X	X	X	hoặc là	X	X	X	moặc	noặc	ngoặc	X	nhoặc	X	X	quoặc	roặc	soặc	toặc	thoặc	troặc	voặc	xoặc
+oăm	oăm	boăm	coăm	choăm	doăm	đoăm	X	X	X	X	X	X	X	moăm	noăm	ngoăm	X	nhoăm	X	X	quoăm	roăm	soăm	toăm	thoăm	troăm	voăm	xoăm
+oằm	oằm	boằm	coằm	choằm	doằm	đoằm	X	X	X	X	X	X	X	moằm	noằm	ngoằm	X	nhoằm	X	X	quoằm	roằm	soằm	toằm	thoằm	troằm	voằm	xoằm
+oẳm	oẳm	boẳm	coẳm	choẳm	doẳm	đoẳm	X	X	X	X	X	X	X	moẳm	noẳm	ngoẳm	X	nhoẳm	X	X	quoẳm	roẳm	soẳm	toẳm	thoẳm	troẳm	voẳm	xoẳm
+oẵm	oẵm	boẵm	coẵm	choẵm	doẵm	đoẵm	X	X	X	X	X	X	X	moẵm	noẵm	ngoẵm	X	nhoẵm	X	X	quoẵm	roẵm	soẵm	toẵm	thoẵm	troẵm	voẵm	xoẵm
+oắm	oắm	boắm	coắm	choắm	doắm	đoắm	X	X	X	X	X	X	X	moắm	noắm	ngoắm	X	nhoắm	X	X	quoắm	roắm	soắm	toắm	thoắm	troắm	voắm	xoắm
+oặm	oặm	boặm	coặm	choặm	doặm	đoặm	X	X	X	X	X	X	X	moặm	noặm	ngoặm	X	nhoặm	X	X	quoặm	roặm	soặm	toặm	thoặm	troặm	voặm	xoặm
+oăn	oăn	boăn	coăn	choăn	doăn	đoăn	X	X	X	X	X	băn khoăn	loăn xoăn	moăn	noăn	ngoăn	X	nhoăn	X	X	quoăn	roăn	soăn	toăn	thoăn	troăn	voăn	loăn xoăn
+oằn	oằn	boằn	coằn	choằn	doằn	đoằn	X	X	X	X	X	X	X	moằn	noằn	ngoằn	X	nhoằn	X	X	quoằn	roằn	soằn	toằn	thoằn	troằn	voằn	xoằn
+oẳn	oẳn	boẳn	coẳn	choẳn	doẳn	đoẳn	X	X	X	hủn hoẳn	X	X	X	moẳn	noẳn	ngoẳn	X	nhoẳn	X	X	quoẳn	roẳn	soẳn	toẳn	thoẳn	troẳn	voẳn	xoẳn
+oẵn	oẵn	boẵn	coẵn	choẵn	doẵn	đoẵn	X	X	X	X	X	X	X	moẵn	noẵn	ngoẵn	X	nhoẵn	X	X	quoẵn	roẵn	soẵn	toẵn	thoẵn	troẵn	voẵn	xoẵn
+oắn	oắn	boắn	coắn	choắn	doắn	đoắn	X	X	X	X	X	X	X	moắn	noắn	ngoắn	X	nhoắn	X	X	quoắn	roắn	soắn	toắn	thoắn	troắn	voắn	xoắn
+oặn	oặn	boặn	coặn	choặn	doặn	đoặn	X	X	X	X	X	X	X	moặn	noặn	ngoặn	X	nhoặn	X	X	quoặn	roặn	soặn	toặn	thoặn	troặn	voặn	xoặn
+oăt	oăt	boăt	coăt	choăt	doăt	đoăt	X	X	X	X	X	X	X	moăt	noăt	ngoăt	X	nhoăt	X	X	quoăt	roăt	soăt	toăt	thoăt	troăt	voăt	xoăt
+oằt	oằt	boằt	coằt	choằt	doằt	đoằt	X	X	X	X	X	X	X	moằt	noằt	ngoằt	X	nhoằt	X	X	quoằt	roằt	soằt	toằt	thoằt	troằt	voằt	xoằt
+oẳt	oẳt	boẳt	coẳt	choẳt	doẳt	đoẳt	X	X	X	X	X	X	X	moẳt	noẳt	ngoẳt	X	nhoẳt	X	X	quoẳt	roẳt	soẳt	toẳt	thoẳt	troẳt	voẳt	xoẳt
+oẵt	oẵt	boẵt	coẵt	choẵt	doẵt	đoẵt	X	X	X	X	X	X	X	moẵt	noẵt	ngoẵt	X	nhoẵt	X	X	quoẵt	roẵt	soẵt	toẵt	thoẵt	troẵt	voẵt	xoẵt
+oắt	oắt	boắt	coắt	loắt choắt	doắt	đoắt	X	X	X	X	X	X	loắt choắt	moắt	noắt	ngoắt	X	nhoắt	X	X	quoắt	roắt	soắt	toắt	thoắt	troắt	voắt	xoắt
+oặt	oặt	boặt	coặt	choặt	doặt	đoặt	X	X	X	X	X	X	X	moặt	noặt	ngoặt	X	nhoặt	X	X	quoặt	roặt	soặt	toặt	thoặt	troặt	voặt	xoặt
+oen	oen	boen	coen	choen	doen	đoen	X	X	X	X	X	nắp khoen	X	moen	noen	ngoen	X	nhoen	X	X	quoen	roen	soen	toen	thoen	troen	voen	xoen
+oèn	oèn	boèn	coèn	choèn	doèn	đoèn	X	X	X	X	X	X	X	moèn	noèn	ngoèn	X	nhoèn	X	X	quoèn	roèn	soèn	toèn	thoèn	troèn	voèn	xoèn
+oẻn	oẻn	boẻn	coẻn	choẻn	doẻn	đoẻn	X	X	X	X	X	X	X	moẻn	noẻn	ngoẻn	X	nhoẻn	X	X	quoẻn	roẻn	soẻn	toẻn	thoẻn	troẻn	voẻn	xoẻn
+oẽn	oẽn	boẽn	coẽn	choẽn	doẽn	đoẽn	X	X	X	X	X	X	X	moẽn	noẽn	ngoẽn	X	nhoẽn	X	X	quoẽn	roẽn	soẽn	toẽn	thoẽn	troẽn	voẽn	xoẽn
+oén	oén	boén	coén	choén	doén	đoén	X	X	X	X	X	X	X	moén	noén	ngoén	X	nhoén	X	X	quoén	roén	soén	toén	thoén	troén	voén	xoén
+oẹn	oẹn	boẹn	coẹn	choẹn	doẹn	đoẹn	X	X	X	X	X	X	X	moẹn	noẹn	ngoẹn	X	nhoẹn	X	X	quoẹn	roẹn	soẹn	toẹn	thoẹn	troẹn	voẹn	xoẹn
+oeo	oeo	boeo	coeo	choeo	doeo	đoeo	X	X	X	X	X	khoeo chân	X	moeo	noeo	ngoeo	X	nhoeo	X	X	quoeo	roeo	soeo	toeo	thoeo	troeo	voeo	xoeo
+oèo	oèo	boèo	coèo	choèo	doèo	đoèo	X	X	X	X	X	lèo khoèo	X	moèo	noèo	ngoèo	X	nhoèo	X	X	quoèo	roèo	soèo	toèo	thoèo	troèo	voèo	xoèo
+oẻo	oẻo	boẻo	coẻo	choẻo	doẻo	đoẻo	X	X	X	X	X	lẻo khoẻo	X	moẻo	noẻo	ngoẻo	X	nhoẻo	X	X	quoẻo	roẻo	soẻo	toẻo	thoẻo	troẻo	voẻo	xoẻo
+oẽo	oẽo	boẽo	coẽo	choẽo	doẽo	đoẽo	X	X	X	X	X	X	X	moẽo	noẽo	ngoẽo	X	nhoẽo	X	X	quoẽo	roẽo	soẽo	toẽo	thoẽo	troẽo	voẽo	xoẽo
+oéo	oéo	boéo	coéo	choéo	doéo	đoéo	X	X	X	X	X	X	X	moéo	noéo	ngoéo	X	nhoéo	X	X	quoéo	roéo	soéo	toéo	thoéo	troéo	voéo	xoéo
+oẹo	oẹo	boẹo	coẹo	choẹo	doẹo	đoẹo	X	X	X	X	X	X	X	moẹo	noẹo	ngoẹo	X	nhoẹo	X	X	quoẹo	roẹo	soẹo	toẹo	thoẹo	troẹo	voẹo	xoẹo
+oet	oet	boet	coet	choet	doet	đoet	X	X	X	X	X	X	X	moet	noet	ngoet	X	nhoet	X	X	quoet	roet	soet	toet	thoet	troet	voet	xoet
+oèt	oèt	boèt	coèt	choèt	doèt	đoèt	X	X	X	X	X	X	X	moèt	noèt	ngoèt	X	nhoèt	X	X	quoèt	roèt	soèt	toèt	thoèt	troèt	voèt	xoèt
+oẻt	oẻt	boẻt	coẻt	choẻt	doẻt	đoẻt	X	X	X	X	X	X	X	moẻt	noẻt	ngoẻt	X	nhoẻt	X	X	quoẻt	roẻt	soẻt	toẻt	thoẻt	troẻt	voẻt	xoẻt
+oẽt	oẽt	boẽt	coẽt	choẽt	doẽt	đoẽt	X	X	X	X	X	X	X	moẽt	noẽt	ngoẽt	X	nhoẽt	X	X	quoẽt	roẽt	soẽt	toẽt	thoẽt	troẽt	voẽt	xoẽt
 oét	oét	boét	coét	choét	doét	đoét	X	X	X	X	X	đục khoét	lở loét	moét	noét	ngoét	X	nhoét	X	X	quoét	roét	soét	láo toét	thoét	troét	voét	xoét
 oẹt	oẹt	boẹt	coẹt	choẹt	doẹt	đoẹt	X	X	X	X	X	X	lòe loẹt	moẹt	noẹt	ngoẹt	X	nhoẹt	X	X	quoẹt	roẹt	soẹt	toẹt	thoẹt	troẹt	voẹt	xoẹt
-ong	ong	bong	cong	chong	dong	đong	X	X	giong chiêng	hong khô	X	X	long	mong	nong	ngong	X	nhong	X	phong độ	quong	rong	song	tong	thong	trong	vong	xong
-òng	òng	bòng	còng	chòng	dòng	đòng	X	X	X	đừng hòng	X	X	lòng	mòng	nòng	ngòng	X	nhòng	X	căn phòng	quòng	ròng	sòng	tòng	thòng	tròng	vòng	xòng
-ỏng	ỏng	bỏng	cỏng	chỏng	dỏng	đỏng	gắt gỏng	X	X	hỏng hóc	X	X	lỏng	mỏng	nỏng	ngỏng	X	nhỏng	X	mô phỏng	quỏng	rỏng	sỏng	tỏng	thỏng	trỏng	vỏng	xỏng
-õng	õng	bõng	cõng	chõng	dõng	đõng	X	X	X	X	X	X	lõng	mõng	nõng	ngõng	X	nhõng	X	X	quõng	rõng	sõng	tõng	thõng	trõng	võng	xõng
-óng	óng	bóng	cóng	chóng	dóng	đóng	X	X	gióng giả	hóng hớt	X	X	lóng	móng	nóng	ngóng	X	nhóng	X	phóng sinh	quóng	róng	sóng	tóng	thóng	tróng	vóng	xóng
+ong	ong	bong	cong	chong	dong	đong	X	X	giong chiêng	hong khô	X	X	long nhong	mong	nong	ngong	X	long nhong	X	phong độ	quong	rong	song	long tong	thong	trong	vong	xong
+òng	òng	bòng	còng	chòng	dòng	đòng	X	X	X	đừng hòng	X	X	tấm lòng	mòng	nòng	ngòng	X	nhòng	X	căn phòng	quòng	ròng	sòng	tòng	thòng	tròng	vòng	xòng
+ỏng	ỏng	lỏng bỏng	cỏng	lỏng chỏng	dỏng	đỏng	gắt gỏng	X	X	hỏng hóc	X	X	chất lỏng	mỏng	nỏng	ngỏng	X	nhỏng	X	mô phỏng	quỏng	rỏng	sỏng	tỏng	thỏng	trỏng	vỏng	xỏng
+õng	õng	lõng bõng	cõng	chõng	dõng	đõng	X	X	X	X	X	X	luồn lõng	mõng	nõng	ngõng	X	nhõng	X	X	quõng	rõng	sõng	tõng	thõng	trõng	võng	xõng
+óng	óng	bóng	cóng	chóng	dóng	đóng	X	X	gióng giả	hóng hớt	X	X	lóng ngóng	móng	nóng	lóng ngóng	X	lóng nhóng	X	phóng sinh	quóng	róng	sóng	tóng	thóng	tróng	vóng	xóng
 ọng	ọng	bọng	cọng	chọng	dọng	đọng	gọng kìm	X	giọng nói	cổ họng	X	X	lật lọng	mọng	nọng	ngọng	X	nhọng	X	X	quọng	rọng	sọng	tọng	thọng	trọng	vọng	xọng
-ông	ông	bông	công	chông	dông	đông	gông cùm	X	giông tố	cái hông	X	không phận	lông	mông	nông	ngông	X	nhông	X	phông chữ	quông	rông	sông	tông	thông	trông	vông	xông
-ồng	ồng	bồng	cồng	chồng	dồng	đồng	gồng gánh	X	X	màu hồng	X	X	lồng	mồng	nồng	ngồng	X	nhồng	X	phồng má	quồng	rồng	sồng	tồng	thồng	trồng	vồng	xồng
-ổng	ổng	bổng	cổng	chổng	dổng	đổng	X	X	X	hổng biết	X	khổng lồ	lêu lổng	mổng	nổng	ngổng	X	nhổng	X	phổng phao	quổng	rổng	sổng	tổng	thổng	trổng	vổng	xổng
-ỗng	ỗng	bỗng	cỗng	chỗng	dỗng	đỗng	X	X	X	X	X	X	lỗng	mỗng	nỗng	ngỗng	X	nhỗng	X	tượng phỗng	quỗng	rỗng	sỗng	tỗng	thỗng	trỗng	vỗng	xỗng
-ống	ống	bống	cống	chống	dống	đống	X	X	giông giống	hống hách	X	vu khống	lống	mống	nống	ngống	X	nhống	X	X	quống	rống	sống	tống	thống	trống	vống	xống
-ộng	ộng	bộng	cộng	chộng	dộng	động	X	X	X	X	X	X	lộng	mộng	nộng	ngộng	X	nhộng	X	X	quộng	rộng	sộng	tộng	thộng	trộng	vộng	xộng
-uân	uân	buân	cuân	chuân	duân	đuân	X	X	X	huân chương	X	khuân vác	luân	muân	nuân	nguân	X	nhuân	X	X	quuân	ruân	suân	tuân	thuân	truân	vuân	xuân
-uần	uần	buần	cuần	chuần	duần	đuần	X	X	X	X	X	X	luần	muần	nuần	nguần	X	nhuần	X	X	quuần	ruần	suần	tuần	thuần	truần	vuần	xuần
-uẩn	uẩn	buẩn	cuẩn	chuẩn	duẩn	đuẩn	X	X	X	X	X	vi khuẩn	luẩn	muẩn	nuẩn	nguẩn	X	nhuẩn	X	X	quuẩn	ruẩn	suẩn	tuẩn	thuẩn	truẩn	vuẩn	xuẩn
-uẫn	uẫn	buẫn	cuẫn	chuẫn	duẫn	đuẫn	X	X	X	X	X	X	luẫn	muẫn	nuẫn	nguẫn	X	nhuẫn	X	X	quuẫn	ruẫn	suẫn	tuẫn	thuẫn	truẫn	vuẫn	xuẫn
-uấn	uấn	buấn	cuấn	chuấn	duấn	đuấn	X	X	X	huấn luyện	X	X	luấn	muấn	nuấn	nguấn	X	nhuấn	X	X	quuấn	ruấn	suấn	tuấn	thuấn	truấn	vuấn	xuấn
-uận	uận	buận	cuận	chuận	duận	đuận	X	X	X	X	X	X	luận	muận	nuận	nguận	X	nhuận	X	X	quuận	ruận	suận	tuận	thuận	truận	vuận	xuận
-uât	uât	buât	cuât	chuât	duât	đuât	X	X	X	X	X	X	luât	muât	nuât	nguât	X	nhuât	X	X	quuât	ruât	suât	tuât	thuât	truât	vuât	xuât
-uầt	uầt	buầt	cuầt	chuầt	duầt	đuầt	X	X	X	X	X	X	luầt	muầt	nuầt	nguầt	X	nhuầt	X	X	quuầt	ruầt	suầt	tuầt	thuầt	truầt	vuầt	xuầt
-uẩt	uẩt	buẩt	cuẩt	chuẩt	duẩt	đuẩt	X	X	X	X	X	X	luẩt	muẩt	nuẩt	nguẩt	X	nhuẩt	X	X	quuẩt	ruẩt	suẩt	tuẩt	thuẩt	truẩt	vuẩt	xuẩt
-uẫt	uẫt	buẫt	cuẫt	chuẫt	duẫt	đuẫt	X	X	X	X	X	X	luẫt	muẫt	nuẫt	nguẫt	X	nhuẫt	X	X	quuẫt	ruẫt	suẫt	tuẫt	thuẫt	truẫt	vuẫt	xuẫt
-uất	uất	buất	cuất	chuất	duất	đuất	X	X	X	X	X	bất khuất	luất	muất	nuất	nguất	X	nhuất	X	X	quuất	ruất	suất	tuất	thuất	truất	vuất	xuất
-uật	uật	buật	cuật	chuật	duật	đuật	X	X	X	X	X	X	luật	muật	nuật	nguật	X	nhuật	X	X	quuật	ruật	suật	tuật	thuật	truật	vuật	xuật
-uây	uây	buây	cuây	chuây	duây	đuây	X	X	X	X	X	khuây khỏa	luây	muây	nuây	nguây	X	nhuây	X	X	quuây	ruây	suây	tuây	thuây	truây	vuây	xuây
-uầy	uầy	buầy	cuầy	chuầy	duầy	đuầy	X	X	X	X	X	X	luầy	muầy	nuầy	nguầy	X	nhuầy	X	X	quuầy	ruầy	suầy	tuầy	thuầy	truầy	vuầy	xuầy
-uẩy	uẩy	buẩy	cuẩy	chuẩy	duẩy	đuẩy	X	X	X	X	X	X	luẩy	muẩy	nuẩy	nguẩy	X	nhuẩy	X	X	quuẩy	ruẩy	suẩy	tuẩy	thuẩy	truẩy	vuẩy	xuẩy
-uẫy	uẫy	buẫy	cuẫy	chuẫy	duẫy	đuẫy	X	X	X	X	X	X	luẫy	muẫy	nuẫy	nguẫy	X	nhuẫy	X	X	quuẫy	ruẫy	suẫy	tuẫy	thuẫy	truẫy	vuẫy	xuẫy
-uấy	uấy	buấy	cuấy	chuấy	duấy	đuấy	X	X	X	X	X	khuấy nước	luấy	muấy	nuấy	nguấy	X	nhuấy	X	X	quuấy	ruấy	suấy	tuấy	thuấy	truấy	vuấy	xuấy
-uậy	uậy	buậy	cuậy	chuậy	duậy	đuậy	X	X	X	X	X	X	luậy	muậy	nuậy	nguậy	X	nhuậy	X	X	quuậy	ruậy	suậy	tuậy	thuậy	truậy	vuậy	xuậy
-ung	ung	bung	cung	chung	dung	đung	X	X	X	hung dữ	X	khung ảnh	lung	mung	nung	ngung	X	nhung	X	phung phí	quung	rung	sung	tung	thung	trung	vung	xung
-ùng	ùng	bùng	cùng	chùng	dùng	đùng	X	X	X	anh hùng	X	nổi khùng	lùng	mùng	nùng	ngùng	X	nhùng	X	trùng phùng	quùng	rùng	sùng	tùng	thùng	trùng	vùng	xùng
-ủng	ủng	bủng	củng	chủng	dủng	đủng	X	X	X	X	X	khủng long	lủng	mủng	nủng	ngủng	X	nhủng	X	X	quủng	rủng	sủng	tủng	thủng	trủng	vủng	xủng
-ũng	ũng	bũng	cũng	chũng	dũng	đũng	X	X	X	X	X	X	lũng	mũng	nũng	ngũng	X	nhũng	X	X	quũng	rũng	sũng	tũng	thũng	trũng	vũng	xũng
-úng	úng	búng	cúng	chúng	dúng	đúng	X	X	X	húng hắng	X	khúng khắng	lúng	múng	núng	ngúng	X	nhúng	X	phúng điếu	quúng	rúng	súng	túng	thúng	trúng	vúng	xúng
-ụng	ụng	bụng	cụng	chụng	dụng	đụng	X	X	X	X	X	khụng khiệng	lụng	mụng	nụng	ngụng	X	nhụng	X	phụng sự	quụng	rụng	sụng	tụng	thụng	trụng	vụng	xụng
-uôc	uôc	buôc	cuôc	chuôc	duôc	đuôc	X	X	X	X	X	X	luôc	muôc	nuôc	nguôc	X	nhuôc	X	X	quuôc	ruôc	suôc	tuôc	thuôc	truôc	vuôc	xuôc
-uồc	uồc	buồc	cuồc	chuồc	duồc	đuồc	X	X	X	X	X	X	luồc	muồc	nuồc	nguồc	X	nhuồc	X	X	quuồc	ruồc	suồc	tuồc	thuồc	truồc	vuồc	xuồc
-uổc	uổc	buổc	cuổc	chuổc	duổc	đuổc	X	X	X	X	X	X	luổc	muổc	nuổc	nguổc	X	nhuổc	X	X	quuổc	ruổc	suổc	tuổc	thuổc	truổc	vuổc	xuổc
-uỗc	uỗc	buỗc	cuỗc	chuỗc	duỗc	đuỗc	X	X	X	X	X	X	luỗc	muỗc	nuỗc	nguỗc	X	nhuỗc	X	X	quuỗc	ruỗc	suỗc	tuỗc	thuỗc	truỗc	vuỗc	xuỗc
+ông	ông	bông	công	chông	dông	đông	gông cùm	X	giông tố	cái hông	X	không phận	lông thú	mông	nông	ngông	X	nhông	X	phông chữ	quông	rông	sông	tông	thông	trông	vông	xông
+ồng	ồng	lồng bồng	cồng	chồng	dồng	đồng	gồng gánh	X	X	màu hồng	X	X	lồng bồng	mồng	nồng	ngồng	X	nhồng	X	phồng má	quồng	rồng	sồng	tồng	thồng	trồng	vồng	xồng
+ổng	ổng	bổng	cổng	lổng chổng	dổng	đổng	X	X	X	hổng biết	X	khổng lồ	lêu lổng	mổng	nổng	ngổng	X	nhổng	X	phổng phao	quổng	rổng	sổng	tổng	thổng	trổng	vổng	xổng
+ỗng	ỗng	bỗng	cỗng	chỗng	dỗng	đỗng	X	X	X	X	X	X	X	mỗng	nỗng	ngỗng	X	nhỗng	X	tượng phỗng	quỗng	rỗng	sỗng	tỗng	thỗng	trỗng	vỗng	xỗng
+ống	ống	bống	cống	chống	dống	đống	X	X	giông giống	hống hách	X	vu khống	X	mống	nống	ngống	X	nhống	X	X	quống	rống	sống	tống	thống	trống	vống	xống
+ộng	ộng	bộng	cộng	chộng	dộng	động	X	X	X	X	X	X	lồng lộng	mộng	nộng	ngộng	X	nhộng	X	X	quộng	rộng	sộng	tộng	thộng	trộng	vộng	xộng
+uân	uân	buân	cuân	chuân	duân	đuân	X	X	X	huân chương	X	khuân vác	luân phiên	muân	nuân	nguân	X	nhuân	X	X	quuân	ruân	suân	tuân	thuân	truân	vuân	xuân
+uần	uần	buần	cuần	chuần	duần	đuần	X	X	X	X	X	X	X	muần	nuần	nguần	X	nhuần	X	X	quuần	ruần	suần	tuần	thuần	truần	vuần	xuần
+uẩn	uẩn	buẩn	cuẩn	chuẩn	duẩn	đuẩn	X	X	X	X	X	vi khuẩn	luẩn quẩn	muẩn	nuẩn	nguẩn	X	nhuẩn	X	X	quuẩn	ruẩn	suẩn	tuẩn	thuẩn	truẩn	vuẩn	xuẩn
+uẫn	uẫn	buẫn	cuẫn	chuẫn	duẫn	đuẫn	X	X	X	X	X	X	X	muẫn	nuẫn	nguẫn	X	nhuẫn	X	X	quuẫn	ruẫn	suẫn	tuẫn	thuẫn	truẫn	vuẫn	xuẫn
+uấn	uấn	buấn	cuấn	chuấn	duấn	đuấn	X	X	X	huấn luyện	X	X	luấn quấn	muấn	nuấn	nguấn	X	nhuấn	X	X	quuấn	ruấn	suấn	tuấn	thuấn	truấn	vuấn	xuấn
+uận	uận	buận	cuận	chuận	duận	đuận	X	X	X	X	X	X	luận án	muận	nuận	nguận	X	nhuận	X	X	quuận	ruận	suận	tuận	thuận	truận	vuận	xuận
+uât	uât	buât	cuât	chuât	duât	đuât	X	X	X	X	X	X	X	muât	nuât	nguât	X	nhuât	X	X	quuât	ruât	suât	tuât	thuât	truât	vuât	xuât
+uầt	uầt	buầt	cuầt	chuầt	duầt	đuầt	X	X	X	X	X	X	X	muầt	nuầt	nguầt	X	nhuầt	X	X	quuầt	ruầt	suầt	tuầt	thuầt	truầt	vuầt	xuầt
+uẩt	uẩt	buẩt	cuẩt	chuẩt	duẩt	đuẩt	X	X	X	X	X	X	X	muẩt	nuẩt	nguẩt	X	nhuẩt	X	X	quuẩt	ruẩt	suẩt	tuẩt	thuẩt	truẩt	vuẩt	xuẩt
+uẫt	uẫt	buẫt	cuẫt	chuẫt	duẫt	đuẫt	X	X	X	X	X	X	X	muẫt	nuẫt	nguẫt	X	nhuẫt	X	X	quuẫt	ruẫt	suẫt	tuẫt	thuẫt	truẫt	vuẫt	xuẫt
+uất	uất	buất	cuất	chuất	duất	đuất	X	X	X	X	X	bất khuất	X	muất	nuất	nguất	X	nhuất	X	X	quuất	ruất	suất	tuất	thuất	truất	vuất	xuất
+uật	uật	buật	cuật	chuật	duật	đuật	X	X	X	X	X	X	pháp luật	muật	nuật	nguật	X	nhuật	X	X	quuật	ruật	suật	tuật	thuật	truật	vuật	xuật
+uây	uây	buây	cuây	chuây	duây	đuây	X	X	X	X	X	khuây khỏa	X	muây	nuây	nguây	X	nhuây	X	X	quuây	ruây	suây	tuây	thuây	truây	vuây	xuây
+uầy	uầy	buầy	cuầy	chuầy	duầy	đuầy	X	X	X	X	X	X	X	muầy	nuầy	nguầy	X	nhuầy	X	X	quuầy	ruầy	suầy	tuầy	thuầy	truầy	vuầy	xuầy
+uẩy	uẩy	buẩy	cuẩy	chuẩy	duẩy	đuẩy	X	X	X	X	X	X	X	muẩy	nuẩy	nguẩy	X	nhuẩy	X	X	quuẩy	ruẩy	suẩy	tuẩy	thuẩy	truẩy	vuẩy	xuẩy
+uẫy	uẫy	buẫy	cuẫy	chuẫy	duẫy	đuẫy	X	X	X	X	X	X	X	muẫy	nuẫy	nguẫy	X	nhuẫy	X	X	quuẫy	ruẫy	suẫy	tuẫy	thuẫy	truẫy	vuẫy	xuẫy
+uấy	uấy	buấy	cuấy	chuấy	duấy	đuấy	X	X	X	X	X	khuấy nước	X	muấy	nuấy	nguấy	X	nhuấy	X	X	quuấy	ruấy	suấy	tuấy	thuấy	truấy	vuấy	xuấy
+uậy	uậy	buậy	cuậy	chuậy	duậy	đuậy	X	X	X	X	X	X	X	muậy	nuậy	nguậy	X	nhuậy	X	X	quuậy	ruậy	suậy	tuậy	thuậy	truậy	vuậy	xuậy
+ung	ung	bung	cung	chung	dung	đung	X	X	X	hung dữ	X	khung ảnh	lung tung	mung	nung	ngung	X	nhung	X	phung phí	quung	rung	sung	tung	thung	trung	vung	xung
+ùng	ùng	lùng bùng	cùng	chùng	dùng	đùng	X	X	X	anh hùng	X	nổi khùng	truy lùng	mùng	nùng	ngùng	X	lùng nhùng	X	trùng phùng	quùng	rùng	sùng	tùng	thùng	trùng	vùng	xùng
+ủng	ủng	bủng	củng	chủng	dủng	đủng	X	X	X	X	X	khủng long	lủng liểng	mủng	nủng	ngủng	X	nhủng	X	X	quủng	rủng	sủng	tủng	thủng	trủng	vủng	xủng
+ũng	ũng	bũng	cũng	chũng	dũng	đũng	X	X	X	X	X	X	thung lũng	mũng	nũng	ngũng	X	nhũng	X	X	quũng	rũng	sũng	tũng	thũng	trũng	vũng	xũng
+úng	úng	lúng búng	cúng	chúng	dúng	đúng	X	X	X	húng hắng	X	khúng khắng	lúng búng	múng	núng	ngúng	X	nhúng	X	phúng điếu	quúng	rúng	súng	túng	thúng	trúng	vúng	xúng
+ụng	ụng	bụng	cụng	chụng	dụng	đụng	X	X	X	X	X	khụng khiệng	lụng thụng	mụng	nụng	ngụng	X	nhụng	X	phụng sự	quụng	rụng	sụng	tụng	lụng thụng	trụng	vụng	xụng
+uôc	uôc	buôc	cuôc	chuôc	duôc	đuôc	X	X	X	X	X	X	X	muôc	nuôc	nguôc	X	nhuôc	X	X	quuôc	ruôc	suôc	tuôc	thuôc	truôc	vuôc	xuôc
+uồc	uồc	buồc	cuồc	chuồc	duồc	đuồc	X	X	X	X	X	X	X	muồc	nuồc	nguồc	X	nhuồc	X	X	quuồc	ruồc	suồc	tuồc	thuồc	truồc	vuồc	xuồc
+uổc	uổc	buổc	cuổc	chuổc	duổc	đuổc	X	X	X	X	X	X	X	muổc	nuổc	nguổc	X	nhuổc	X	X	quuổc	ruổc	suổc	tuổc	thuổc	truổc	vuổc	xuổc
+uỗc	uỗc	buỗc	cuỗc	chuỗc	duỗc	đuỗc	X	X	X	X	X	X	X	muỗc	nuỗc	nguỗc	X	nhuỗc	X	X	quuỗc	ruỗc	suỗc	tuỗc	thuỗc	truỗc	vuỗc	xuỗc
 uốc	uốc	buốc	cuốc	chuốc	duốc	đuốc	đôi guốc	X	X	X	X	X	lem luốc	muốc	nuốc	nguốc	X	nhuốc	X	X	quuốc	ruốc	suốc	tuốc	thuốc	truốc	vuốc	xuốc
-uộc	uộc	buộc	cuộc	chuộc	duộc	đuộc	gầy guộc	X	cùng một giuộc	X	X	X	luộc	muộc	nuộc	nguộc	X	nhuộc	X	phuộc xe	quuộc	ruộc	suộc	tuộc	thuộc	truộc	vuộc	xuộc
-uôi	uôi	buôi	cuôi	chuôi	duôi	đuôi	X	X	X	X	X	X	luôi	muôi	nuôi	nguôi	X	nhuôi	X	X	quuôi	ruôi	suôi	tuôi	thuôi	truôi	vuôi	xuôi
-uồi	uồi	buồi	cuồi	chuồi	duồi	đuồi	X	X	X	X	X	X	luồi	muồi	nuồi	nguồi	X	nhuồi	X	X	quuồi	ruồi	suồi	tuồi	thuồi	truồi	vuồi	xuồi
-uổi	uổi	buổi	cuổi	chuổi	duổi	đuổi	X	X	X	X	X	X	luổi	muổi	nuổi	nguổi	X	nhuổi	X	X	quuổi	ruổi	suổi	tuổi	thuổi	truổi	vuổi	xuổi
-uỗi	uỗi	buỗi	cuỗi	chuỗi	duỗi	đuỗi	X	X	X	X	X	X	luỗi	muỗi	nuỗi	nguỗi	X	nhuỗi	X	X	quuỗi	ruỗi	suỗi	tuỗi	thuỗi	truỗi	vuỗi	xuỗi
-uối	uối	buối	cuối	chuối	duối	đuối	X	X	X	X	X	X	luối	muối	nuối	nguối	X	nhuối	X	X	quuối	ruối	suối	tuối	thuối	truối	vuối	xuối
-uội	uội	buội	cuội	chuội	duội	đuội	X	X	X	X	X	X	luội	muội	nuội	nguội	X	nhuội	X	X	quuội	ruội	suội	tuội	thuội	truội	vuội	xuội
-uôm	uôm	buôm	cuôm	chuôm	duôm	đuôm	X	X	X	X	X	X	luôm	muôm	nuôm	nguôm	X	nhuôm	X	X	quuôm	ruôm	suôm	tuôm	thuôm	truôm	vuôm	xuôm
-uồm	uồm	buồm	cuồm	chuồm	duồm	đuồm	X	X	X	X	X	X	luồm	muồm	nuồm	nguồm	X	nhuồm	X	X	quuồm	ruồm	suồm	tuồm	thuồm	truồm	vuồm	xuồm
-uổm	uổm	buổm	cuổm	chuổm	duổm	đuổm	X	X	X	X	X	X	luổm	muổm	nuổm	nguổm	X	nhuổm	X	X	quuổm	ruổm	suổm	tuổm	thuổm	truổm	vuổm	xuổm
-uỗm	uỗm	buỗm	cuỗm	chuỗm	duỗm	đuỗm	X	X	X	X	X	X	luỗm	muỗm	nuỗm	nguỗm	X	nhuỗm	X	X	quuỗm	ruỗm	suỗm	tuỗm	thuỗm	truỗm	vuỗm	xuỗm
-uốm	uốm	buốm	cuốm	chuốm	duốm	đuốm	X	X	X	X	X	X	luốm	muốm	nuốm	nguốm	X	nhuốm	X	X	quuốm	ruốm	suốm	tuốm	thuốm	truốm	vuốm	xuốm
-uộm	uộm	buộm	cuộm	chuộm	duộm	đuộm	X	X	X	X	X	X	luộm	muộm	nuộm	nguộm	X	nhuộm	X	X	quuộm	ruộm	suộm	tuộm	thuộm	truộm	vuộm	xuộm
-uôn	uôn	buôn	cuôn	chuôn	duôn	đuôn	X	X	X	X	X	khuôn khổ	luôn	muôn	nuôn	nguôn	X	nhuôn	X	X	quuôn	ruôn	suôn	tuôn	thuôn	truôn	vuôn	xuôn
-uồn	uồn	buồn	cuồn	chuồn	duồn	đuồn	X	X	X	X	X	X	luồn	muồn	nuồn	nguồn	X	nhuồn	X	X	quuồn	ruồn	suồn	tuồn	thuồn	truồn	vuồn	xuồn
-uổn	uổn	buổn	cuổn	chuổn	duổn	đuổn	X	X	X	X	X	X	luổn	muổn	nuổn	nguổn	X	nhuổn	X	X	quuổn	ruổn	suổn	tuổn	thuổn	truổn	vuổn	xuổn
-uỗn	uỗn	buỗn	cuỗn	chuỗn	duỗn	đuỗn	X	X	X	X	X	X	luỗn	muỗn	nuỗn	nguỗn	X	nhuỗn	X	X	quuỗn	ruỗn	suỗn	tuỗn	thuỗn	truỗn	vuỗn	xuỗn
-uốn	uốn	buốn	cuốn	chuốn	duốn	đuốn	X	X	X	X	X	X	luốn	muốn	nuốn	nguốn	X	nhuốn	X	X	quuốn	ruốn	suốn	tuốn	thuốn	truốn	vuốn	xuốn
-uộn	uộn	buộn	cuộn	chuộn	duộn	đuộn	X	X	X	X	X	X	luộn	muộn	nuộn	nguộn	X	nhuộn	X	X	quuộn	ruộn	suộn	tuộn	thuộn	truộn	vuộn	xuộn
-uôt	uôt	buôt	cuôt	chuôt	duôt	đuôt	X	X	X	X	X	X	luôt	muôt	nuôt	nguôt	X	nhuôt	X	X	quuôt	ruôt	suôt	tuôt	thuôt	truôt	vuôt	xuôt
-uồt	uồt	buồt	cuồt	chuồt	duồt	đuồt	X	X	X	X	X	X	luồt	muồt	nuồt	nguồt	X	nhuồt	X	X	quuồt	ruồt	suồt	tuồt	thuồt	truồt	vuồt	xuồt
-uổt	uổt	buổt	cuổt	chuổt	duổt	đuổt	X	X	X	X	X	X	luổt	muổt	nuổt	nguổt	X	nhuổt	X	X	quuổt	ruổt	suổt	tuổt	thuổt	truổt	vuổt	xuổt
-uỗt	uỗt	buỗt	cuỗt	chuỗt	duỗt	đuỗt	X	X	X	X	X	X	luỗt	muỗt	nuỗt	nguỗt	X	nhuỗt	X	X	quuỗt	ruỗt	suỗt	tuỗt	thuỗt	truỗt	vuỗt	xuỗt
-uốt	uốt	buốt	cuốt	chuốt	duốt	đuốt	X	X	X	X	X	X	luốt	muốt	nuốt	nguốt	X	nhuốt	X	X	quuốt	ruốt	suốt	tuốt	thuốt	truốt	vuốt	xuốt
-uột	uột	buột	cuột	chuột	duột	đuột	X	X	X	X	X	X	luột	muột	nuột	nguột	X	nhuột	X	X	quuột	ruột	suột	tuột	thuột	truột	vuột	xuột
-uya	uya	buya	cuya	chuya	duya	đuya	X	X	X	X	X	đêm khuya	luya	muya	nuya	nguya	X	nhuya	X	X	quuya	ruya	suya	tuya	thuya	truya	vuya	xuya
-uỳa	uỳa	buỳa	cuỳa	chuỳa	duỳa	đuỳa	X	X	X	X	X	X	luỳa	muỳa	nuỳa	nguỳa	X	nhuỳa	X	X	quuỳa	ruỳa	suỳa	tuỳa	thuỳa	truỳa	vuỳa	xuỳa
-uỷa	uỷa	buỷa	cuỷa	chuỷa	duỷa	đuỷa	X	X	X	X	X	X	luỷa	muỷa	nuỷa	nguỷa	X	nhuỷa	X	X	quuỷa	ruỷa	suỷa	tuỷa	thuỷa	truỷa	vuỷa	xuỷa
-uỹa	uỹa	buỹa	cuỹa	chuỹa	duỹa	đuỹa	X	X	X	X	X	X	luỹa	muỹa	nuỹa	nguỹa	X	nhuỹa	X	X	quuỹa	ruỹa	suỹa	tuỹa	thuỹa	truỹa	vuỹa	xuỹa
-uýa	uýa	buýa	cuýa	chuýa	duýa	đuýa	X	X	X	X	X	X	luýa	muýa	nuýa	nguýa	X	nhuýa	X	X	quuýa	ruýa	suýa	tuýa	thuýa	truýa	vuýa	xuýa
-uỵa	uỵa	buỵa	cuỵa	chuỵa	duỵa	đuỵa	X	X	X	X	X	X	luỵa	muỵa	nuỵa	nguỵa	X	nhuỵa	X	X	quuỵa	ruỵa	suỵa	tuỵa	thuỵa	truỵa	vuỵa	xuỵa
-uyt	uyt	buyt	cuyt	chuyt	duyt	đuyt	X	X	X	X	X	X	luyt	muyt	nuyt	nguyt	X	nhuyt	X	X	quuyt	ruyt	suyt	tuyt	thuyt	truyt	vuyt	xuyt
-uỳt	uỳt	buỳt	cuỳt	chuỳt	duỳt	đuỳt	X	X	X	X	X	X	luỳt	muỳt	nuỳt	nguỳt	X	nhuỳt	X	X	quuỳt	ruỳt	suỳt	tuỳt	thuỳt	truỳt	vuỳt	xuỳt
-uỷt	uỷt	buỷt	cuỷt	chuỷt	duỷt	đuỷt	X	X	X	X	X	X	luỷt	muỷt	nuỷt	nguỷt	X	nhuỷt	X	X	quuỷt	ruỷt	suỷt	tuỷt	thuỷt	truỷt	vuỷt	xuỷt
-uỹt	uỹt	buỹt	cuỹt	chuỹt	duỹt	đuỹt	X	X	X	X	X	X	luỹt	muỹt	nuỹt	nguỹt	X	nhuỹt	X	X	quuỹt	ruỹt	suỹt	tuỹt	thuỹt	truỹt	vuỹt	xuỹt
-uýt	uýt	buýt	cuýt	chuýt	duýt	đuýt	X	X	X	huýt sáo	X	X	luýt	muýt	nuýt	nguýt	X	nhuýt	X	X	quuýt	ruýt	suýt	tuýt	thuýt	truýt	vuýt	xuýt
-uỵt	uỵt	buỵt	cuỵt	chuỵt	duỵt	đuỵt	X	X	X	X	X	X	luỵt	muỵt	nuỵt	nguỵt	X	nhuỵt	X	X	quuỵt	ruỵt	suỵt	tuỵt	thuỵt	truỵt	vuỵt	xuỵt
-uyu	uyu	buyu	cuyu	chuyu	duyu	đuyu	X	X	X	X	X	X	luyu	muyu	nuyu	nguyu	X	nhuyu	X	X	quuyu	ruyu	suyu	tuyu	thuyu	truyu	vuyu	xuyu
-uỳu	uỳu	buỳu	cuỳu	chuỳu	duỳu	đuỳu	X	X	X	X	X	X	luỳu	muỳu	nuỳu	nguỳu	X	nhuỳu	X	X	quuỳu	ruỳu	suỳu	tuỳu	thuỳu	truỳu	vuỳu	xuỳu
-uỷu	uỷu	buỷu	cuỷu	chuỷu	duỷu	đuỷu	X	X	X	X	X	khúc khuỷu	luỷu	muỷu	nuỷu	nguỷu	X	nhuỷu	X	X	quuỷu	ruỷu	suỷu	tuỷu	thuỷu	truỷu	vuỷu	xuỷu
-uỹu	uỹu	buỹu	cuỹu	chuỹu	duỹu	đuỹu	X	X	X	X	X	X	luỹu	muỹu	nuỹu	nguỹu	X	nhuỹu	X	X	quuỹu	ruỹu	suỹu	tuỹu	thuỹu	truỹu	vuỹu	xuỹu
-uýu	uýu	buýu	cuýu	chuýu	duýu	đuýu	X	X	X	X	X	X	luýu	muýu	nuýu	nguýu	X	nhuýu	X	X	quuýu	ruýu	suýu	tuýu	thuýu	truýu	vuýu	xuýu
-uỵu	uỵu	buỵu	cuỵu	chuỵu	duỵu	đuỵu	X	X	X	X	X	ngã khuỵu	luỵu	muỵu	nuỵu	nguỵu	X	nhuỵu	X	X	quuỵu	ruỵu	suỵu	tuỵu	thuỵu	truỵu	vuỵu	xuỵu
-ưng	ưng	bưng	cưng	chưng	dưng	đưng	X	X	X	hưng thịnh	X	X	lưng	mưng	nưng	ngưng	X	nhưng	X	X	quưng	rưng	sưng	tưng	thưng	trưng	vưng	xưng
-ừng	ừng	bừng	cừng	chừng	dừng	đừng	củ gừng	X	X	hừng hực	X	X	lẫy lừng	mừng	nừng	ngừng	X	nhừng	X	X	quừng	rừng	sừng	từng	thừng	trừng	vừng	xừng
+uộc	uộc	buộc	cuộc	chuộc	duộc	đuộc	gầy guộc	X	cùng một giuộc	X	X	X	luộc rau	muộc	nuộc	nguộc	X	nhuộc	X	phuộc xe	quuộc	ruộc	suộc	tuộc	thuộc	truộc	vuộc	xuộc
+uôi	uôi	buôi	cuôi	chuôi	duôi	đuôi	X	X	X	X	X	X	X	muôi	nuôi	nguôi	X	nhuôi	X	X	quuôi	ruôi	suôi	tuôi	thuôi	truôi	vuôi	xuôi
+uồi	uồi	buồi	cuồi	chuồi	duồi	đuồi	X	X	X	X	X	X	X	muồi	nuồi	nguồi	X	nhuồi	X	X	quuồi	ruồi	suồi	tuồi	thuồi	truồi	vuồi	xuồi
+uổi	uổi	buổi	cuổi	chuổi	duổi	đuổi	X	X	X	X	X	X	X	muổi	nuổi	nguổi	X	nhuổi	X	X	quuổi	ruổi	suổi	tuổi	thuổi	truổi	vuổi	xuổi
+uỗi	uỗi	buỗi	cuỗi	chuỗi	duỗi	đuỗi	X	X	X	X	X	X	X	muỗi	nuỗi	nguỗi	X	nhuỗi	X	X	quuỗi	ruỗi	suỗi	tuỗi	thuỗi	truỗi	vuỗi	xuỗi
+uối	uối	buối	cuối	chuối	duối	đuối	X	X	X	X	X	X	X	muối	nuối	nguối	X	nhuối	X	X	quuối	ruối	suối	tuối	thuối	truối	vuối	xuối
+uội	uội	buội	cuội	chuội	duội	đuội	X	X	X	X	X	X	X	muội	nuội	nguội	X	nhuội	X	X	quuội	ruội	suội	tuội	thuội	truội	vuội	xuội
+uôm	uôm	buôm	cuôm	chuôm	duôm	đuôm	X	X	X	X	X	X	luôm nhuôm	muôm	nuôm	nguôm	X	luôm nhuôm	X	X	quuôm	ruôm	suôm	tuôm	thuôm	truôm	vuôm	xuôm
+uồm	uồm	buồm	cuồm	chuồm	duồm	đuồm	X	X	X	X	X	X	X	muồm	nuồm	nguồm	X	nhuồm	X	X	quuồm	ruồm	suồm	tuồm	thuồm	truồm	vuồm	xuồm
+uổm	uổm	buổm	cuổm	chuổm	duổm	đuổm	X	X	X	X	X	X	X	muổm	nuổm	nguổm	X	nhuổm	X	X	quuổm	ruổm	suổm	tuổm	thuổm	truổm	vuổm	xuổm
+uỗm	uỗm	buỗm	cuỗm	chuỗm	duỗm	đuỗm	X	X	X	X	X	X	X	muỗm	nuỗm	nguỗm	X	nhuỗm	X	X	quuỗm	ruỗm	suỗm	tuỗm	thuỗm	truỗm	vuỗm	xuỗm
+uốm	uốm	buốm	cuốm	chuốm	duốm	đuốm	X	X	X	X	X	X	X	muốm	nuốm	nguốm	X	nhuốm	X	X	quuốm	ruốm	suốm	tuốm	thuốm	truốm	vuốm	xuốm
+uộm	uộm	buộm	cuộm	chuộm	duộm	đuộm	X	X	X	X	X	X	luộm thuộm	muộm	nuộm	nguộm	X	nhuộm	X	X	quuộm	ruộm	suộm	tuộm	luộm thuộm	truộm	vuộm	xuộm
+uôn	uôn	buôn	cuôn	chuôn	duôn	đuôn	X	X	X	X	X	khuôn khổ	luôn luôn	muôn	nuôn	nguôn	X	nhuôn	X	X	quuôn	ruôn	suôn	tuôn	thuôn	truôn	vuôn	xuôn
+uồn	uồn	buồn	cuồn	chuồn	duồn	đuồn	X	X	X	X	X	X	luồn cúi	muồn	nuồn	nguồn	X	nhuồn	X	X	quuồn	ruồn	suồn	tuồn	thuồn	truồn	vuồn	xuồn
+uổn	uổn	buổn	cuổn	chuổn	duổn	đuổn	X	X	X	X	X	X	X	muổn	nuổn	nguổn	X	nhuổn	X	X	quuổn	ruổn	suổn	tuổn	thuổn	truổn	vuổn	xuổn
+uỗn	uỗn	buỗn	cuỗn	chuỗn	duỗn	đuỗn	X	X	X	X	X	X	X	muỗn	nuỗn	nguỗn	X	nhuỗn	X	X	quuỗn	ruỗn	suỗn	tuỗn	thuỗn	truỗn	vuỗn	xuỗn
+uốn	uốn	buốn	cuốn	chuốn	duốn	đuốn	X	X	X	X	X	X	X	muốn	nuốn	nguốn	X	nhuốn	X	X	quuốn	ruốn	suốn	tuốn	thuốn	truốn	vuốn	xuốn
+uộn	uộn	buộn	cuộn	chuộn	duộn	đuộn	X	X	X	X	X	X	X	muộn	nuộn	nguộn	X	nhuộn	X	X	quuộn	ruộn	suộn	tuộn	thuộn	truộn	vuộn	xuộn
+uôt	uôt	buôt	cuôt	chuôt	duôt	đuôt	X	X	X	X	X	X	X	muôt	nuôt	nguôt	X	nhuôt	X	X	quuôt	ruôt	suôt	tuôt	thuôt	truôt	vuôt	xuôt
+uồt	uồt	buồt	cuồt	chuồt	duồt	đuồt	X	X	X	X	X	X	X	muồt	nuồt	nguồt	X	nhuồt	X	X	quuồt	ruồt	suồt	tuồt	thuồt	truồt	vuồt	xuồt
+uổt	uổt	buổt	cuổt	chuổt	duổt	đuổt	X	X	X	X	X	X	X	muổt	nuổt	nguổt	X	nhuổt	X	X	quuổt	ruổt	suổt	tuổt	thuổt	truổt	vuổt	xuổt
+uỗt	uỗt	buỗt	cuỗt	chuỗt	duỗt	đuỗt	X	X	X	X	X	X	X	muỗt	nuỗt	nguỗt	X	nhuỗt	X	X	quuỗt	ruỗt	suỗt	tuỗt	thuỗt	truỗt	vuỗt	xuỗt
+uốt	uốt	buốt	cuốt	chuốt	duốt	đuốt	X	X	X	X	X	X	luốt đi	muốt	nuốt	nguốt	X	nhuốt	X	X	quuốt	ruốt	suốt	tuốt	thuốt	truốt	vuốt	xuốt
+uột	uột	buột	cuột	chuột	duột	đuột	X	X	X	X	X	X	X	muột	nuột	nguột	X	nhuột	X	X	quuột	ruột	suột	tuột	thuột	truột	vuột	xuột
+uya	uya	buya	cuya	chuya	duya	đuya	X	X	X	X	X	đêm khuya	X	muya	nuya	nguya	X	nhuya	X	X	quuya	ruya	suya	tuya	thuya	truya	vuya	xuya
+uỳa	uỳa	buỳa	cuỳa	chuỳa	duỳa	đuỳa	X	X	X	X	X	X	X	muỳa	nuỳa	nguỳa	X	nhuỳa	X	X	quuỳa	ruỳa	suỳa	tuỳa	thuỳa	truỳa	vuỳa	xuỳa
+uỷa	uỷa	buỷa	cuỷa	chuỷa	duỷa	đuỷa	X	X	X	X	X	X	X	muỷa	nuỷa	nguỷa	X	nhuỷa	X	X	quuỷa	ruỷa	suỷa	tuỷa	thuỷa	truỷa	vuỷa	xuỷa
+uỹa	uỹa	buỹa	cuỹa	chuỹa	duỹa	đuỹa	X	X	X	X	X	X	X	muỹa	nuỹa	nguỹa	X	nhuỹa	X	X	quuỹa	ruỹa	suỹa	tuỹa	thuỹa	truỹa	vuỹa	xuỹa
+uýa	uýa	buýa	cuýa	chuýa	duýa	đuýa	X	X	X	X	X	X	X	muýa	nuýa	nguýa	X	nhuýa	X	X	quuýa	ruýa	suýa	tuýa	thuýa	truýa	vuýa	xuýa
+uỵa	uỵa	buỵa	cuỵa	chuỵa	duỵa	đuỵa	X	X	X	X	X	X	X	muỵa	nuỵa	nguỵa	X	nhuỵa	X	X	quuỵa	ruỵa	suỵa	tuỵa	thuỵa	truỵa	vuỵa	xuỵa
+uyt	uyt	buyt	cuyt	chuyt	duyt	đuyt	X	X	X	X	X	X	X	muyt	nuyt	nguyt	X	nhuyt	X	X	quuyt	ruyt	suyt	tuyt	thuyt	truyt	vuyt	xuyt
+uỳt	uỳt	buỳt	cuỳt	chuỳt	duỳt	đuỳt	X	X	X	X	X	X	X	muỳt	nuỳt	nguỳt	X	nhuỳt	X	X	quuỳt	ruỳt	suỳt	tuỳt	thuỳt	truỳt	vuỳt	xuỳt
+uỷt	uỷt	buỷt	cuỷt	chuỷt	duỷt	đuỷt	X	X	X	X	X	X	X	muỷt	nuỷt	nguỷt	X	nhuỷt	X	X	quuỷt	ruỷt	suỷt	tuỷt	thuỷt	truỷt	vuỷt	xuỷt
+uỹt	uỹt	buỹt	cuỹt	chuỹt	duỹt	đuỹt	X	X	X	X	X	X	X	muỹt	nuỹt	nguỹt	X	nhuỹt	X	X	quuỹt	ruỹt	suỹt	tuỹt	thuỹt	truỹt	vuỹt	xuỹt
+uýt	uýt	buýt	cuýt	chuýt	duýt	đuýt	X	X	X	huýt sáo	X	X	X	muýt	nuýt	lườm nguýt	X	nhuýt	X	X	quuýt	ruýt	suýt	tuýt	thuýt	truýt	vuýt	xuýt
+uỵt	uỵt	buỵt	cuỵt	chuỵt	duỵt	đuỵt	X	X	X	X	X	X	X	muỵt	nuỵt	nguỵt	X	nhuỵt	X	X	quuỵt	ruỵt	suỵt	tuỵt	thuỵt	truỵt	vuỵt	xuỵt
+uyu	uyu	buyu	cuyu	chuyu	duyu	đuyu	X	X	X	X	X	X	X	muyu	nuyu	nguyu	X	nhuyu	X	X	quuyu	ruyu	suyu	tuyu	thuyu	truyu	vuyu	xuyu
+uỳu	uỳu	buỳu	cuỳu	chuỳu	duỳu	đuỳu	X	X	X	X	X	X	X	muỳu	nuỳu	nguỳu	X	nhuỳu	X	X	quuỳu	ruỳu	suỳu	tuỳu	thuỳu	truỳu	vuỳu	xuỳu
+uỷu	uỷu	buỷu	cuỷu	chuỷu	duỷu	đuỷu	X	X	X	X	X	khúc khuỷu	X	muỷu	nuỷu	nguỷu	X	nhuỷu	X	X	quuỷu	ruỷu	suỷu	tuỷu	thuỷu	truỷu	vuỷu	xuỷu
+uỹu	uỹu	buỹu	cuỹu	chuỹu	duỹu	đuỹu	X	X	X	X	X	X	X	muỹu	nuỹu	nguỹu	X	nhuỹu	X	X	quuỹu	ruỹu	suỹu	tuỹu	thuỹu	truỹu	vuỹu	xuỹu
+uýu	uýu	buýu	cuýu	chuýu	duýu	đuýu	X	X	X	X	X	X	X	muýu	nuýu	nguýu	X	nhuýu	X	X	quuýu	ruýu	suýu	tuýu	thuýu	truýu	vuýu	xuýu
+uỵu	uỵu	buỵu	cuỵu	chuỵu	duỵu	đuỵu	X	X	X	X	X	ngã khuỵu	X	muỵu	nuỵu	nguỵu	X	nhuỵu	X	X	quuỵu	ruỵu	suỵu	tuỵu	thuỵu	truỵu	vuỵu	xuỵu
+ưng	ưng	bưng	cưng	chưng	dưng	đưng	X	X	X	hưng thịnh	X	X	cái lưng	mưng	nưng	ngưng	X	nhưng	X	X	quưng	rưng	sưng	tưng	thưng	trưng	vưng	xưng
+ừng	ừng	bừng	cừng	chừng	dừng	đừng	củ gừng	X	X	hừng hực	X	lừng khừng	lẫy lừng	mừng	nừng	ngừng	X	nhừng	X	X	quừng	rừng	sừng	từng	thừng	trừng	vừng	xừng
 ửng	ửng	bửng	cửng	chửng	dửng	đửng	X	X	X	hí hửng	X	X	lấp lửng	mửng	nửng	ngửng	X	nhửng	X	X	quửng	rửng	sửng	tửng	thửng	trửng	vửng	xửng
-ững	ững	bững	cững	chững	dững	đững	X	X	X	hững hờ	X	X	lững	mững	nững	ngững	X	những	X	X	quững	rững	sững	tững	thững	trững	vững	xững
-ứng	ứng	bứng	cứng	chứng	dứng	đứng	X	X	X	hứng chịu	X	X	lứng	mứng	nứng	ngứng	X	nhứng	X	X	quứng	rứng	sứng	tứng	thứng	trứng	vứng	xứng
-ựng	ựng	bựng	cựng	chựng	dựng	đựng	X	X	X	X	X	khựng lại	lựng	mựng	nựng	ngựng	X	nhựng	X	X	quựng	rựng	sựng	tựng	thựng	trựng	vựng	xựng
-ươc	ươc	bươc	cươc	chươc	dươc	đươc	X	X	X	X	X	X	lươc	mươc	nươc	ngươc	X	nhươc	X	X	quươc	rươc	sươc	tươc	thươc	trươc	vươc	xươc
-ườc	ườc	bườc	cườc	chườc	dườc	đườc	X	X	X	X	X	X	lườc	mườc	nườc	ngườc	X	nhườc	X	X	quườc	rườc	sườc	tườc	thườc	trườc	vườc	xườc
-ưởc	ưởc	bưởc	cưởc	chưởc	dưởc	đưởc	X	X	X	X	X	X	lưởc	mưởc	nưởc	ngưởc	X	nhưởc	X	X	quưởc	rưởc	sưởc	tưởc	thưởc	trưởc	vưởc	xưởc
-ưỡc	ưỡc	bưỡc	cưỡc	chưỡc	dưỡc	đưỡc	X	X	X	X	X	X	lưỡc	mưỡc	nưỡc	ngưỡc	X	nhưỡc	X	X	quưỡc	rưỡc	sưỡc	tưỡc	thưỡc	trưỡc	vưỡc	xưỡc
-ước	ước	bước	cước	chước	dước	đước	X	X	X	hài hước	X	khước từ	lước	mước	nước	ngước	X	nhước	X	X	quước	rước	sước	tước	thước	trước	vước	xước
-ược	ược	bược	cược	chược	dược	được	X	X	X	X	X	X	lược	mược	nược	ngược	X	nhược	X	X	quược	rược	sược	tược	thược	trược	vược	hỗn xược
-ươi	ươi	bươi	cươi	chươi	dươi	đươi	X	X	X	X	X	X	lươi	mươi	nươi	ngươi	X	nhươi	X	X	quươi	rươi	sươi	tươi	thươi	trươi	vươi	xươi
-ười	ười	bười	cười	chười	dười	đười	X	X	X	X	X	X	lười	mười	nười	người	X	nhười	X	X	quười	rười	sười	tười	thười	trười	vười	xười
-ưởi	ưởi	bưởi	cưởi	chưởi	dưởi	đưởi	X	X	X	X	X	X	lưởi	mưởi	nưởi	ngưởi	X	nhưởi	X	X	quưởi	rưởi	sưởi	tưởi	thưởi	trưởi	vưởi	xưởi
-ưỡi	ưỡi	bưỡi	cưỡi	chưỡi	dưỡi	đưỡi	X	X	X	X	X	X	lưỡi	mưỡi	nưỡi	ngưỡi	X	nhưỡi	X	X	quưỡi	rưỡi	sưỡi	tưỡi	thưỡi	trưỡi	vưỡi	xưỡi
-ưới	ưới	bưới	cưới	chưới	dưới	đưới	X	X	X	X	X	X	lưới	mưới	nưới	ngưới	X	nhưới	X	X	quưới	rưới	sưới	tưới	thưới	trưới	vưới	xưới
-ượi	ượi	bượi	cượi	chượi	dượi	đượi	X	X	X	X	X	X	lượi	mượi	nượi	ngượi	X	nhượi	X	X	quượi	rượi	sượi	tượi	thượi	trượi	vượi	xượi
-ươm	ươm	bươm	cươm	chươm	dươm	đươm	thanh gươm	X	X	X	X	X	lươm	mươm	nươm	ngươm	X	nhươm	X	X	quươm	rươm	sươm	tươm	thươm	trươm	vươm	xươm
-ườm	ườm	bườm	cườm	chườm	dườm	đườm	gườm nhau	X	X	X	X	X	lườm	mườm	nườm	ngườm	X	nhườm	X	X	quườm	rườm	sườm	tườm	thườm	trườm	vườm	xườm
-ưởm	ưởm	bưởm	cưởm	chưởm	dưởm	đưởm	X	X	X	X	X	X	lưởm	mưởm	nưởm	ngưởm	X	nhưởm	X	X	quưởm	rưởm	sưởm	tưởm	thưởm	trưởm	vưởm	xưởm
-ưỡm	ưỡm	bưỡm	cưỡm	chưỡm	dưỡm	đưỡm	X	X	X	X	X	X	lưỡm	mưỡm	nưỡm	ngưỡm	X	nhưỡm	X	X	quưỡm	rưỡm	sưỡm	tưỡm	thưỡm	trưỡm	vưỡm	xưỡm
-ướm	ướm	bướm	cướm	chướm	dướm	đướm	X	X	X	X	X	X	lướm	mướm	nướm	ngướm	X	nhướm	X	X	quướm	rướm	sướm	tướm	thướm	trướm	vướm	xướm
-ượm	ượm	bượm	cượm	chượm	dượm	đượm	gượm đã	X	X	X	X	X	lượm	mượm	nượm	ngượm	X	nhượm	X	X	quượm	rượm	sượm	tượm	thượm	trượm	vượm	xượm
-ươn	ươn	bươn	cươn	chươn	dươn	đươn	X	X	X	X	X	X	lươn	mươn	nươn	ngươn	X	nhươn	X	X	quươn	rươn	sươn	tươn	thươn	trươn	vươn	xươn
-ườn	ườn	bườn	cườn	chườn	dườn	đườn	X	X	X	X	X	X	lườn	mườn	nườn	ngườn	X	nhườn	X	X	quườn	rườn	sườn	tườn	thườn	trườn	vườn	xườn
-ưởn	ưởn	bưởn	cưởn	chưởn	dưởn	đưởn	X	X	X	X	X	X	lưởn	mưởn	nưởn	ngưởn	X	nhưởn	X	X	quưởn	rưởn	sưởn	tưởn	thưởn	trưởn	vưởn	xưởn
-ưỡn	ưỡn	bưỡn	cưỡn	chưỡn	dưỡn	đưỡn	X	X	X	X	X	X	lưỡn	mưỡn	nưỡn	ngưỡn	X	nhưỡn	X	X	quưỡn	rưỡn	sưỡn	tưỡn	thưỡn	trưỡn	vưỡn	xưỡn
-ướn	ướn	bướn	cướn	chướn	dướn	đướn	X	X	X	X	X	X	lướn	mướn	nướn	ngướn	X	nhướn	X	cột phướn	quướn	rướn	sướn	tướn	thướn	trướn	vướn	xướn
-ượn	ượn	bượn	cượn	chượn	dượn	đượn	X	X	X	X	X	X	lượn	mượn	nượn	ngượn	X	nhượn	X	X	quượn	rượn	sượn	tượn	thượn	trượn	vượn	xượn
-ươp	ươp	bươp	cươp	chươp	dươp	đươp	X	X	X	X	X	X	lươp	mươp	nươp	ngươp	X	nhươp	X	X	quươp	rươp	sươp	tươp	thươp	trươp	vươp	xươp
-ườp	ườp	bườp	cườp	chườp	dườp	đườp	X	X	X	X	X	X	lườp	mườp	nườp	ngườp	X	nhườp	X	X	quườp	rườp	sườp	tườp	thườp	trườp	vườp	xườp
-ưởp	ưởp	bưởp	cưởp	chưởp	dưởp	đưởp	X	X	X	X	X	X	lưởp	mưởp	nưởp	ngưởp	X	nhưởp	X	X	quưởp	rưởp	sưởp	tưởp	thưởp	trưởp	vưởp	xưởp
-ưỡp	ưỡp	bưỡp	cưỡp	chưỡp	dưỡp	đưỡp	X	X	X	X	X	X	lưỡp	mưỡp	nưỡp	ngưỡp	X	nhưỡp	X	X	quưỡp	rưỡp	sưỡp	tưỡp	thưỡp	trưỡp	vưỡp	xưỡp
-ướp	ướp	bướp	cướp	chướp	dướp	đướp	X	X	X	X	X	X	lướp	mướp	nướp	ngướp	X	nhướp	X	X	quướp	rướp	sướp	tướp	thướp	trướp	vướp	xướp
-ượp	ượp	bượp	cượp	chượp	dượp	đượp	X	X	X	X	X	X	lượp	mượp	nượp	ngượp	X	nhượp	X	X	quượp	rượp	sượp	tượp	thượp	trượp	vượp	xượp
-ươt	ươt	bươt	cươt	chươt	dươt	đươt	X	X	X	X	X	X	lươt	mươt	nươt	ngươt	X	nhươt	X	X	quươt	rươt	sươt	tươt	thươt	trươt	vươt	xươt
-ườt	ườt	bườt	cườt	chườt	dườt	đườt	X	X	X	X	X	X	lườt	mườt	nườt	ngườt	X	nhườt	X	X	quườt	rườt	sườt	tườt	thườt	trườt	vườt	xườt
-ưởt	ưởt	bưởt	cưởt	chưởt	dưởt	đưởt	X	X	X	X	X	X	lưởt	mưởt	nưởt	ngưởt	X	nhưởt	X	X	quưởt	rưởt	sưởt	tưởt	thưởt	trưởt	vưởt	xưởt
-ưỡt	ưỡt	bưỡt	cưỡt	chưỡt	dưỡt	đưỡt	X	X	X	X	X	X	lưỡt	mưỡt	nưỡt	ngưỡt	X	nhưỡt	X	X	quưỡt	rưỡt	sưỡt	tưỡt	thưỡt	trưỡt	vưỡt	xưỡt
-ướt	ướt	bướt	cướt	chướt	dướt	đướt	X	X	X	X	X	say khướt	lướt	mướt	nướt	ngướt	X	nhướt	X	X	quướt	rướt	sướt	tướt	thướt	trướt	vướt	xướt
-ượt	ượt	bượt	cượt	chượt	dượt	đượt	X	X	X	X	X	X	lượt	mượt	nượt	ngượt	X	nhượt	X	đi phượt	quượt	rượt	sượt	tượt	thượt	trượt	vượt	xượt
-ươu	ươu	bươu	cươu	chươu	dươu	đươu	X	X	X	con hươu	X	X	lươu	mươu	nươu	ngươu	X	nhươu	X	X	quươu	rươu	sươu	tươu	thươu	trươu	vươu	xươu
-ườu	ườu	bườu	cườu	chườu	dườu	đườu	X	X	X	X	X	X	lườu	mườu	nườu	ngườu	X	nhườu	X	X	quườu	rườu	sườu	tườu	thườu	trườu	vườu	xườu
-ưởu	ưởu	bưởu	cưởu	chưởu	dưởu	đưởu	X	X	X	X	X	X	lưởu	mưởu	nưởu	ngưởu	X	nhưởu	X	X	quưởu	rưởu	sưởu	tưởu	thưởu	trưởu	vưởu	xưởu
-ưỡu	ưỡu	bưỡu	cưỡu	chưỡu	dưỡu	đưỡu	X	X	X	X	X	X	lưỡu	mưỡu	nưỡu	ngưỡu	X	nhưỡu	X	X	quưỡu	rưỡu	sưỡu	tưỡu	thưỡu	trưỡu	vưỡu	xưỡu
-ướu	ướu	bướu	cướu	chướu	dướu	đướu	X	X	X	X	X	chim khướu	lướu	mướu	nướu	ngướu	X	nhướu	X	X	quướu	rướu	sướu	tướu	thướu	trướu	vướu	xướu
-ượu	ượu	bượu	cượu	chượu	dượu	đượu	X	X	X	X	X	X	lượu	mượu	nượu	ngượu	X	nhượu	X	X	quượu	rượu	sượu	tượu	thượu	trượu	vượu	xượu
-yên	yên	byên	cyên	chyên	dyên	đyên	X	X	X	X	X	X	lyên	myên	nyên	ngyên	X	nhyên	X	X	quyên	ryên	syên	tyên	thyên	tryên	vyên	xyên
-yền	yền	byền	cyền	chyền	dyền	đyền	X	X	X	X	X	X	lyền	myền	nyền	ngyền	X	nhyền	X	X	quyền	ryền	syền	tyền	thyền	tryền	vyền	xyền
-yển	yển	byển	cyển	chyển	dyển	đyển	X	X	X	X	X	X	lyển	myển	nyển	ngyển	X	nhyển	X	X	quyển	ryển	syển	tyển	thyển	tryển	vyển	xyển
-yễn	yễn	byễn	cyễn	chyễn	dyễn	đyễn	X	X	X	X	X	X	lyễn	myễn	nyễn	ngyễn	X	nhyễn	X	X	quyễn	ryễn	syễn	tyễn	thyễn	tryễn	vyễn	xyễn
-yến	yến	byến	cyến	chyến	dyến	đyến	X	X	X	X	X	X	lyến	myến	nyến	ngyến	X	nhyến	X	X	quyến	ryến	syến	tyến	thyến	tryến	vyến	xyến
-yện	yện	byện	cyện	chyện	dyện	đyện	X	X	X	X	X	X	lyện	myện	nyện	ngyện	X	nhyện	X	X	quyện	ryện	syện	tyện	thyện	tryện	vyện	xyện
-yêt	yêt	byêt	cyêt	chyêt	dyêt	đyêt	X	X	X	X	X	X	lyêt	myêt	nyêt	ngyêt	X	nhyêt	X	X	quyêt	ryêt	syêt	tyêt	thyêt	tryêt	vyêt	xyêt
-yềt	yềt	byềt	cyềt	chyềt	dyềt	đyềt	X	X	X	X	X	X	lyềt	myềt	nyềt	ngyềt	X	nhyềt	X	X	quyềt	ryềt	syềt	tyềt	thyềt	tryềt	vyềt	xyềt
-yểt	yểt	byểt	cyểt	chyểt	dyểt	đyểt	X	X	X	X	X	X	lyểt	myểt	nyểt	ngyểt	X	nhyểt	X	X	quyểt	ryểt	syểt	tyểt	thyểt	tryểt	vyểt	xyểt
-yễt	yễt	byễt	cyễt	chyễt	dyễt	đyễt	X	X	X	X	X	X	lyễt	myễt	nyễt	ngyễt	X	nhyễt	X	X	quyễt	ryễt	syễt	tyễt	thyễt	tryễt	vyễt	xyễt
-yết	yết	byết	cyết	chyết	dyết	đyết	X	X	X	X	X	X	lyết	myết	nyết	ngyết	X	nhyết	X	X	quyết	ryết	syết	tyết	thyết	tryết	vyết	xyết
-yệt	yệt	byệt	cyệt	chyệt	dyệt	đyệt	X	X	X	X	X	X	lyệt	myệt	nyệt	ngyệt	X	nhyệt	X	X	quyệt	ryệt	syệt	tyệt	thyệt	tryệt	vyệt	xyệt
-yêu	yêu	byêu	cyêu	chyêu	dyêu	đyêu	X	X	X	X	X	X	lyêu	myêu	nyêu	ngyêu	X	nhyêu	X	X	quyêu	ryêu	syêu	tyêu	thyêu	tryêu	vyêu	xyêu
-yều	yều	byều	cyều	chyều	dyều	đyều	X	X	X	X	X	X	lyều	myều	nyều	ngyều	X	nhyều	X	X	quyều	ryều	syều	tyều	thyều	tryều	vyều	xyều
-yểu	yểu	byểu	cyểu	chyểu	dyểu	đyểu	X	X	X	X	X	X	lyểu	myểu	nyểu	ngyểu	X	nhyểu	X	X	quyểu	ryểu	syểu	tyểu	thyểu	tryểu	vyểu	xyểu
-yễu	yễu	byễu	cyễu	chyễu	dyễu	đyễu	X	X	X	X	X	X	lyễu	myễu	nyễu	ngyễu	X	nhyễu	X	X	quyễu	ryễu	syễu	tyễu	thyễu	tryễu	vyễu	xyễu
-yếu	yếu	byếu	cyếu	chyếu	dyếu	đyếu	X	X	X	X	X	X	lyếu	myếu	nyếu	ngyếu	X	nhyếu	X	X	quyếu	ryếu	syếu	tyếu	thyếu	tryếu	vyếu	xyếu
-yệu	yệu	byệu	cyệu	chyệu	dyệu	đyệu	X	X	X	X	X	X	lyệu	myệu	nyệu	ngyệu	X	nhyệu	X	X	quyệu	ryệu	syệu	tyệu	thyệu	tryệu	vyệu	xyệu
-ynh	ynh	bynh	cynh	chynh	dynh	đynh	X	X	X	X	X	X	lynh	mynh	nynh	ngynh	X	nhynh	X	X	quynh	rynh	synh	tynh	thynh	trynh	vynh	xynh
-ỳnh	ỳnh	bỳnh	cỳnh	chỳnh	dỳnh	đỳnh	X	X	X	X	X	X	lỳnh	mỳnh	nỳnh	ngỳnh	X	nhỳnh	X	X	quỳnh	rỳnh	sỳnh	tỳnh	thỳnh	trỳnh	vỳnh	xỳnh
-ỷnh	ỷnh	bỷnh	cỷnh	chỷnh	dỷnh	đỷnh	X	X	X	X	X	X	lỷnh	mỷnh	nỷnh	ngỷnh	X	nhỷnh	X	X	quỷnh	rỷnh	sỷnh	tỷnh	thỷnh	trỷnh	vỷnh	xỷnh
-ỹnh	ỹnh	bỹnh	cỹnh	chỹnh	dỹnh	đỹnh	X	X	X	X	X	X	lỹnh	mỹnh	nỹnh	ngỹnh	X	nhỹnh	X	X	quỹnh	rỹnh	sỹnh	tỹnh	thỹnh	trỹnh	vỹnh	xỹnh
-ýnh	ýnh	býnh	cýnh	chýnh	dýnh	đýnh	X	X	X	X	X	X	lýnh	mýnh	nýnh	ngýnh	X	nhýnh	X	X	quýnh	rýnh	sýnh	týnh	thýnh	trýnh	výnh	xýnh
-ỵnh	ỵnh	bỵnh	cỵnh	chỵnh	dỵnh	đỵnh	X	X	X	X	X	X	lỵnh	mỵnh	nỵnh	ngỵnh	X	nhỵnh	X	X	quỵnh	rỵnh	sỵnh	tỵnh	thỵnh	trỵnh	vỵnh	xỵnh
-iêng	iêng	biêng	ciêng	chiêng	diêng	điêng	X	X	X	hiêng hiếng	kiêng cữ	khiêng vác	liêng	miêng	niêng	ngiêng	đổ nghiêng	nhiêng	X	X	quiêng	riêng	siêng	tiêng	thiêng	triêng	viêng	xiêng
-iềng	iềng	biềng	ciềng	chiềng	diềng	điềng	X	X	X	X	kiềng ba chân	X	liềng	miềng	niềng	ngiềng	X	nhiềng	X	X	quiềng	riềng	siềng	tiềng	thiềng	triềng	viềng	gông xiềng
-iểng	iểng	biểng	ciểng	chiểng	diểng	điểng	X	X	X	X	cây kiểng	X	liểng	miểng	niểng	ngiểng	X	nhiểng	X	X	quiểng	riểng	siểng	tiểng	thiểng	triểng	viểng	xiểng
-iễng	iễng	biễng	ciễng	chiễng	diễng	điễng	X	X	X	X	kiễng chân	khập khiễng	liễng	miễng	niễng	ngiễng	X	nhiễng	X	X	quiễng	riễng	siễng	tiễng	thiễng	triễng	viễng	xiễng
-iếng	iếng	biếng	ciếng	chiếng	diếng	điếng	X	X	X	hiêng hiếng	tấm kiếng	X	liếng	miếng	niếng	ngiếng	X	nhiếng	X	X	quiếng	riếng	siếng	tiếng	thiếng	triếng	viếng	xiếng
-iệng	iệng	biệng	ciệng	chiệng	diệng	điệng	X	X	X	X	X	khụng khiệng	liệng	miệng	niệng	ngiệng	X	nhiệng	X	X	quiệng	riệng	siệng	tiệng	thiệng	triệng	việng	xiệng
-oach	oach	boach	coach	choach	doach	đoach	X	X	X	X	X	X	loach	moach	noach	ngoach	X	nhoach	X	X	quoach	roach	soach	toach	thoach	troach	voach	xoach
-oàch	oàch	boàch	coàch	choàch	doàch	đoàch	X	X	X	X	X	X	loàch	moàch	noàch	ngoàch	X	nhoàch	X	X	quoàch	roàch	soàch	toàch	thoàch	troàch	voàch	xoàch
-oảch	oảch	boảch	coảch	choảch	doảch	đoảch	X	X	X	X	X	X	loảch	moảch	noảch	ngoảch	X	nhoảch	X	X	quoảch	roảch	soảch	toảch	thoảch	troảch	voảch	xoảch
-oãch	oãch	boãch	coãch	choãch	doãch	đoãch	X	X	X	X	X	X	loãch	moãch	noãch	ngoãch	X	nhoãch	X	X	quoãch	roãch	soãch	toãch	thoãch	troãch	voãch	xoãch
-oách	oách	boách	coách	choách	doách	đoách	X	X	X	X	X	X	loách	moách	noách	ngoách	X	nhoách	X	X	quoách	roách	soách	toách	thoách	troách	voách	xoách
-oạch	oạch	boạch	coạch	choạch	doạch	đoạch	X	X	X	kế hoạch	X	X	loạch	moạch	noạch	ngoạch	X	nhoạch	X	X	quoạch	roạch	soạch	toạch	thoạch	troạch	voạch	xoạch
-oang	oang	boang	coang	choang	doang	đoang	X	X	X	hoang mang	X	khoang tàu	loang	moang	noang	ngoang	X	nhoang	X	X	quoang	roang	soang	toang	thoang	troang	voang	xoang
-oàng	oàng	boàng	coàng	choàng	doàng	đoàng	X	X	X	huy hoàng	X	X	loàng	moàng	noàng	ngoàng	X	nhoàng	X	X	quoàng	roàng	soàng	toàng	thoàng	troàng	voàng	xoàng
-oảng	oảng	boảng	coảng	choảng	doảng	đoảng	X	X	X	hoảng hốt	X	khoảng cách	loảng	moảng	noảng	ngoảng	X	nhoảng	X	X	quoảng	roảng	soảng	toảng	thoảng	troảng	voảng	xoảng
-oãng	oãng	boãng	coãng	choãng	doãng	đoãng	X	X	X	X	X	X	loãng	moãng	noãng	ngoãng	X	nhoãng	X	X	quoãng	roãng	soãng	toãng	thoãng	troãng	voãng	xoãng
-oáng	oáng	boáng	coáng	choáng	doáng	đoáng	X	X	X	X	X	khoáng chất	lấp loáng	moáng	noáng	ngoáng	X	nhoáng	X	X	quoáng	roáng	soáng	toáng	thoáng	troáng	voáng	xoáng
-oạng	oạng	boạng	coạng	choạng	doạng	đoạng	X	X	X	X	X	X	loạng	moạng	noạng	ngoạng	X	nhoạng	X	X	quoạng	roạng	soạng	toạng	thoạng	troạng	voạng	xoạng
-oanh	oanh	boanh	coanh	choanh	doanh	đoanh	X	X	X	X	X	khoanh tay	loanh	moanh	noanh	ngoanh	X	nhoanh	X	X	quoanh	roanh	soanh	toanh	thoanh	troanh	voanh	xoanh
-oành	oành	boành	coành	choành	doành	đoành	X	X	X	hoành hành	X	X	loành	moành	noành	ngoành	X	nhoành	X	X	quoành	roành	soành	toành	thoành	troành	voành	xoành
-oảnh	oảnh	boảnh	coảnh	choảnh	doảnh	đoảnh	X	X	X	X	X	X	loảnh	moảnh	noảnh	ngoảnh	X	nhoảnh	X	X	quoảnh	roảnh	soảnh	toảnh	thoảnh	troảnh	voảnh	xoảnh
-oãnh	oãnh	boãnh	coãnh	choãnh	doãnh	đoãnh	X	X	X	X	X	X	loãnh	moãnh	noãnh	ngoãnh	X	nhoãnh	X	X	quoãnh	roãnh	soãnh	toãnh	thoãnh	troãnh	voãnh	xoãnh
-oánh	oánh	boánh	coánh	choánh	doánh	đoánh	X	X	X	X	X	X	loánh	moánh	noánh	ngoánh	X	nhoánh	X	X	quoánh	roánh	soánh	toánh	thoánh	troánh	voánh	xoánh
-oạnh	oạnh	boạnh	coạnh	choạnh	doạnh	đoạnh	X	X	X	hoạnh họe	X	X	loạnh	moạnh	noạnh	ngoạnh	X	nhoạnh	X	X	quoạnh	roạnh	soạnh	toạnh	thoạnh	troạnh	voạnh	xoạnh
-oăng	oăng	boăng	coăng	choăng	doăng	đoăng	X	X	X	X	X	X	loăng	moăng	noăng	ngoăng	X	nhoăng	X	X	quoăng	roăng	soăng	toăng	thoăng	troăng	voăng	xoăng
-oằng	oằng	boằng	coằng	choằng	doằng	đoằng	X	X	X	X	X	X	loằng	moằng	noằng	ngoằng	X	nhoằng	X	X	quoằng	roằng	soằng	toằng	thoằng	troằng	voằng	xoằng
-oẳng	oẳng	boẳng	coẳng	choẳng	doẳng	đoẳng	X	X	X	X	X	X	loẳng	moẳng	noẳng	ngoẳng	X	nhoẳng	X	X	quoẳng	roẳng	soẳng	toẳng	thoẳng	troẳng	voẳng	xoẳng
-oẵng	oẵng	boẵng	coẵng	choẵng	doẵng	đoẵng	X	X	X	con hoẵng	X	X	loẵng	moẵng	noẵng	ngoẵng	X	nhoẵng	X	X	quoẵng	roẵng	soẵng	toẵng	thoẵng	troẵng	voẵng	xoẵng
-oắng	oắng	boắng	coắng	choắng	doắng	đoắng	X	X	X	X	X	khua khoắng	loắng	moắng	noắng	ngoắng	X	nhoắng	X	X	quoắng	roắng	soắng	toắng	thoắng	troắng	voắng	xoắng
-oặng	oặng	boặng	coặng	choặng	doặng	đoặng	X	X	X	X	X	X	loặng	moặng	noặng	ngoặng	X	nhoặng	X	X	quoặng	roặng	soặng	toặng	thoặng	troặng	voặng	xoặng
-oong	oong	boong	kính coong	choong	doong	đoong	X	X	X	X	X	X	loong	moong	noong	ngoong	X	nhoong	X	X	quoong	roong	soong	toong	thoong	troong	voong	xoong
-oòng	oòng	boòng	coòng	choòng	doòng	đoòng	xe goòng	X	X	X	X	X	loòng	moòng	noòng	ngoòng	X	nhoòng	X	X	quoòng	roòng	soòng	toòng	thoòng	troòng	voòng	xoòng
-oỏng	oỏng	boỏng	coỏng	choỏng	doỏng	đoỏng	X	X	X	X	X	X	loỏng	moỏng	noỏng	ngoỏng	X	nhoỏng	X	X	quoỏng	roỏng	soỏng	toỏng	thoỏng	troỏng	voỏng	xoỏng
-oõng	oõng	boõng	coõng	choõng	doõng	đoõng	X	X	X	X	X	X	loõng	moõng	noõng	ngoõng	X	nhoõng	X	X	quoõng	roõng	soõng	toõng	thoõng	troõng	voõng	xoõng
-oóng	oóng	boóng	coóng	choóng	doóng	đoóng	X	X	X	X	X	X	loóng	moóng	noóng	ngoóng	X	nhoóng	X	X	quoóng	roóng	soóng	toóng	thoóng	troóng	voóng	xoóng
-oọng	oọng	boọng	coọng	choọng	doọng	đoọng	X	X	X	X	X	X	loọng	moọng	noọng	ngoọng	X	nhoọng	X	X	quoọng	roọng	soọng	toọng	thoọng	troọng	voọng	xoọng
-uâng	uâng	buâng	cuâng	chuâng	duâng	đuâng	X	X	X	X	X	bâng khuâng	luâng	muâng	nuâng	nguâng	X	nhuâng	X	X	quuâng	ruâng	suâng	tuâng	thuâng	truâng	vuâng	xuâng
-uầng	uầng	buầng	cuầng	chuầng	duầng	đuầng	X	X	X	X	X	X	luầng	muầng	nuầng	nguầng	X	nhuầng	X	X	quuầng	ruầng	suầng	tuầng	thuầng	truầng	vuầng	xuầng
-uẩng	uẩng	buẩng	cuẩng	chuẩng	duẩng	đuẩng	X	X	X	X	X	X	luẩng	muẩng	nuẩng	nguẩng	X	nhuẩng	X	X	quuẩng	ruẩng	suẩng	tuẩng	thuẩng	truẩng	vuẩng	xuẩng
-uẫng	uẫng	buẫng	cuẫng	chuẫng	duẫng	đuẫng	X	X	X	X	X	X	luẫng	muẫng	nuẫng	nguẫng	X	nhuẫng	X	X	quuẫng	ruẫng	suẫng	tuẫng	thuẫng	truẫng	vuẫng	xuẫng
-uấng	uấng	buấng	cuấng	chuấng	duấng	đuấng	X	X	X	X	X	X	luấng	muấng	nuấng	nguấng	X	nhuấng	X	X	quuấng	ruấng	suấng	tuấng	thuấng	truấng	vuấng	xuấng
-uậng	uậng	buậng	cuậng	chuậng	duậng	đuậng	X	X	X	X	X	X	luậng	muậng	nuậng	nguậng	X	nhuậng	X	X	quuậng	ruậng	suậng	tuậng	thuậng	truậng	vuậng	xuậng
-uêch	uêch	buêch	cuêch	chuêch	duêch	đuêch	X	X	X	X	X	X	luêch	muêch	nuêch	nguêch	X	nhuêch	X	X	quuêch	ruêch	suêch	tuêch	thuêch	truêch	vuêch	xuêch
-uềch	uềch	buềch	cuềch	chuềch	duềch	đuềch	X	X	X	X	X	X	luềch	muềch	nuềch	nguềch	X	nhuềch	X	X	quuềch	ruềch	suềch	tuềch	thuềch	truềch	vuềch	xuềch
-uểch	uểch	buểch	cuểch	chuểch	duểch	đuểch	X	X	X	X	X	X	luểch	muểch	nuểch	nguểch	X	nhuểch	X	X	quuểch	ruểch	suểch	tuểch	thuểch	truểch	vuểch	xuểch
-uễch	uễch	buễch	cuễch	chuễch	duễch	đuễch	X	X	X	X	X	X	luễch	muễch	nuễch	nguễch	X	nhuễch	X	X	quuễch	ruễch	suễch	tuễch	thuễch	truễch	vuễch	xuễch
-uếch	uếch	buếch	cuếch	chuếch	duếch	đuếch	X	X	X	huếch hoác	X	khuếch trương	luếch	muếch	nuếch	nguếch	X	nhuếch	X	X	quuếch	ruếch	suếch	tuếch	thuếch	truếch	vuếch	xuếch
-uệch	uệch	buệch	cuệch	chuệch	duệch	đuệch	X	X	X	X	X	X	luệch	muệch	nuệch	nguệch	X	nhuệch	X	X	quuệch	ruệch	suệch	tuệch	thuệch	truệch	vuệch	xuệch
-uênh	uênh	buênh	cuênh	chuênh	duênh	đuênh	X	X	X	huênh hoang	X	X	luênh	muênh	nuênh	nguênh	X	nhuênh	X	X	quuênh	ruênh	suênh	tuênh	thuênh	truênh	vuênh	xuênh
-uềnh	uềnh	buềnh	cuềnh	chuềnh	duềnh	đuềnh	X	X	X	X	X	X	luềnh	muềnh	nuềnh	nguềnh	X	nhuềnh	X	X	quuềnh	ruềnh	suềnh	tuềnh	thuềnh	truềnh	vuềnh	xuềnh
-uểnh	uểnh	buểnh	cuểnh	chuểnh	duểnh	đuểnh	X	X	X	X	X	X	luểnh	muểnh	nuểnh	nguểnh	X	nhuểnh	X	X	quuểnh	ruểnh	suểnh	tuểnh	thuểnh	truểnh	vuểnh	xuểnh
-uễnh	uễnh	buễnh	cuễnh	chuễnh	duễnh	đuễnh	X	X	X	X	X	X	luễnh	muễnh	nuễnh	nguễnh	X	nhuễnh	X	X	quuễnh	ruễnh	suễnh	tuễnh	thuễnh	truễnh	vuễnh	xuễnh
-uếnh	uếnh	buếnh	cuếnh	chuếnh	duếnh	đuếnh	X	X	X	X	X	X	luếnh	muếnh	nuếnh	nguếnh	X	nhuếnh	X	X	quuếnh	ruếnh	suếnh	tuếnh	thuếnh	truếnh	vuếnh	xuếnh
-uệnh	uệnh	buệnh	cuệnh	chuệnh	duệnh	đuệnh	X	X	X	X	X	X	luệnh	muệnh	nuệnh	nguệnh	X	nhuệnh	X	X	quuệnh	ruệnh	suệnh	tuệnh	thuệnh	truệnh	vuệnh	xuệnh
-uông	uông	buông	cuông	chuông	duông	đuông	X	X	X	có huông	X	khuông nhạc	luông	muông	nuông	nguông	X	nhuông	X	X	quuông	ruông	suông	tuông	thuông	truông	vuông	xuông
-uồng	uồng	buồng	cuồng	chuồng	duồng	đuồng	guồng máy	X	X	X	X	X	luồng	muồng	nuồng	nguồng	X	nhuồng	X	X	quuồng	ruồng	suồng	tuồng	thuồng	truồng	vuồng	xuồng
-uổng	uổng	buổng	cuổng	chuổng	duổng	đuổng	X	X	X	X	X	X	luổng	muổng	nuổng	nguổng	X	nhuổng	X	X	quuổng	ruổng	suổng	tuổng	thuổng	truổng	vuổng	xuổng
-uỗng	uỗng	buỗng	cuỗng	chuỗng	duỗng	đuỗng	X	X	X	X	X	X	luỗng	muỗng	nuỗng	nguỗng	X	nhuỗng	X	X	quuỗng	ruỗng	suỗng	tuỗng	thuỗng	truỗng	vuỗng	xuỗng
-uống	uống	buống	cuống	chuống	duống	đuống	X	X	X	tình huống	X	X	luống	muống	nuống	nguống	X	nhuống	X	X	quuống	ruống	suống	tuống	thuống	truống	vuống	xuống
-uộng	uộng	buộng	cuộng	chuộng	duộng	đuộng	X	X	X	X	X	X	luộng	muộng	nuộng	nguộng	X	nhuộng	X	X	quuộng	ruộng	suộng	tuộng	thuộng	truộng	vuộng	xuộng
-uych	uych	buych	cuych	chuych	duych	đuych	X	X	X	X	X	X	luych	muych	nuych	nguych	X	nhuych	X	X	quuych	ruych	suych	tuych	thuych	truych	vuych	xuych
-uỳch	uỳch	buỳch	cuỳch	chuỳch	duỳch	đuỳch	X	X	X	X	X	X	luỳch	muỳch	nuỳch	nguỳch	X	nhuỳch	X	X	quuỳch	ruỳch	suỳch	tuỳch	thuỳch	truỳch	vuỳch	xuỳch
-uỷch	uỷch	buỷch	cuỷch	chuỷch	duỷch	đuỷch	X	X	X	X	X	X	luỷch	muỷch	nuỷch	nguỷch	X	nhuỷch	X	X	quuỷch	ruỷch	suỷch	tuỷch	thuỷch	truỷch	vuỷch	xuỷch
-uỹch	uỹch	buỹch	cuỹch	chuỹch	duỹch	đuỹch	X	X	X	X	X	X	luỹch	muỹch	nuỹch	nguỹch	X	nhuỹch	X	X	quuỹch	ruỹch	suỹch	tuỹch	thuỹch	truỹch	vuỹch	xuỹch
-uých	uých	buých	cuých	chuých	duých	đuých	X	X	X	huých cùi chỏ	X	X	luých	muých	nuých	nguých	X	nhuých	X	X	quuých	ruých	suých	tuých	thuých	truých	vuých	xuých
-uỵch	uỵch	buỵch	cuỵch	chuỵch	duỵch	đuỵch	X	X	X	X	X	X	luỵch	muỵch	nuỵch	nguỵch	X	nhuỵch	X	X	quuỵch	ruỵch	suỵch	tuỵch	thuỵch	truỵch	vuỵch	xuỵch
-uyên	uyên	buyên	cuyên	chuyên	duyên	đuyên	X	X	X	huyên thuyên	X	lời khuyên	luyên	muyên	nuyên	nguyên	X	nhuyên	X	X	quuyên	ruyên	suyên	tuyên	huyên thuyên	truyên	vuyên	xuyên
-uyền	uyền	buyền	cuyền	chuyền	duyền	đuyền	X	X	X	dấu huyền	X	X	luyền	muyền	nuyền	nguyền	X	nhuyền	X	X	quuyền	ruyền	suyền	tuyền	thuyền	truyền	vuyền	xuyền
-uyển	uyển	buyển	cuyển	chuyển	duyển	đuyển	X	X	X	X	X	khuyển mã	luyển	muyển	nuyển	nguyển	X	nhuyển	X	X	quuyển	ruyển	suyển	tuyển	thuyển	truyển	vuyển	xuyển
-uyễn	uyễn	buyễn	cuyễn	chuyễn	duyễn	đuyễn	X	X	X	huyễn diệu	X	X	luyễn	muyễn	nuyễn	nguyễn	X	nhuyễn	X	X	quuyễn	ruyễn	suyễn	tuyễn	thuyễn	truyễn	vuyễn	xuyễn
-uyến	uyến	buyến	cuyến	chuyến	duyến	đuyến	X	X	X	X	X	khuyến mãi	luyến	muyến	nuyến	nguyến	X	nhuyến	X	X	quuyến	ruyến	suyến	tuyến	thuyến	truyến	vuyến	xuyến
-uyện	uyện	buyện	cuyện	chuyện	duyện	đuyện	X	X	X	quận huyện	X	X	luyện	muyện	nuyện	nguyện	X	nhuyện	X	X	quuyện	ruyện	suyện	tuyện	thuyện	truyện	vuyện	xuyện
-uyêt	uyêt	buyêt	cuyêt	chuyêt	duyêt	đuyêt	X	X	X	X	X	X	luyêt	muyêt	nuyêt	nguyêt	X	nhuyêt	X	X	quuyêt	ruyêt	suyêt	tuyêt	thuyêt	truyêt	vuyêt	xuyêt
-uyềt	uyềt	buyềt	cuyềt	chuyềt	duyềt	đuyềt	X	X	X	X	X	X	luyềt	muyềt	nuyềt	nguyềt	X	nhuyềt	X	X	quuyềt	ruyềt	suyềt	tuyềt	thuyềt	truyềt	vuyềt	xuyềt
-uyểt	uyểt	buyểt	cuyểt	chuyểt	duyểt	đuyểt	X	X	X	X	X	X	luyểt	muyểt	nuyểt	nguyểt	X	nhuyểt	X	X	quuyểt	ruyểt	suyểt	tuyểt	thuyểt	truyểt	vuyểt	xuyểt
-uyễt	uyễt	buyễt	cuyễt	chuyễt	duyễt	đuyễt	X	X	X	X	X	X	luyễt	muyễt	nuyễt	nguyễt	X	nhuyễt	X	X	quuyễt	ruyễt	suyễt	tuyễt	thuyễt	truyễt	vuyễt	xuyễt
-uyết	uyết	buyết	cuyết	chuyết	duyết	đuyết	X	X	X	tâm huyết	X	khuyết điểm	luyết	muyết	nuyết	nguyết	X	nhuyết	X	X	quuyết	ruyết	suyết	tuyết	thuyết	truyết	vuyết	xuyết
-uyệt	uyệt	buyệt	cuyệt	chuyệt	duyệt	đuyệt	X	X	X	huyệt mộ	X	X	luyệt	muyệt	nuyệt	nguyệt	X	nhuyệt	X	X	quuyệt	ruyệt	suyệt	tuyệt	thuyệt	truyệt	vuyệt	xuyệt
-uynh	uynh	buynh	cuynh	chuynh	duynh	đuynh	X	X	X	sư huynh	X	khuynh diệp	luynh	muynh	nuynh	nguynh	X	nhuynh	X	X	quuynh	ruynh	suynh	tuynh	thuynh	truynh	vuynh	xuynh
-uỳnh	uỳnh	buỳnh	cuỳnh	chuỳnh	duỳnh	đuỳnh	X	X	X	lưu huỳnh	X	khuỳnh tay	luỳnh	muỳnh	nuỳnh	nguỳnh	X	nhuỳnh	X	X	quuỳnh	ruỳnh	suỳnh	tuỳnh	thuỳnh	truỳnh	vuỳnh	xuỳnh
-uỷnh	uỷnh	buỷnh	cuỷnh	chuỷnh	duỷnh	đuỷnh	X	X	X	X	X	khuỷnh đất	luỷnh	muỷnh	nuỷnh	nguỷnh	X	nhuỷnh	X	X	quuỷnh	ruỷnh	suỷnh	tuỷnh	thuỷnh	truỷnh	vuỷnh	xuỷnh
-uỹnh	uỹnh	buỹnh	cuỹnh	chuỹnh	duỹnh	đuỹnh	X	X	X	X	X	X	luỹnh	muỹnh	nuỹnh	nguỹnh	X	nhuỹnh	X	X	quuỹnh	ruỹnh	suỹnh	tuỹnh	thuỹnh	truỹnh	vuỹnh	xuỹnh
-uýnh	uýnh	buýnh	cuýnh	chuýnh	duýnh	đuýnh	X	X	X	X	X	X	luýnh	muýnh	nuýnh	nguýnh	X	nhuýnh	X	X	quuýnh	ruýnh	suýnh	tuýnh	thuýnh	truýnh	vuýnh	xuýnh
-uỵnh	uỵnh	buỵnh	cuỵnh	chuỵnh	duỵnh	đuỵnh	X	X	X	X	X	X	luỵnh	muỵnh	nuỵnh	nguỵnh	X	nhuỵnh	X	X	quuỵnh	ruỵnh	suỵnh	tuỵnh	thuỵnh	truỵnh	vuỵnh	xuỵnh
-ương	ương	bương	cương	chương	dương	đương	soi gương	X	giương cao	hương thơm	X	X	lương	mương	nương	ngương	X	nhương	X	địa phương	quương	rương	sương	tương	thương	trương	vương	xương
-ường	ường	bường	cường	chường	dường	đường	X	X	cái giường	X	X	X	lường	mường	nường	ngường	X	nhường	X	phường xã	quường	rường	sường	tường	thường	trường	vường	xường
-ưởng	ưởng	bưởng	cưởng	chưởng	dưởng	đưởng	X	X	X	ảnh hưởng	X	X	lưởng	mưởng	nưởng	ngưởng	X	nhưởng	X	X	quưởng	rưởng	sưởng	tưởng	thưởng	trưởng	vưởng	xưởng
-ưỡng	ưỡng	bưỡng	cưỡng	chưỡng	dưỡng	đưỡng	gật gưỡng	X	X	X	X	khật khưỡng	lưỡng	mưỡng	nưỡng	ngưỡng	X	nhưỡng	X	X	quưỡng	rưỡng	sưỡng	tưỡng	thưỡng	trưỡng	vưỡng	xưỡng
-ướng	ướng	bướng	cướng	chướng	dây dướng	đướng	X	X	X	định hướng	X	X	lướng	mướng	nướng	ngướng	X	nhướng	X	phướng lợn	quướng	rướng	sướng	tướng	thướng	trướng	vướng	xướng
-ượng	ượng	bượng	cượng	chượng	dượng	đượng	gắng gượng	X	X	X	X	X	lượng	mượng	nượng	ngượng	X	nhượng	X	phượng hoàng	quượng	rượng	sượng	tượng	thượng	trượng	vượng	xượng
+ững	ững	bững	cững	lững chững	dững	đững	X	X	X	hững hờ	X	X	lừng lững	mững	nững	ngững	X	những	X	X	quững	rững	sững	tững	lững thững	trững	vững	xững
+ứng	ứng	bứng	cứng	chứng	dứng	đứng	X	X	X	hứng chịu	X	X	X	mứng	nứng	ngứng	X	nhứng	X	X	quứng	rứng	sứng	tứng	thứng	trứng	vứng	xứng
+ựng	ựng	bựng	cựng	chựng	dựng	đựng	X	X	X	X	X	khựng lại	lựng khựng	mựng	nựng	ngựng	X	nhựng	X	X	quựng	rựng	sựng	tựng	thựng	trựng	vựng	xựng
+ươc	ươc	bươc	cươc	chươc	dươc	đươc	X	X	X	X	X	X	X	mươc	nươc	ngươc	X	nhươc	X	X	quươc	rươc	sươc	tươc	thươc	trươc	vươc	xươc
+ườc	ườc	bườc	cườc	chườc	dườc	đườc	X	X	X	X	X	X	X	mườc	nườc	ngườc	X	nhườc	X	X	quườc	rườc	sườc	tườc	thườc	trườc	vườc	xườc
+ưởc	ưởc	bưởc	cưởc	chưởc	dưởc	đưởc	X	X	X	X	X	X	X	mưởc	nưởc	ngưởc	X	nhưởc	X	X	quưởc	rưởc	sưởc	tưởc	thưởc	trưởc	vưởc	xưởc
+ưỡc	ưỡc	bưỡc	cưỡc	chưỡc	dưỡc	đưỡc	X	X	X	X	X	X	X	mưỡc	nưỡc	ngưỡc	X	nhưỡc	X	X	quưỡc	rưỡc	sưỡc	tưỡc	thưỡc	trưỡc	vưỡc	xưỡc
+ước	ước	bước	cước	chước	dước	đước	X	X	X	hài hước	X	khước từ	X	mước	nước	ngước	X	nhước	X	X	quước	rước	sước	tước	thước	trước	vước	xước
+ược	ược	bược	cược	chược	dược	được	X	X	X	X	X	X	lược đồ	mược	nược	ngược	X	nhược	X	X	quược	rược	sược	tược	thược	trược	vược	hỗn xược
+ươi	ươi	bươi	cươi	chươi	dươi	đươi	X	X	X	X	X	X	X	mươi	nươi	ngươi	X	nhươi	X	X	quươi	rươi	sươi	tươi	thươi	trươi	vươi	xươi
+ười	ười	bười	cười	chười	dười	đười	X	X	X	X	X	X	lười biếng	mười	nười	người	X	nhười	X	X	quười	rười	sười	tười	thười	trười	vười	xười
+ưởi	ưởi	bưởi	cưởi	chưởi	dưởi	đưởi	X	X	X	X	X	X	X	mưởi	nưởi	ngưởi	X	nhưởi	X	X	quưởi	rưởi	sưởi	tưởi	thưởi	trưởi	vưởi	xưởi
+ưỡi	ưỡi	bưỡi	cưỡi	chưỡi	dưỡi	đưỡi	X	X	X	X	X	X	lè lưỡi	mưỡi	nưỡi	ngưỡi	X	nhưỡi	X	X	quưỡi	rưỡi	sưỡi	tưỡi	thưỡi	trưỡi	vưỡi	xưỡi
+ưới	ưới	bưới	cưới	chưới	dưới	đưới	X	X	X	X	X	X	tấm lưới	mưới	nưới	ngưới	X	nhưới	X	X	quưới	rưới	sưới	tưới	thưới	trưới	vưới	xưới
+ượi	ượi	bượi	cượi	chượi	dượi	đượi	X	X	X	X	X	X	X	mượi	nượi	ngượi	X	nhượi	X	X	quượi	rượi	sượi	tượi	thượi	trượi	vượi	xượi
+ươm	ươm	lươm bươm	cươm	chươm	dươm	đươm	thanh gươm	X	X	X	X	X	lươm bươm	mươm	nươm	ngươm	X	nhươm	X	X	quươm	rươm	sươm	tươm	thươm	trươm	vươm	xươm
+ườm	ườm	bườm	cườm	chườm	dườm	đườm	gườm nhau	X	X	X	X	X	lườm mắt	mườm	nườm	ngườm	X	nhườm	X	X	quườm	rườm	sườm	tườm	thườm	trườm	vườm	xườm
+ưởm	ưởm	bưởm	cưởm	chưởm	dưởm	đưởm	X	X	X	X	X	X	X	mưởm	nưởm	ngưởm	X	nhưởm	X	X	quưởm	rưởm	sưởm	tưởm	thưởm	trưởm	vưởm	xưởm
+ưỡm	ưỡm	bưỡm	cưỡm	chưỡm	dưỡm	đưỡm	X	X	X	X	X	X	X	mưỡm	nưỡm	ngưỡm	X	nhưỡm	X	X	quưỡm	rưỡm	sưỡm	tưỡm	thưỡm	trưỡm	vưỡm	xưỡm
+ướm	ướm	bướm	cướm	chướm	dướm	đướm	X	X	X	X	X	X	X	mướm	nướm	ngướm	X	nhướm	X	X	quướm	rướm	sướm	tướm	thướm	trướm	vướm	xướm
+ượm	ượm	bượm	cượm	chượm	dượm	đượm	gượm đã	X	X	X	X	X	hái lượm	mượm	nượm	ngượm	X	nhượm	X	X	quượm	rượm	sượm	tượm	thượm	trượm	vượm	xượm
+ươn	ươn	bươn	cươn	chươn	dươn	đươn	X	X	X	X	X	lươn khươn	con lươn	mươn	nươn	ngươn	X	nhươn	X	X	quươn	rươn	sươn	tươn	thươn	trươn	vươn	xươn
+ườn	ườn	bườn	cườn	chườn	dườn	đườn	X	X	X	X	X	X	lườn gà	mườn	nườn	ngườn	X	nhườn	X	X	quườn	rườn	sườn	tườn	thườn	trườn	vườn	xườn
+ưởn	ưởn	bưởn	cưởn	chưởn	dưởn	đưởn	X	X	X	X	X	X	X	mưởn	nưởn	ngưởn	X	nhưởn	X	X	quưởn	rưởn	sưởn	tưởn	thưởn	trưởn	vưởn	xưởn
+ưỡn	ưỡn	bưỡn	cưỡn	chưỡn	dưỡn	đưỡn	X	X	X	X	X	X	X	mưỡn	nưỡn	ngưỡn	X	nhưỡn	X	X	quưỡn	rưỡn	sưỡn	tưỡn	thưỡn	trưỡn	vưỡn	xưỡn
+ướn	ướn	bướn	cướn	chướn	dướn	đướn	X	X	X	X	X	X	X	mướn	nướn	ngướn	X	nhướn	X	cột phướn	quướn	rướn	sướn	tướn	thướn	trướn	vướn	xướn
+ượn	ượn	bượn	cượn	chượn	dượn	đượn	X	X	X	X	X	X	lượn lờ	mượn	nượn	ngượn	X	nhượn	X	X	quượn	rượn	sượn	tượn	thượn	trượn	vượn	xượn
+ươp	ươp	bươp	cươp	chươp	dươp	đươp	X	X	X	X	X	X	X	mươp	nươp	ngươp	X	nhươp	X	X	quươp	rươp	sươp	tươp	thươp	trươp	vươp	xươp
+ườp	ườp	bườp	cườp	chườp	dườp	đườp	X	X	X	X	X	X	X	mườp	nườp	ngườp	X	nhườp	X	X	quườp	rườp	sườp	tườp	thườp	trườp	vườp	xườp
+ưởp	ưởp	bưởp	cưởp	chưởp	dưởp	đưởp	X	X	X	X	X	X	X	mưởp	nưởp	ngưởp	X	nhưởp	X	X	quưởp	rưởp	sưởp	tưởp	thưởp	trưởp	vưởp	xưởp
+ưỡp	ưỡp	bưỡp	cưỡp	chưỡp	dưỡp	đưỡp	X	X	X	X	X	X	X	mưỡp	nưỡp	ngưỡp	X	nhưỡp	X	X	quưỡp	rưỡp	sưỡp	tưỡp	thưỡp	trưỡp	vưỡp	xưỡp
+ướp	ướp	bướp	cướp	chướp	dướp	đướp	X	X	X	X	X	X	X	mướp	nướp	ngướp	X	nhướp	X	X	quướp	rướp	sướp	tướp	thướp	trướp	vướp	xướp
+ượp	ượp	bượp	cượp	chượp	dượp	đượp	X	X	X	X	X	X	X	mượp	nượp	ngượp	X	nhượp	X	X	quượp	rượp	sượp	tượp	thượp	trượp	vượp	xượp
+ươt	ươt	bươt	cươt	chươt	dươt	đươt	X	X	X	X	X	X	X	mươt	nươt	ngươt	X	nhươt	X	X	quươt	rươt	sươt	tươt	thươt	trươt	vươt	xươt
+ườt	ườt	bườt	cườt	chườt	dườt	đườt	X	X	X	X	X	X	X	mườt	nườt	ngườt	X	nhườt	X	X	quườt	rườt	sườt	tườt	thườt	trườt	vườt	xườt
+ưởt	ưởt	bưởt	cưởt	chưởt	dưởt	đưởt	X	X	X	X	X	X	X	mưởt	nưởt	ngưởt	X	nhưởt	X	X	quưởt	rưởt	sưởt	tưởt	thưởt	trưởt	vưởt	xưởt
+ưỡt	ưỡt	bưỡt	cưỡt	chưỡt	dưỡt	đưỡt	X	X	X	X	X	X	X	mưỡt	nưỡt	ngưỡt	X	nhưỡt	X	X	quưỡt	rưỡt	sưỡt	tưỡt	thưỡt	trưỡt	vưỡt	xưỡt
+ướt	ướt	bướt	cướt	chướt	dướt	đướt	X	X	X	X	X	say khướt	lướt sóng	lướt mướt	nướt	ngướt	X	nhướt	X	X	quướt	rướt	sướt	tướt	lướt thướt	trướt	vướt	xướt
+ượt	ượt	bượt	cượt	chượt	dượt	đượt	X	X	X	X	X	X	đến lượt	mượt	nượt	ngượt	X	nhượt	X	đi phượt	quượt	rượt	sượt	tượt	lượt thượt	trượt	vượt	xượt
+ươu	ươu	bươu	cươu	chươu	dươu	đươu	X	X	X	con hươu	X	X	X	mươu	nươu	ngươu	X	nhươu	X	X	quươu	rươu	sươu	tươu	thươu	trươu	vươu	xươu
+ườu	ườu	bườu	cườu	chườu	dườu	đườu	X	X	X	X	X	X	X	mườu	nườu	ngườu	X	nhườu	X	X	quườu	rườu	sườu	tườu	thườu	trườu	vườu	xườu
+ưởu	ưởu	bưởu	cưởu	chưởu	dưởu	đưởu	X	X	X	X	X	X	X	mưởu	nưởu	ngưởu	X	nhưởu	X	X	quưởu	rưởu	sưởu	tưởu	thưởu	trưởu	vưởu	xưởu
+ưỡu	ưỡu	bưỡu	cưỡu	chưỡu	dưỡu	đưỡu	X	X	X	X	X	X	X	mưỡu	nưỡu	ngưỡu	X	nhưỡu	X	X	quưỡu	rưỡu	sưỡu	tưỡu	thưỡu	trưỡu	vưỡu	xưỡu
+ướu	ướu	bướu	cướu	chướu	dướu	đướu	X	X	X	X	X	chim khướu	X	mướu	nướu	ngướu	X	nhướu	X	X	quướu	rướu	sướu	tướu	thướu	trướu	vướu	xướu
+ượu	ượu	bượu	cượu	chượu	dượu	đượu	X	X	X	X	X	X	X	mượu	nượu	ngượu	X	nhượu	X	X	quượu	rượu	sượu	tượu	thượu	trượu	vượu	xượu
+yên	yên	byên	cyên	chyên	dyên	đyên	X	X	X	X	X	X	X	myên	nyên	ngyên	X	nhyên	X	X	quyên	ryên	syên	tyên	thyên	tryên	vyên	xyên
+yền	yền	byền	cyền	chyền	dyền	đyền	X	X	X	X	X	X	X	myền	nyền	ngyền	X	nhyền	X	X	quyền	ryền	syền	tyền	thyền	tryền	vyền	xyền
+yển	yển	byển	cyển	chyển	dyển	đyển	X	X	X	X	X	X	X	myển	nyển	ngyển	X	nhyển	X	X	quyển	ryển	syển	tyển	thyển	tryển	vyển	xyển
+yễn	yễn	byễn	cyễn	chyễn	dyễn	đyễn	X	X	X	X	X	X	X	myễn	nyễn	ngyễn	X	nhyễn	X	X	quyễn	ryễn	syễn	tyễn	thyễn	tryễn	vyễn	xyễn
+yến	yến	byến	cyến	chyến	dyến	đyến	X	X	X	X	X	X	X	myến	nyến	ngyến	X	nhyến	X	X	quyến	ryến	syến	tyến	thyến	tryến	vyến	xyến
+yện	yện	byện	cyện	chyện	dyện	đyện	X	X	X	X	X	X	X	myện	nyện	ngyện	X	nhyện	X	X	quyện	ryện	syện	tyện	thyện	tryện	vyện	xyện
+yêt	yêt	byêt	cyêt	chyêt	dyêt	đyêt	X	X	X	X	X	X	X	myêt	nyêt	ngyêt	X	nhyêt	X	X	quyêt	ryêt	syêt	tyêt	thyêt	tryêt	vyêt	xyêt
+yềt	yềt	byềt	cyềt	chyềt	dyềt	đyềt	X	X	X	X	X	X	X	myềt	nyềt	ngyềt	X	nhyềt	X	X	quyềt	ryềt	syềt	tyềt	thyềt	tryềt	vyềt	xyềt
+yểt	yểt	byểt	cyểt	chyểt	dyểt	đyểt	X	X	X	X	X	X	X	myểt	nyểt	ngyểt	X	nhyểt	X	X	quyểt	ryểt	syểt	tyểt	thyểt	tryểt	vyểt	xyểt
+yễt	yễt	byễt	cyễt	chyễt	dyễt	đyễt	X	X	X	X	X	X	X	myễt	nyễt	ngyễt	X	nhyễt	X	X	quyễt	ryễt	syễt	tyễt	thyễt	tryễt	vyễt	xyễt
+yết	yết	byết	cyết	chyết	dyết	đyết	X	X	X	X	X	X	X	myết	nyết	ngyết	X	nhyết	X	X	quyết	ryết	syết	tyết	thyết	tryết	vyết	xyết
+yệt	yệt	byệt	cyệt	chyệt	dyệt	đyệt	X	X	X	X	X	X	X	myệt	nyệt	ngyệt	X	nhyệt	X	X	quyệt	ryệt	syệt	tyệt	thyệt	tryệt	vyệt	xyệt
+yêu	yêu	byêu	cyêu	chyêu	dyêu	đyêu	X	X	X	X	X	X	X	myêu	nyêu	ngyêu	X	nhyêu	X	X	quyêu	ryêu	syêu	tyêu	thyêu	tryêu	vyêu	xyêu
+yều	yều	byều	cyều	chyều	dyều	đyều	X	X	X	X	X	X	X	myều	nyều	ngyều	X	nhyều	X	X	quyều	ryều	syều	tyều	thyều	tryều	vyều	xyều
+yểu	yểu	byểu	cyểu	chyểu	dyểu	đyểu	X	X	X	X	X	X	X	myểu	nyểu	ngyểu	X	nhyểu	X	X	quyểu	ryểu	syểu	tyểu	thyểu	tryểu	vyểu	xyểu
+yễu	yễu	byễu	cyễu	chyễu	dyễu	đyễu	X	X	X	X	X	X	X	myễu	nyễu	ngyễu	X	nhyễu	X	X	quyễu	ryễu	syễu	tyễu	thyễu	tryễu	vyễu	xyễu
+yếu	yếu	byếu	cyếu	chyếu	dyếu	đyếu	X	X	X	X	X	X	X	myếu	nyếu	ngyếu	X	nhyếu	X	X	quyếu	ryếu	syếu	tyếu	thyếu	tryếu	vyếu	xyếu
+yệu	yệu	byệu	cyệu	chyệu	dyệu	đyệu	X	X	X	X	X	X	X	myệu	nyệu	ngyệu	X	nhyệu	X	X	quyệu	ryệu	syệu	tyệu	thyệu	tryệu	vyệu	xyệu
+ynh	ynh	bynh	cynh	chynh	dynh	đynh	X	X	X	X	X	X	X	mynh	nynh	ngynh	X	nhynh	X	X	quynh	rynh	synh	tynh	thynh	trynh	vynh	xynh
+ỳnh	ỳnh	bỳnh	cỳnh	chỳnh	dỳnh	đỳnh	X	X	X	X	X	X	X	mỳnh	nỳnh	ngỳnh	X	nhỳnh	X	X	quỳnh	rỳnh	sỳnh	tỳnh	thỳnh	trỳnh	vỳnh	xỳnh
+ỷnh	ỷnh	bỷnh	cỷnh	chỷnh	dỷnh	đỷnh	X	X	X	X	X	X	X	mỷnh	nỷnh	ngỷnh	X	nhỷnh	X	X	quỷnh	rỷnh	sỷnh	tỷnh	thỷnh	trỷnh	vỷnh	xỷnh
+ỹnh	ỹnh	bỹnh	cỹnh	chỹnh	dỹnh	đỹnh	X	X	X	X	X	X	X	mỹnh	nỹnh	ngỹnh	X	nhỹnh	X	X	quỹnh	rỹnh	sỹnh	tỹnh	thỹnh	trỹnh	vỹnh	xỹnh
+ýnh	ýnh	býnh	cýnh	chýnh	dýnh	đýnh	X	X	X	X	X	X	X	mýnh	nýnh	ngýnh	X	nhýnh	X	X	luýnh quýnh	rýnh	sýnh	týnh	thýnh	trýnh	výnh	xýnh
+ỵnh	ỵnh	bỵnh	cỵnh	chỵnh	dỵnh	đỵnh	X	X	X	X	X	X	X	mỵnh	nỵnh	ngỵnh	X	nhỵnh	X	X	quỵnh	rỵnh	sỵnh	tỵnh	thỵnh	trỵnh	vỵnh	xỵnh
+iêng	iêng	biêng	ciêng	chiêng	diêng	điêng	X	X	X	hiêng hiếng	kiêng cữ	khiêng vác	thiêng liêng	miêng	niêng	ngiêng	đổ nghiêng	nhiêng	X	X	quiêng	riêng	siêng	tiêng	thiêng liêng	triêng	viêng	xiêng
+iềng	iềng	biềng	ciềng	chiềng	diềng	điềng	X	X	X	X	kiềng ba chân	X	X	miềng	niềng	ngiềng	X	nhiềng	X	X	quiềng	riềng	siềng	tiềng	thiềng	triềng	viềng	gông xiềng
+iểng	iểng	biểng	ciểng	chiểng	diểng	điểng	X	X	X	X	cây kiểng	X	lủng liểng	miểng	niểng	ngiểng	X	nhiểng	X	X	quiểng	riểng	siểng	tiểng	thiểng	triểng	viểng	liểng xiểng
+iễng	iễng	biễng	ciễng	chiễng	diễng	điễng	X	X	X	X	kiễng chân	khập khiễng	X	miễng	niễng	ngiễng	X	nhiễng	X	X	quiễng	riễng	siễng	tiễng	thiễng	triễng	viễng	xiễng
+iếng	iếng	biếng	ciếng	chiếng	diếng	điếng	X	X	X	hiêng hiếng	tấm kiếng	X	X	miếng	niếng	ngiếng	X	nhiếng	X	X	quiếng	riếng	siếng	tiếng	thiếng	triếng	viếng	xiếng
+iệng	iệng	biệng	ciệng	chiệng	diệng	điệng	X	X	X	X	X	khụng khiệng	chao liệng	miệng	niệng	ngiệng	X	nhiệng	X	X	quiệng	riệng	siệng	tiệng	thiệng	triệng	việng	xiệng
+oach	oach	boach	coach	choach	doach	đoach	X	X	X	X	X	X	X	moach	noach	ngoach	X	nhoach	X	X	quoach	roach	soach	toach	thoach	troach	voach	xoach
+oàch	oàch	boàch	coàch	choàch	doàch	đoàch	X	X	X	X	X	X	X	moàch	noàch	ngoàch	X	nhoàch	X	X	quoàch	roàch	soàch	toàch	thoàch	troàch	voàch	xoàch
+oảch	oảch	boảch	coảch	choảch	doảch	đoảch	X	X	X	X	X	X	X	moảch	noảch	ngoảch	X	nhoảch	X	X	quoảch	roảch	soảch	toảch	thoảch	troảch	voảch	xoảch
+oãch	oãch	boãch	coãch	choãch	doãch	đoãch	X	X	X	X	X	X	X	moãch	noãch	ngoãch	X	nhoãch	X	X	quoãch	roãch	soãch	toãch	thoãch	troãch	voãch	xoãch
+oách	oách	boách	coách	choách	doách	đoách	X	X	X	X	X	X	X	moách	noách	ngoách	X	nhoách	X	X	quoách	roách	soách	toách	thoách	troách	voách	xoách
+oạch	oạch	boạch	coạch	choạch	doạch	đoạch	X	X	X	kế hoạch	X	X	X	moạch	noạch	ngoạch	X	nhoạch	X	X	quoạch	roạch	soạch	toạch	thoạch	troạch	voạch	xoạch
+oang	oang	boang	coang	choang	doang	đoang	X	X	X	hoang mang	X	khoang tàu	loang loáng	moang	noang	ngoang	X	nhoang	X	X	quoang	roang	soang	toang	thoang	troang	voang	xoang
+oàng	oàng	boàng	coàng	choàng	doàng	đoàng	X	X	X	huy hoàng	X	X	loàng xoàng	moàng	noàng	ngoàng	X	nhoàng	X	X	quoàng	roàng	soàng	loang toàng	thoàng	troàng	voàng	loàng xoàng
+oảng	oảng	boảng	coảng	choảng	doảng	đoảng	X	X	X	hoảng hốt	X	khoảng cách	loảng xoảng	moảng	noảng	ngoảng	X	nhoảng	X	X	quoảng	roảng	soảng	toảng	thoảng	troảng	voảng	loảng xoảng
+oãng	oãng	boãng	coãng	choãng	doãng	đoãng	X	X	X	X	X	X	pha loãng	moãng	noãng	ngoãng	X	nhoãng	X	X	quoãng	roãng	soãng	toãng	thoãng	troãng	voãng	xoãng
+oáng	oáng	boáng	coáng	loáng choáng	doáng	đoáng	X	X	X	X	X	khoáng chất	lấp loáng	moáng	noáng	ngoáng	X	nhoáng	X	X	quoáng	roáng	soáng	toáng	loáng thoáng	troáng	voáng	xoáng
+oạng	oạng	boạng	coạng	loạng choạng	doạng	đoạng	X	X	X	X	X	X	loạng choạng	moạng	noạng	ngoạng	X	nhoạng	X	X	quoạng	roạng	soạng	toạng	thoạng	troạng	voạng	xoạng
+oanh	oanh	boanh	coanh	choanh	doanh	đoanh	X	X	X	X	X	khoanh tay	loanh quanh	moanh	noanh	ngoanh	X	nhoanh	X	X	quoanh	roanh	soanh	toanh	thoanh	troanh	voanh	xoanh
+oành	oành	boành	coành	choành	doành	đoành	X	X	X	hoành hành	X	X	X	moành	noành	ngoành	X	nhoành	X	X	quoành	roành	soành	toành	thoành	troành	voành	xoành
+oảnh	oảnh	boảnh	coảnh	choảnh	doảnh	đoảnh	X	X	X	X	X	X	X	moảnh	noảnh	ngoảnh	X	nhoảnh	X	X	quoảnh	roảnh	soảnh	toảnh	thoảnh	troảnh	voảnh	xoảnh
+oãnh	oãnh	boãnh	coãnh	choãnh	doãnh	đoãnh	X	X	X	X	X	X	X	moãnh	noãnh	ngoãnh	X	nhoãnh	X	X	quoãnh	roãnh	soãnh	toãnh	thoãnh	troãnh	voãnh	xoãnh
+oánh	oánh	boánh	coánh	choánh	doánh	đoánh	X	X	X	X	X	X	X	moánh	noánh	ngoánh	X	nhoánh	X	X	quoánh	roánh	soánh	toánh	thoánh	troánh	voánh	xoánh
+oạnh	oạnh	boạnh	coạnh	choạnh	doạnh	đoạnh	X	X	X	hoạnh họe	X	X	X	moạnh	noạnh	ngoạnh	X	nhoạnh	X	X	quoạnh	roạnh	soạnh	toạnh	thoạnh	troạnh	voạnh	xoạnh
+oăng	oăng	boăng	coăng	choăng	doăng	đoăng	X	X	X	X	X	X	X	moăng	noăng	ngoăng	X	nhoăng	X	X	quoăng	roăng	soăng	toăng	thoăng	troăng	voăng	xoăng
+oằng	oằng	boằng	coằng	choằng	doằng	đoằng	X	X	X	X	X	X	X	moằng	noằng	ngoằng	X	nhoằng	X	X	quoằng	roằng	soằng	toằng	thoằng	troằng	voằng	xoằng
+oẳng	oẳng	boẳng	coẳng	choẳng	doẳng	đoẳng	X	X	X	X	X	X	X	moẳng	noẳng	ngoẳng	X	nhoẳng	X	X	quoẳng	roẳng	soẳng	toẳng	thoẳng	troẳng	voẳng	xoẳng
+oẵng	oẵng	boẵng	coẵng	choẵng	doẵng	đoẵng	X	X	X	con hoẵng	X	X	X	moẵng	noẵng	ngoẵng	X	nhoẵng	X	X	quoẵng	roẵng	soẵng	toẵng	thoẵng	troẵng	voẵng	xoẵng
+oắng	oắng	boắng	coắng	choắng	doắng	đoắng	X	X	X	X	X	khua khoắng	X	moắng	noắng	ngoắng	X	nhoắng	X	X	quoắng	roắng	soắng	toắng	liến thoắng	troắng	voắng	xoắng
+oặng	oặng	boặng	coặng	choặng	doặng	đoặng	X	X	X	X	X	X	X	moặng	noặng	ngoặng	X	nhoặng	X	X	quoặng	roặng	soặng	toặng	thoặng	troặng	voặng	xoặng
+oong	oong	boong	kính coong	choong	doong	đoong	X	X	X	X	X	X	loong toong	moong	noong	ngoong	X	nhoong	X	X	quoong	roong	soong	loong toong	thoong	troong	voong	xoong
+oòng	oòng	boòng	coòng	choòng	doòng	đoòng	xe goòng	X	X	X	X	X	X	moòng	noòng	ngoòng	X	nhoòng	X	X	quoòng	roòng	soòng	toòng	thoòng	troòng	voòng	xoòng
+oỏng	oỏng	boỏng	coỏng	choỏng	doỏng	đoỏng	X	X	X	X	X	X	X	moỏng	noỏng	ngoỏng	X	nhoỏng	X	X	quoỏng	roỏng	soỏng	toỏng	thoỏng	troỏng	voỏng	xoỏng
+oõng	oõng	boõng	coõng	choõng	doõng	đoõng	X	X	X	X	X	X	X	moõng	noõng	ngoõng	X	nhoõng	X	X	quoõng	roõng	soõng	toõng	thoõng	troõng	voõng	xoõng
+oóng	oóng	boóng	coóng	choóng	doóng	đoóng	X	X	X	X	X	X	X	moóng	noóng	ngoóng	X	nhoóng	X	X	quoóng	roóng	soóng	toóng	thoóng	troóng	voóng	xoóng
+oọng	oọng	boọng	coọng	choọng	doọng	đoọng	X	X	X	X	X	X	X	moọng	noọng	ngoọng	X	nhoọng	X	X	quoọng	roọng	soọng	toọng	thoọng	troọng	voọng	xoọng
+uâng	uâng	buâng	cuâng	chuâng	duâng	đuâng	X	X	X	X	X	bâng khuâng	X	muâng	nuâng	nguâng	X	nhuâng	X	X	quuâng	ruâng	suâng	tuâng	thuâng	truâng	vuâng	xuâng
+uầng	uầng	buầng	cuầng	chuầng	duầng	đuầng	X	X	X	X	X	X	X	muầng	nuầng	nguầng	X	nhuầng	X	X	quuầng	ruầng	suầng	tuầng	thuầng	truầng	vuầng	xuầng
+uẩng	uẩng	buẩng	cuẩng	chuẩng	duẩng	đuẩng	X	X	X	X	X	X	X	muẩng	nuẩng	nguẩng	X	nhuẩng	X	X	quuẩng	ruẩng	suẩng	tuẩng	thuẩng	truẩng	vuẩng	xuẩng
+uẫng	uẫng	buẫng	cuẫng	chuẫng	duẫng	đuẫng	X	X	X	X	X	X	X	muẫng	nuẫng	nguẫng	X	nhuẫng	X	X	quuẫng	ruẫng	suẫng	tuẫng	thuẫng	truẫng	vuẫng	xuẫng
+uấng	uấng	buấng	cuấng	chuấng	duấng	đuấng	X	X	X	X	X	X	X	muấng	nuấng	nguấng	X	nhuấng	X	X	quuấng	ruấng	suấng	tuấng	thuấng	truấng	vuấng	xuấng
+uậng	uậng	buậng	cuậng	chuậng	duậng	đuậng	X	X	X	X	X	X	X	muậng	nuậng	nguậng	X	nhuậng	X	X	quuậng	ruậng	suậng	tuậng	thuậng	truậng	vuậng	xuậng
+uêch	uêch	buêch	cuêch	chuêch	duêch	đuêch	X	X	X	X	X	X	X	muêch	nuêch	nguêch	X	nhuêch	X	X	quuêch	ruêch	suêch	tuêch	thuêch	truêch	vuêch	xuêch
+uềch	uềch	buềch	cuềch	chuềch	duềch	đuềch	X	X	X	X	X	X	X	muềch	nuềch	nguềch	X	nhuềch	X	X	quuềch	ruềch	suềch	tuềch	thuềch	truềch	vuềch	xuềch
+uểch	uểch	buểch	cuểch	chuểch	duểch	đuểch	X	X	X	X	X	X	X	muểch	nuểch	nguểch	X	nhuểch	X	X	quuểch	ruểch	suểch	tuểch	thuểch	truểch	vuểch	xuểch
+uễch	uễch	buễch	cuễch	chuễch	duễch	đuễch	X	X	X	X	X	X	X	muễch	nuễch	nguễch	X	nhuễch	X	X	quuễch	ruễch	suễch	tuễch	thuễch	truễch	vuễch	xuễch
+uếch	uếch	buếch	cuếch	chuếch	duếch	đuếch	X	X	X	huếch hoác	X	khuếch trương	X	muếch	nuếch	nguếch	X	nhuếch	X	X	quuếch	ruếch	suếch	tuếch	thuếch	truếch	vuếch	xuếch
+uệch	uệch	buệch	cuệch	chuệch	duệch	đuệch	X	X	X	X	X	X	X	muệch	nuệch	nguệch	X	nhuệch	X	X	quuệch	ruệch	suệch	tuệch	thuệch	truệch	vuệch	xuệch
+uênh	uênh	buênh	cuênh	chuênh	duênh	đuênh	X	X	X	huênh hoang	X	X	X	muênh	nuênh	nguênh	X	nhuênh	X	X	quuênh	ruênh	suênh	tuênh	thuênh	truênh	vuênh	xuênh
+uềnh	uềnh	buềnh	cuềnh	chuềnh	duềnh	đuềnh	X	X	X	X	X	X	X	muềnh	nuềnh	nguềnh	X	nhuềnh	X	X	quuềnh	ruềnh	suềnh	tuềnh	thuềnh	truềnh	vuềnh	xuềnh
+uểnh	uểnh	buểnh	cuểnh	chuểnh	duểnh	đuểnh	X	X	X	X	X	X	X	muểnh	nuểnh	nguểnh	X	nhuểnh	X	X	quuểnh	ruểnh	suểnh	tuểnh	thuểnh	truểnh	vuểnh	xuểnh
+uễnh	uễnh	buễnh	cuễnh	chuễnh	duễnh	đuễnh	X	X	X	X	X	X	X	muễnh	nuễnh	nguễnh	X	nhuễnh	X	X	quuễnh	ruễnh	suễnh	tuễnh	thuễnh	truễnh	vuễnh	xuễnh
+uếnh	uếnh	buếnh	cuếnh	chuếnh	duếnh	đuếnh	X	X	X	X	X	X	X	muếnh	nuếnh	nguếnh	X	nhuếnh	X	X	quuếnh	ruếnh	suếnh	tuếnh	thuếnh	truếnh	vuếnh	xuếnh
+uệnh	uệnh	buệnh	cuệnh	chuệnh	duệnh	đuệnh	X	X	X	X	X	X	X	muệnh	nuệnh	nguệnh	X	nhuệnh	X	X	quuệnh	ruệnh	suệnh	tuệnh	thuệnh	truệnh	vuệnh	xuệnh
+uông	uông	buông	cuông	chuông	duông	đuông	X	X	X	có huông	X	khuông nhạc	luông tuồng	muông	nuông	nguông	X	nhuông	X	X	quuông	ruông	suông	tuông	thuông	truông	vuông	xuông
+uồng	uồng	buồng	cuồng	chuồng	duồng	đuồng	guồng máy	X	X	X	X	X	phân luồng	muồng	nuồng	nguồng	X	nhuồng	X	X	quuồng	ruồng	suồng	luông tuồng	thuồng	truồng	vuồng	xuồng
+uổng	uổng	buổng	cuổng	chuổng	duổng	đuổng	X	X	X	X	X	X	X	muổng	nuổng	nguổng	X	nhuổng	X	X	quuổng	ruổng	suổng	tuổng	thuổng	truổng	vuổng	xuổng
+uỗng	uỗng	buỗng	cuỗng	chuỗng	duỗng	đuỗng	X	X	X	X	X	X	luỗng gốc	muỗng	nuỗng	nguỗng	X	nhuỗng	X	X	quuỗng	ruỗng	suỗng	tuỗng	thuỗng	truỗng	vuỗng	xuỗng
+uống	uống	buống	luống cuống	chuống	duống	đuống	X	X	X	tình huống	X	X	luống cuống	muống	nuống	nguống	X	nhuống	X	X	quuống	ruống	suống	tuống	thuống	truống	vuống	xuống
+uộng	uộng	buộng	cuộng	chuộng	duộng	đuộng	X	X	X	X	X	X	X	muộng	nuộng	nguộng	X	nhuộng	X	X	quuộng	ruộng	suộng	tuộng	thuộng	truộng	vuộng	xuộng
+uych	uych	buych	cuych	chuych	duych	đuych	X	X	X	X	X	X	X	muych	nuych	nguych	X	nhuych	X	X	quuych	ruych	suych	tuych	thuych	truych	vuych	xuych
+uỳch	uỳch	buỳch	cuỳch	chuỳch	duỳch	đuỳch	X	X	X	X	X	X	X	muỳch	nuỳch	nguỳch	X	nhuỳch	X	X	quuỳch	ruỳch	suỳch	tuỳch	thuỳch	truỳch	vuỳch	xuỳch
+uỷch	uỷch	buỷch	cuỷch	chuỷch	duỷch	đuỷch	X	X	X	X	X	X	X	muỷch	nuỷch	nguỷch	X	nhuỷch	X	X	quuỷch	ruỷch	suỷch	tuỷch	thuỷch	truỷch	vuỷch	xuỷch
+uỹch	uỹch	buỹch	cuỹch	chuỹch	duỹch	đuỹch	X	X	X	X	X	X	X	muỹch	nuỹch	nguỹch	X	nhuỹch	X	X	quuỹch	ruỹch	suỹch	tuỹch	thuỹch	truỹch	vuỹch	xuỹch
+uých	uých	buých	cuých	chuých	duých	đuých	X	X	X	huých cùi chỏ	X	X	X	muých	nuých	nguých	X	nhuých	X	X	quuých	ruých	suých	tuých	thuých	truých	vuých	xuých
+uỵch	uỵch	buỵch	cuỵch	chuỵch	duỵch	đuỵch	X	X	X	X	X	X	X	muỵch	nuỵch	nguỵch	X	nhuỵch	X	X	quuỵch	ruỵch	suỵch	tuỵch	thuỵch	truỵch	vuỵch	xuỵch
+uyên	uyên	buyên	cuyên	chuyên	duyên	đuyên	X	X	X	huyên thuyên	X	lời khuyên	luyên thuyên	muyên	nuyên	nguyên	X	nhuyên	X	X	quuyên	ruyên	suyên	tuyên	huyên thuyên	truyên	vuyên	xuyên
+uyền	uyền	buyền	cuyền	chuyền	duyền	đuyền	X	X	X	dấu huyền	X	X	X	muyền	nuyền	nguyền	X	nhuyền	X	X	quuyền	ruyền	suyền	tuyền	thuyền	truyền	vuyền	xuyền
+uyển	uyển	buyển	cuyển	chuyển	duyển	đuyển	X	X	X	X	X	khuyển mã	X	muyển	nuyển	nguyển	X	nhuyển	X	X	quuyển	ruyển	suyển	tuyển	thuyển	truyển	vuyển	xuyển
+uyễn	uyễn	buyễn	cuyễn	chuyễn	duyễn	đuyễn	X	X	X	huyễn diệu	X	X	X	muyễn	nuyễn	nguyễn	X	nhuyễn	X	X	quuyễn	ruyễn	suyễn	tuyễn	thuyễn	truyễn	vuyễn	xuyễn
+uyến	uyến	buyến	cuyến	chuyến	duyến	đuyến	X	X	X	X	X	khuyến mãi	luyến tiếc	muyến	nuyến	nguyến	X	nhuyến	X	X	quuyến	ruyến	suyến	tuyến	thuyến	truyến	vuyến	xuyến
+uyện	uyện	buyện	cuyện	chuyện	duyện	đuyện	X	X	X	quận huyện	X	X	luyện tập	muyện	nuyện	nguyện	X	nhuyện	X	X	quuyện	ruyện	suyện	tuyện	thuyện	truyện	vuyện	xuyện
+uyêt	uyêt	buyêt	cuyêt	chuyêt	duyêt	đuyêt	X	X	X	X	X	X	X	muyêt	nuyêt	nguyêt	X	nhuyêt	X	X	quuyêt	ruyêt	suyêt	tuyêt	thuyêt	truyêt	vuyêt	xuyêt
+uyềt	uyềt	buyềt	cuyềt	chuyềt	duyềt	đuyềt	X	X	X	X	X	X	X	muyềt	nuyềt	nguyềt	X	nhuyềt	X	X	quuyềt	ruyềt	suyềt	tuyềt	thuyềt	truyềt	vuyềt	xuyềt
+uyểt	uyểt	buyểt	cuyểt	chuyểt	duyểt	đuyểt	X	X	X	X	X	X	X	muyểt	nuyểt	nguyểt	X	nhuyểt	X	X	quuyểt	ruyểt	suyểt	tuyểt	thuyểt	truyểt	vuyểt	xuyểt
+uyễt	uyễt	buyễt	cuyễt	chuyễt	duyễt	đuyễt	X	X	X	X	X	X	X	muyễt	nuyễt	nguyễt	X	nhuyễt	X	X	quuyễt	ruyễt	suyễt	tuyễt	thuyễt	truyễt	vuyễt	xuyễt
+uyết	uyết	buyết	cuyết	chuyết	duyết	đuyết	X	X	X	tâm huyết	X	khuyết điểm	X	muyết	nuyết	nguyết	X	nhuyết	X	X	quuyết	ruyết	suyết	tuyết	thuyết	truyết	vuyết	xuyết
+uyệt	uyệt	buyệt	cuyệt	chuyệt	duyệt	đuyệt	X	X	X	huyệt mộ	X	X	X	muyệt	nuyệt	nguyệt	X	nhuyệt	X	X	quuyệt	ruyệt	suyệt	tuyệt	thuyệt	truyệt	vuyệt	xuyệt
+uynh	uynh	buynh	cuynh	chuynh	duynh	đuynh	X	X	X	sư huynh	X	khuynh diệp	X	muynh	nuynh	nguynh	X	nhuynh	X	X	quuynh	ruynh	suynh	tuynh	thuynh	truynh	vuynh	xuynh
+uỳnh	uỳnh	buỳnh	cuỳnh	chuỳnh	duỳnh	đuỳnh	X	X	X	lưu huỳnh	X	khuỳnh tay	X	muỳnh	nuỳnh	nguỳnh	X	nhuỳnh	X	X	quuỳnh	ruỳnh	suỳnh	tuỳnh	thuỳnh	truỳnh	vuỳnh	xuỳnh
+uỷnh	uỷnh	buỷnh	cuỷnh	chuỷnh	duỷnh	đuỷnh	X	X	X	X	X	khuỷnh đất	X	muỷnh	nuỷnh	nguỷnh	X	nhuỷnh	X	X	quuỷnh	ruỷnh	suỷnh	tuỷnh	thuỷnh	truỷnh	vuỷnh	xuỷnh
+uỹnh	uỹnh	buỹnh	cuỹnh	chuỹnh	duỹnh	đuỹnh	X	X	X	X	X	X	X	muỹnh	nuỹnh	nguỹnh	X	nhuỹnh	X	X	quuỹnh	ruỹnh	suỹnh	tuỹnh	thuỹnh	truỹnh	vuỹnh	xuỹnh
+uýnh	uýnh	buýnh	cuýnh	chuýnh	duýnh	đuýnh	X	X	X	X	X	X	luýnh quýnh	muýnh	nuýnh	nguýnh	X	nhuýnh	X	X	quuýnh	ruýnh	suýnh	tuýnh	thuýnh	truýnh	vuýnh	xuýnh
+uỵnh	uỵnh	buỵnh	cuỵnh	chuỵnh	duỵnh	đuỵnh	X	X	X	X	X	X	X	muỵnh	nuỵnh	nguỵnh	X	nhuỵnh	X	X	quuỵnh	ruỵnh	suỵnh	tuỵnh	thuỵnh	truỵnh	vuỵnh	xuỵnh
+ương	ương	bương	cương	chương	dương	đương	soi gương	X	giương cao	hương thơm	X	X	tiền lương	mương	nương	ngương	X	nhương	X	địa phương	quương	rương	sương	tương	thương	trương	vương	xương
+ường	ường	bường	cường	chường	dường	đường	X	X	cái giường	X	X	X	đo lường	mường	nường	ngường	X	nhường	X	phường xã	quường	rường	sường	tường	thường	trường	vường	xường
+ưởng	ưởng	bưởng	cưởng	chưởng	dưởng	đưởng	X	X	X	ảnh hưởng	X	X	X	mưởng	nưởng	ngưởng	X	nhưởng	X	X	quưởng	rưởng	sưởng	tưởng	thưởng	trưởng	vưởng	xưởng
+ưỡng	ưỡng	bưỡng	cưỡng	chưỡng	dưỡng	đưỡng	gật gưỡng	X	X	X	X	khật khưỡng	lưỡng lự	mưỡng	nưỡng	ngưỡng	X	nhưỡng	X	X	quưỡng	rưỡng	sưỡng	tưỡng	thưỡng	trưỡng	vưỡng	xưỡng
+ướng	ướng	bướng	cướng	chướng	dây dướng	đướng	X	X	X	định hướng	X	X	lướng vướng	mướng	nướng	ngướng	X	nhướng	X	phướng lợn	quướng	rướng	sướng	tướng	thướng	trướng	vướng	xướng
+ượng	ượng	bượng	cượng	chượng	dượng	đượng	gắng gượng	X	X	X	X	X	lượng tử	mượng	nượng	ngượng	X	nhượng	X	phượng hoàng	quượng	rượng	sượng	tượng	thượng	trượng	vượng	xượng
