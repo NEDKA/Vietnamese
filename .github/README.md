@@ -74,26 +74,65 @@ Result:
 ```php
 array:3 [
 	0 => array:2 [
-		'name' => 'Cà Mau'
-		'valid_date' => '1997-01-01'
+		"name" => "Cà Mau"
+		"valid_date" => "1997-01-01"
 	]
 	1 => array:2 [
-		'name' => 'Cần Thơ'
-		'valid_date' => '1992-01-01'
+		"name" => "Cần Thơ"
+		"valid_date" => "1992-01-01"
 	]
 	2 => array:2 [
-		'name' => 'Cần Thơ'
-		'valid_date' => '2004-01-01'
+		"name" => "Cần Thơ"
+		"valid_date" => "2004-01-01"
 	]
 ]
 ```
 
 ---
 Sorting people names:
+
+Sorting by values in a simple array:
 ```php
 Vietnamese::sortPeopleName(['Nguyễn Văn Đảnh', 'Nguyễn VĂN Đàn', 'nguYỄn Văn Đàng', 'NGUYỄN Văn Đang', 'nguyễn anh đang'])
 ```
 Result: `['Nguyễn Anh Đang', 'Nguyễn Văn Đang', 'Nguyễn Văn Đàn', 'Nguyễn Văn Đàng', 'Nguyễn Văn Đảnh']`
+
+Sorting a two-dimensional array by multiple keys in order:
+```php
+$array = [
+	['name' => 'Nguyễn Văn Đảnh', 'birth_date' => '1999-01-30'],
+	['name' => 'Nguyễn VĂN Đàn', 'birth_date' => '1996-01-30'],
+	['name' => 'Nguyễn Văn Đảnh', 'birth_date' => '1997-01-30'],
+	['name' => 'NGUYỄN Văn Đang', 'birth_date' => '1995-01-30'],
+	['name' => 'Nguyễn VĂN Đàn', 'birth_date' => '1994-01-30']
+];
+$array = Vietnamese::sortPeopleName($array, ['name', 'birth_date'])
+```
+Result:
+```php
+array:5 [
+	0 => array:2 [
+		"name" => "Nguyễn Văn Đang"
+		"birth_date" => "1995-01-30"
+	]
+	1 => array:2 [
+		"name" => "Nguyễn Văn Đàn"
+		"birth_date" => "1994-01-30"
+	]
+	2 => array:2 [
+		"name" => "Nguyễn Văn Đàn"
+		"birth_date" => "1996-01-30"
+	]
+	3 => array:2 [
+		"name" => "Nguyễn Văn Đảnh"
+		"birth_date" => "1997-01-30"
+	]
+	4 => array:2 [
+		"name" => "Nguyễn Văn Đảnh"
+		"birth_date" => "1999-01-30"
+	]
+]
+```
 
 ---
 Check a character in the Vietnamese alphabet:
