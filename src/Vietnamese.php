@@ -28,7 +28,7 @@ namespace NEDKA\Vietnamese;
  *		Vietnamese::correctAccent('Vịêt Nam')
  *		Việt Nam
  *	Correct wrong cases between "i" and "y":
- *		Vietnamese::fixIY('Thi tuổi Kỉ Tị')
+ *		Vietnamese::correctIY('Thi tuổi Kỉ Tị')
  *		Thi tuổi Kỷ Tỵ
  *	Sorting words:
  *		Sorting by values in a simple array:
@@ -1617,7 +1617,7 @@ class Vietnamese
 	{
 		$text = static::correctAccent($text);
 
-		return static::fixIY($text);
+		return static::correctIY($text);
 	}
 
 	/**
@@ -1658,7 +1658,7 @@ class Vietnamese
 	 *
 	 * @param string $text The input text.
 	 */
-	public static function fixIY(string $text = ''): string
+	public static function correctIY(string $text = ''): string
 	{
 		if (!empty($text))
 		{

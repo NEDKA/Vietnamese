@@ -55,7 +55,7 @@ Result: `Việt Nam`
 ---
 Correct wrong cases between "i" and "y":
 ```php
-Vietnamese::fixIY('Thi tuổi Kỉ Tị')
+Vietnamese::correctIY('Thi tuổi Kỉ Tị')
 ```
 Result: `Thi tuổi Kỷ Tỵ`
 
