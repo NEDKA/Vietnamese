@@ -48,7 +48,7 @@ Result: `Thi tuổi Kỷ Tỵ`
 ---
 Correct wrong accent placements:
 ```php
-Vietnamese::fixAccent('Vịêt Nam')
+Vietnamese::correctAccent('Vịêt Nam')
 ```
 Result: `Việt Nam`
 
