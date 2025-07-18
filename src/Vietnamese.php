@@ -31,6 +31,9 @@ namespace NEDKA\Vietnamese;
  *		Vietnamese::correctIY('Thi tuổi Kỉ Tị')
  *		Thi tuổi Kỷ Tỵ
  *	Sorting words:
+ *		Sorting by values in a string with delimiter:
+ *			Vietnamese::sort('Ă, A, Â, À, Á')
+ *			A, Á, À, Ă, Â
  *		Sorting by values in a simple array:
  *			Vietnamese::sort(['Ă', 'A', 'Â', 'À', 'Á'])
  *			['A', 'Á', 'À', 'Ă', 'Â']
@@ -61,6 +64,9 @@ namespace NEDKA\Vietnamese;
  *			]
  *			------
  *	Sorting people names:
+ *		Sorting by values in a string with delimiter:
+ *			Vietnamese::sortPeopleName('Nguyễn Văn Đảnh, Nguyễn VĂN Đàn, nguYỄn Văn Đàng, NGUYỄN Văn Đang, nguyễn anh đang')
+ *			Nguyễn Anh Đang, Nguyễn Văn Đang, Nguyễn Văn Đàn, Nguyễn Văn Đàng, Nguyễn Văn Đảnh
  *		Sorting by values in a simple array:
  *			Vietnamese::sortPeopleName(['Nguyễn Văn Đảnh', 'Nguyễn VĂN Đàn', 'nguYỄn Văn Đàng', 'NGUYỄN Văn Đang', 'nguyễn anh đang'])
  *			['Nguyễn Anh Đang', 'Nguyễn Văn Đang', 'Nguyễn Văn Đàn', 'Nguyễn Văn Đàng', 'Nguyễn Văn Đảnh']
@@ -73,7 +79,7 @@ namespace NEDKA\Vietnamese;
  *				['name' => 'NGUYỄN Văn Đang', 'birth_date' => '1995-01-30'],
  *				['name' => 'Nguyễn VĂN Đàn', 'birth_date' => '1994-01-30']
  *			];
- *			$array = Vietnamese::sortPeopleName($array, ['name', 'birth_date'])
+ *			$array = Vietnamese::sortPeopleName($array, ['name', 'birth_date']);
  *			------
  *			Result:
  *			------
