@@ -29,7 +29,7 @@ namespace NEDKA\Vietnamese;
  *		Thi tuổi Kỷ Tỵ
  *	Sorting words:
  *		Sorting by values in a simple array:
- *			Vietnamese::sortWord(['Ă', 'A', 'Â', 'À', 'Á'])
+ *			Vietnamese::sort(['Ă', 'A', 'Â', 'À', 'Á'])
  *			['A', 'Á', 'À', 'Ă', 'Â']
  *		Sorting a two-dimensional array by multiple keys in order:
  *			------
@@ -38,7 +38,7 @@ namespace NEDKA\Vietnamese;
  *				['name' => 'Cà Mau', 'valid_date' => '1997-01-01'],
  *				['name' => 'Cần Thơ', 'valid_date' => '1992-01-01']
  *			];
- *			$array = Vietnamese::sortWord($array, ['name', 'valid_date']);
+ *			$array = Vietnamese::sort($array, ['name', 'valid_date']);
  *			------
  *			Result:
  *			------
@@ -1681,12 +1681,12 @@ class Vietnamese
 	 *
 	 * This method has 2 modes:
 	 *	(1) Sorting by values in a simple array:
-	 *		Vietnamese::sortWord(['a', 'b', 'c']);
+	 *		Vietnamese::sort(['a', 'b', 'c']);
 	 *	(2) Sorting by one or more keys in a two-dimensional array:
-	 *		Vietnamese::sortWord($array, ['name', 'date'])
+	 *		Vietnamese::sort($array, ['name', 'date'])
 	 *		-> Sorting by the name first, the date last.
 	 */
-	public static function sortWord(array $data = [], array $keys = []): array
+	public static function sort(array $data = [], array $keys = []): array
 	{
 		usort($data, function($a, $b) use ($keys)
 		{
@@ -1724,8 +1724,8 @@ class Vietnamese
 	/**
 	 * Sorting Vietnamese people names.
 	 *
-	 * If the first name and the last name in 2 different keys, use the `Vietnamese::sortWord()` instead.
-	 *	Vietnamese::sortWord($array, ['first_name', 'last_name'])
+	 * If the first name and the last name in 2 different keys, use the `Vietnamese::sort()` instead.
+	 *	Vietnamese::sort($array, ['first_name', 'last_name'])
 	 * Use this method if both of fields are within a combined string = [last_name] + [first_name].
 	 *
 	 * Sorting order:
@@ -1763,11 +1763,11 @@ class Vietnamese
 
 				if ($keys)
 				{
-					$new_names = static::sortWord($data, array_merge([$first_name_key, $last_name_key], $keys));
+					$new_names = static::sort($data, array_merge([$first_name_key, $last_name_key], $keys));
 				}
 				else
 				{
-					$new_names = static::sortWord($data, [$first_name_key, $last_name_key]);
+					$new_names = static::sort($data, [$first_name_key, $last_name_key]);
 				}
 
 				// Remove temporary keys
@@ -1793,7 +1793,7 @@ class Vietnamese
 					];
 				}
 
-				$tmp = static::sortWord($tmp, ['first_name', 'last_name']);
+				$tmp = static::sort($tmp, ['first_name', 'last_name']);
 
 				foreach ($tmp as $row)
 				{
