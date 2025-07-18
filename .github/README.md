@@ -20,7 +20,7 @@ use NEDKA\Vietnamese\Vietnamese;
 ## Usage
 Format names:
 ```php
-Vietnamese::formatName('ViỆt NaM')
+Vietnamese::format('ViỆt NaM')
 ```
 Result: `Việt Nam`
 

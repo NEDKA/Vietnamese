@@ -13,7 +13,7 @@ namespace NEDKA\Vietnamese;
  * HOW TO USE?
  *
  *	Format names:
- *		Vietnamese::formatName('ViỆt NaM')
+ *		Vietnamese::format('ViỆt NaM')
  *		Việt Nam
  *	Remove all accents:
  *		Vietnamese::removeAccent('Việt Nam')
@@ -1539,7 +1539,7 @@ class Vietnamese
 	 *
 	 * @param string $text The input text.
 	 */
-	public static function formatName(string $text = ''): string
+	public static function format(string $text = ''): string
 	{
 		if (!empty($text))
 		{
@@ -1754,7 +1754,7 @@ class Vietnamese
 
 				foreach ($data as &$row)
 				{
-					$name = static::formatName($row[$name_key]);
+					$name = static::format($row[$name_key]);
 					$row[$name_key] = $name;
 					$name_ary = explode(' ', $name);
 					$row[$first_name_key] = array_pop($name_ary);
@@ -1783,7 +1783,7 @@ class Vietnamese
 
 				foreach ($data as $name)
 				{
-					$name = static::formatName($name);
+					$name = static::format($name);
 					$name_ary = explode(' ', $name);
 					$first_name = array_pop($name_ary);
 					$last_name = implode(' ', $name_ary);
