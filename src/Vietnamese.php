@@ -2047,16 +2047,16 @@ class Vietnamese
 
 				for ($i = 0; $i < $n; $i++)
 				{
-					if (static::convertSteps($split[$i]) != static::$data['number_format']['0'])
+					if (static::_convertSteps($split[$i]) != static::$data['number_format']['0'])
 					{
-						$text .= ($steps[$i] == '') ? static::convertSteps($split[$i]) : sprintf($steps[$i], static::convertSteps($split[$i]));
+						$text .= ($steps[$i] == '') ? static::_convertSteps($split[$i]) : sprintf($steps[$i], static::_convertSteps($split[$i]));
 						$text .= ' ';
 					}
 				}
 			}
 			else
 			{
-				$text .= static::convertSteps($split[0]);
+				$text .= static::_convertSteps($split[0]);
 			}
 		}
 
@@ -2068,7 +2068,7 @@ class Vietnamese
 	 *
 	 * @param int $number The number in the thousand step.
 	 */
-	protected static function convertSteps(int $number): string
+	protected static function _convertSteps(int $number): string
 	{
 		$text = '';
 
