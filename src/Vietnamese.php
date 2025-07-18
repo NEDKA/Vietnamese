@@ -1700,9 +1700,21 @@ class Vietnamese
 	 *	(2) Sorting by one or more keys in a two-dimensional array:
 	 *		Vietnamese::sort($array, ['name', 'date'])
 	 *		-> Sorting by the name first, the date last.
+	 *
+	 * @param string|array $data The input text with delimiter "," ";" or an array.
+	 * @param array $keys Sorting keys in order.
 	 */
-	public static function sort(array $data = [], array $keys = []): array
+	public static function sort(string|array $data = [], array $keys = []): string|array
 	{
+		$return_string = false;
+
+		if (!is_array($data))
+		{
+			$return_string = true;
+			$data = str_replace(';', ',', $data);
+			$data = explode(',', trim($data));
+		}
+
 		usort($data, function($a, $b) use ($keys)
 		{
 			if (!is_array($a))
@@ -1733,7 +1745,7 @@ class Vietnamese
 			return $result;
 		});
 
-		return $data;
+		return $return_string ? implode(', ', $data) : $data;
 	}
 
 	/**
@@ -1754,9 +1766,21 @@ class Vietnamese
 	 *	(2) Sorting by one or more keys in a two-dimensional array, with the first key is the people name:
 	 *		Vietnamese::sortPeopleName($array, ['name', 'birth_date'])
 	 *		-> Sorting by the name first, the birthdate last.
+	 *
+	 * @param string|array $data The input text with delimiter "," ";" or an array.
+	 * @param array $keys Sorting keys in order.
 	 */
-	public static function sortPeopleName(array $data = [], array $keys = []): array
+	public static function sortPeopleName(string|array $data = [], array $keys = []): string|array
 	{
+		$return_string = false;
+
+		if (!is_array($data))
+		{
+			$return_string = true;
+			$data = str_replace(';', ',', $data);
+			$data = explode(',', trim($data));
+		}
+
 		$new_names = [];
 		$first_name_key = uniqid() . '_first_name';
 		$last_name_key = uniqid() . '_last_name';
@@ -1817,7 +1841,7 @@ class Vietnamese
 			}
 		}
 
-		return $new_names;
+		return $return_string ? implode(', ', $new_names) : $new_names;
 	}
 
 	/**
