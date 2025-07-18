@@ -1536,6 +1536,8 @@ class Vietnamese
 	/**
 	 * Upper the first character of each single word, lower remain characters.
 	 * Used for Vietnamese people names, administrative unit names...
+	 *
+	 * @param string $text The input text.
 	 */
 	public static function formatName(string $text = ''): string
 	{
@@ -1565,6 +1567,7 @@ class Vietnamese
 	 * Remove all accents or convert them to something.
 	 * Used for SEO, out-dated browsers...
 	 *
+	 * @param string $text The input text.
 	 * @param string $mode Mode:
 	 *		'remove': Remove all accents and convert special letters into English letters.
 	 *		'alphabet': Remove only accents, keep Vietnamese letters in the alphabet.
@@ -1608,6 +1611,8 @@ class Vietnamese
 	 * We have 2 types of problems:
 	 *	(1) Differences between the new method and the classic one.
 	 *	(2) Wrong placement of accents, they are really errors.
+	 *
+	 * @param string $text The input text.
 	 */
 	public static function fixAccent(string $text = ''): string
 	{
@@ -1635,6 +1640,8 @@ class Vietnamese
 	 *		MAJOR-Y-CASE: MINORITY I, MAJOR Y
 	 *			(1) Replace all *I to *Y.
 	 *			(2) Fix specified "I" cases.
+	 *
+	 * @param string $text The input text.
 	 */
 	public static function fixIY(string $text = ''): string
 	{
@@ -1801,6 +1808,8 @@ class Vietnamese
 	/**
 	 * Check a character is one of Vietnamese characters or not?
 	 * A Vietnamese character is an alphabet or a character with accents.
+	 *
+	 * @param string $char The input character.
 	 */
 	public static function checkChar(string $char = ''): bool
 	{
@@ -1822,6 +1831,7 @@ class Vietnamese
 	/**
 	 * Detect incorrect words in Vietnamese.
 	 *
+	 * @param string $text The input text.
 	 * @param bool $get_incorrect_words true: Return incorrect words.
 	 *									false: Return correct words.
 	 */
@@ -1859,6 +1869,8 @@ class Vietnamese
 
 	/**
 	 * Print out the way to spell Vietnamese words.
+	 *
+	 * @param string $text The input text.
 	 */
 	public static function speak(string $text = ''): string
 	{
@@ -2000,6 +2012,8 @@ class Vietnamese
 
 	/**
 	 * Convert number/amount into Vietnamese text.
+	 *
+	 * @param float $amount The original amount.
 	 */
 	public static function numberToText(float $amount): string
 	{
@@ -2051,6 +2065,8 @@ class Vietnamese
 
 	/**
 	 * Convert amount into text for each thousand steps.
+	 *
+	 * @param int $number The number in the thousand step.
 	 */
 	private static function convertSteps(int $number): string
 	{
