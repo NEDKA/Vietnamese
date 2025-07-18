@@ -1885,10 +1885,15 @@ class Vietnamese
 	/**
 	 * Print out the way to spell Vietnamese words.
 	 *
-	 * @param string $text The input text.
+	 * @param string $text The input text or original amount.
 	 */
 	public static function speak(string $text = ''): string
 	{
+		if (is_numeric($text))
+		{
+			return static::speakNumber(floatval($text));
+		}
+
 		$read_text = '';
 
 		if (!empty($text))
@@ -2028,9 +2033,9 @@ class Vietnamese
 	/**
 	 * Convert number/amount into Vietnamese text.
 	 *
-	 * @param float $amount The original amount.
+	 * @param float|int $amount The original amount.
 	 */
-	public static function speakNumber(float $amount): string
+	public static function speakNumber(float|int $amount): string
 	{
 		$text = '';
 

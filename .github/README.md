@@ -172,7 +172,7 @@ Result: `i ê tờ iêt, vờ iêt viêt nặng /việt/; a mờ am, nờ am /na
 ---
 Convert number to text:
 ```php
-Vietnamese::speakNumber(1452369)
+Vietnamese::speak(1452369)
 ```
 Result: `một triệu bốn trăm năm mươi hai nghìn ba trăm sáu mươi chín`
 
