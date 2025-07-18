@@ -248,7 +248,7 @@ namespace NEDKA\Vietnamese;
 
 class Vietnamese
 {
-	private static array $data = [
+	protected static array $data = [
 		/**
 		 * List of all letters in the Vietnamese alphabet.
 		 *
@@ -2068,7 +2068,7 @@ class Vietnamese
 	 *
 	 * @param int $number The number in the thousand step.
 	 */
-	private static function convertSteps(int $number): string
+	protected static function convertSteps(int $number): string
 	{
 		$text = '';
 
