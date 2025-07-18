@@ -21,6 +21,9 @@ namespace NEDKA\Vietnamese;
  *	Convert into NCR Decimal:
  *		Vietnamese::clean('Việt Nam', 'ncr_decimal')
  *		Vi&#7879;t Nam
+ *	Run all available methods for correcting spelling errors:
+ *		Vietnamese::correct('THI tUổi KỈ Tị')
+ *		Thi tuổi Kỷ Tỵ
  *	Correct wrong accent placements:
  *		Vietnamese::fixAccent('Vịêt Nam')
  *		Việt Nam
@@ -1603,6 +1606,18 @@ class Vietnamese
 		}
 
 		return $text;
+	}
+
+	/**
+	 * Run all available methods for correcting spelling errors.
+	 *
+	 * @param string $text The input text.
+	 */
+	public static function correct(string $text = ''): string
+	{
+		$text = static::fixAccent($text);
+
+		return static::fixIY($text);
 	}
 
 	/**

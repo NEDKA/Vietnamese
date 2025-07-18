@@ -39,6 +39,13 @@ Vietnamese::clean('Việt Nam', 'ncr_decimal')
 Result: `Vi&#7879;t Nam`
 
 ---
+Run all available methods for correcting spelling errors:
+```php
+Vietnamese::correct('THI tUổi KỈ Tị')
+```
+Result: `Thi tuổi Kỷ Tỵ`
+
+---
 Correct wrong accent placements:
 ```php
 Vietnamese::fixAccent('Vịêt Nam')
