@@ -145,13 +145,13 @@ Result: `false`
 Scan and detect incorrect words in Vietnamese:
 
 ```php
-Vietnamese::scanWords('Xứ Wales thắng Nga, đứng nhất bảng B')
+Vietnamese::scan('Xứ Wales thắng Nga, đứng nhất bảng B')
 ```
 Result: `['Wales']`
 
 Otherwise, get correct words:
 ```php
-Vietnamese::scanWords('Xứ Wales thắng Nga, đứng nhất bảng B', false)
+Vietnamese::scan('Xứ Wales thắng Nga, đứng nhất bảng B', false)
 ```
 Result: `['Xứ', 'thắng', 'Nga', 'đứng', 'nhất', 'bảng', 'B']`
 

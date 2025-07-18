@@ -102,10 +102,10 @@ namespace NEDKA\Vietnamese;
  *		false
  *	Scan and detect incorrect words in Vietnamese:
  *		Find incorrect words:
- *			Vietnamese::scanWords('Xứ Wales thắng Nga, đứng nhất bảng B')
+ *			Vietnamese::scan('Xứ Wales thắng Nga, đứng nhất bảng B')
  *			['Wales']
  *		Otherwise, get correct words:
- *			Vietnamese::scanWords('Xứ Wales thắng Nga, đứng nhất bảng B', false)
+ *			Vietnamese::scan('Xứ Wales thắng Nga, đứng nhất bảng B', false)
  *			['Xứ', 'thắng', 'Nga', 'đứng', 'nhất', 'bảng', 'B']
  *	Print the way to speak a Vietnamese text string:
  *		Vietnamese::speak('Việt Nam')
@@ -1835,7 +1835,7 @@ class Vietnamese
 	 * @param bool $get_incorrect_words true: Return incorrect words.
 	 *									false: Return correct words.
 	 */
-	public static function scanWords(string $text = '', bool $get_incorrect_words = true): array
+	public static function scan(string $text = '', bool $get_incorrect_words = true): array
 	{
 		$found_words = [];
 
