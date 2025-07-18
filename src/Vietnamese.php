@@ -114,7 +114,7 @@ namespace NEDKA\Vietnamese;
  *		Vietnamese::speak('Việt Nam')
  *		i ê tờ iêt, vờ iêt viêt nặng /việt/; a mờ am, nờ am /nam/; /việt nam/
  *	Convert number to text:
- *		Vietnamese::numberToText(1452369)
+ *		Vietnamese::speakNumber(1452369)
  *		một triệu bốn trăm năm mươi hai nghìn ba trăm sáu mươi chín
  */
 
@@ -2030,7 +2030,7 @@ class Vietnamese
 	 *
 	 * @param float $amount The original amount.
 	 */
-	public static function numberToText(float $amount): string
+	public static function speakNumber(float $amount): string
 	{
 		$text = '';
 
