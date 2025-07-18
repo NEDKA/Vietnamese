@@ -16,10 +16,10 @@ namespace NEDKA\Vietnamese;
  *		Vietnamese::format('ViỆt NaM')
  *		Việt Nam
  *	Remove all accents:
- *		Vietnamese::removeAccent('Việt Nam')
+ *		Vietnamese::clean('Việt Nam')
  *		Viet Nam
  *	Convert into NCR Decimal:
- *		Vietnamese::removeAccent('Việt Nam', 'ncr_decimal')
+ *		Vietnamese::clean('Việt Nam', 'ncr_decimal')
  *		Vi&#7879;t Nam
  *	Correct wrong accent placements:
  *		Vietnamese::fixAccent('Vịêt Nam')
@@ -1573,7 +1573,7 @@ class Vietnamese
 	 *		'alphabet': Remove only accents, keep Vietnamese letters in the alphabet.
 	 *		'ncr_decimal': Convert accents into NCR Decimal.
 	 */
-	public static function removeAccent(string $text = '', string $mode = 'remove'): string
+	public static function clean(string $text = '', string $mode = 'remove'): string
 	{
 		if (!empty($text))
 		{
@@ -1937,7 +1937,7 @@ class Vietnamese
 					}
 
 					// Accent is spelt lastly
-					$syllable_vowel_no_accent = static::removeAccent($syllable_vowel, 'alphabet');
+					$syllable_vowel_no_accent = static::clean($syllable_vowel, 'alphabet');
 
 					if (!empty($syllable_vowel))
 					{
@@ -1981,7 +1981,7 @@ class Vietnamese
 						// Do not repeat if there is vowel only
 						if (mb_strlen($word) > 1)
 						{
-							$read_text .= $syllable_vowel_no_accent . $syllable_consonant . ' ' . static::removeAccent($word, 'alphabet') . " $accent /$word/; ";
+							$read_text .= $syllable_vowel_no_accent . $syllable_consonant . ' ' . static::clean($word, 'alphabet') . " $accent /$word/; ";
 						}
 						else
 						{

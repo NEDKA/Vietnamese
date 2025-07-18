@@ -27,14 +27,14 @@ Result: `Việt Nam`
 ---
 Remove all accents:
 ```php
-Vietnamese::removeAccent('Việt Nam')
+Vietnamese::clean('Việt Nam')
 ```
 Result: `Viet Nam`
 
 ---
 Convert into NCR Decimal:
 ```php
-Vietnamese::removeAccent('Việt Nam', 'ncr_decimal')
+Vietnamese::clean('Việt Nam', 'ncr_decimal')
 ```
 Result: `Vi&#7879;t Nam`
 
